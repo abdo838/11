@@ -43,7 +43,7 @@ body {
     line-height: 1.5;
 }
 
-navbar  /* Navigation */
+  /* Navigation */
 .navbar {
     background-color: var(--bg-darker);
     position: fixed;
@@ -121,93 +121,38 @@ navbar  /* Navigation */
 /* Hero Section */
 .hero {
     position: relative;
-    padding-top: 80px; /* إضافة padding لتجنب التداخل مع الـ navbar */
-    height: 70vh; /* حجم الـ Hero Section */
-    overflow: hidden;
+    height: 60vh;
+    background: linear-gradient(to bottom, transparent, var(--bg-dark));
+    margin-top: 4rem;
 }
 
-
-.anime-slideshow-container {
-    position: relative;
+.hero-image {
+    position: absolute;
+    inset: 0;
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    opacity: 0.4;
 }
 
-.anime-slideshow {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    overflow: hidden;
-}
-
-.anime-slide {
+.hero-content {
     position: absolute;
-    width: 100%;
-    height: 100%;
-    display: none;  /* إخفاء الصور عند التحميل */
+    bottom: 0;
+    right: 0;
+    padding: 2rem;
+    max-width: 36rem;
 }
 
-.anime-image {
-    width: 100%;
-    height: 100%;
-   
-    transition: transform 1s ease-in-out; /* تأثير انسيابي عند الانتقال بين الصور */
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
 }
 
-/* النص الذي يظهر فوق الصورة */
-.text-overlay {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    color: white;
-    font-size: 1.2rem;
-    background-color: rgba(0, 0, 0, 0.5);  /* خلفية شفافة للنص */
-    padding: 5px;
-    border-radius: 5px;
-    width: calc(100% - 20px);
-    text-align: center;
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
 }
-
-/* الأزرار */
-.prev, .next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    font-size: 2rem;
-    padding: 10px;
-    cursor: pointer;
-    z-index: 10;
-}
-
-.prev {
-    left: 10px;
-}
-
-.next {
-    right: 10px;
-}
-
-.prev:hover, .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* تكبير الصور أثناء التمرير */
-.anime-slide img {
-    transition: transform 0.5s ease;
-}
-
-.anime-slide:hover img {
-    transform: scale(1.1); /* تكبير الصورة عند التمرير عليها */
-}
-
-
-
-
 .primary-button {
     display: inline-flex;
     align-items: center;
