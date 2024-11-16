@@ -5,30 +5,7 @@
     --bg-darker: #1f2937;
     --text-light: #ffffff;
     --text-gray: #9ca3af;
-
-    --bg-light: #ffffff;
-    --text-dark: #000000;
-    --text-gray-dark: #4b5563;
 }
-
-body.light-mode {
-    background-color: var(--bg-light);
-    color: var(--text-dark);
-}
-
-body.light-mode .navbar {
-    background-color: var(--bg-light);
-    color: var(--text-dark);
-}
-
-body.light-mode .hero {
-    background: linear-gradient(to bottom, transparent, var(--bg-light));
-}
-
-body.light-mode .hero-image {
-    opacity: 0.6;
-}
-
 
 * {
     margin: 0;
@@ -43,7 +20,7 @@ body {
     line-height: 1.5;
 }
 
-  /* Navigation */
+/* Navigation */
 .navbar {
     background-color: var(--bg-darker);
     position: fixed;
@@ -123,6 +100,7 @@ body {
     position: relative;
     height: 60vh;
     background: linear-gradient(to bottom, transparent, var(--bg-dark));
+    margin-top: 4rem;
 }
 
 .hero-image {
@@ -152,6 +130,7 @@ body {
     font-size: 1.25rem;
     margin-bottom: 1.5rem;
 }
+
 .primary-button {
     display: inline-flex;
     align-items: center;
@@ -272,15 +251,11 @@ body {
     border: none;
     border-radius: 0.25rem;
     cursor: pointer;
-    text-decoration: none;
-    display: inline-block;
-    text-align: center;
 }
 
 .watch-button:hover {
     background-color: #dc2626;
 }
-
 
 /* Responsive Design */
 @media (max-width: 768px) {
