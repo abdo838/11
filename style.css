@@ -1,16 +1,37 @@
-/* Base Styles */
 :root {
     --primary-color: #ef4444;
     --bg-dark: #111827;
     --bg-darker: #1f2937;
     --text-light: #ffffff;
     --text-gray: #9ca3af;
-}
 
+    --bg-light: #ffffff;
+    --text-dark: #000000;
+    --text-gray-dark: #4b5563;
+
+    
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body.light-mode {
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+}
+
+body.light-mode .navbar {
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+}
+
+body.light-mode .hero {
+    background: linear-gradient(to bottom, transparent, var(--bg-light));
+}
+
+body.light-mode .hero-image {
+    opacity: 0.6;
 }
 
 body {
