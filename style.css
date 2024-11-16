@@ -21,11 +21,11 @@ body.light-mode {
     color: var(--text-dark);
 }
 
-body.light-mode .navbar {
-    background-color: var(--bg-light);
-    color: var(--text-dark);
-}
 
+body.light-mode .icon-button:hover {
+    color: var(--primary-color);
+    
+}
 body.light-mode .hero {
     background: linear-gradient(to bottom, transparent, var(--bg-light));
 }
