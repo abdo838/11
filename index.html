@@ -52,12 +52,12 @@
             fetch('مميز.json')
                 .then(response => response.json())
                 .then(pages => {
-                    const animeGrid = document.getElementById('animeGrid1');
+                    const animeGrid = document.getElementById('animeGrid');
                     
                     // إنشاء بطاقة لكل صفحة
                     pages.forEach(page => {
                         const card = document.createElement('div');
-                        card.className = 'anime-card1';
+                        card.className = 'anime-card';
                         card.innerHTML = `
                             <div class="anime-image">
                                 <img src="${page.image}" alt="${page.name}">
