@@ -55,5 +55,14 @@
             _WidgetManager._RegisterWidget('_ContactFormView', new _WidgetInfo('ContactForm1', 'contact-sec', null, document.getElementById('ContactForm1'), {'contactFormMessageSendingMsg': 'جارٍ الإرسال...', 'contactFormMessageSentMsg': 'تم إرسال رسالتك.', 'contactFormMessageNotSentMsg': 'تعذر إرسال الرسالة، يرجى المحاولة مرة أخرى في وقت لاحق.', 'contactFormInvalidEmailMsg': 'يلزم إدخال عنوان بريد إلكتروني صالح.', 'contactFormEmptyMessageMsg': 'لا يمكن أن يكون حقل الرسالة فارغًا.', 'title': 'نموذج الاتصال', 'blogId': '7089075227125588262', 'contactFormNameMsg': 'الاسم إجباري', 'contactFormEmailMsg': 'بريد إلكتروني إجباري', 'contactFormMessageMsg': 'رسالة', 'contactFormSendMsg': 'إرسال', 'submitUrl': 'https://www.blogger.com/contact-form.do'}, 'displayModeFull'));
             </script></div>
     </main>
+
+       <!-- تبديل الوضع -->
+   <script>
+    const themeToggle = document.getElementById('themeToggle');
+    themeToggle.addEventListener('click', () => {
+        document.body.classList.toggle('light-mode');
+    });
+</script>
+
 </body>
 </html>
