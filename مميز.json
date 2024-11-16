@@ -2,7 +2,7 @@
     {
         "name": "One Piece",
         "link": "onepiece.html",
-        "image": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=800&auto=format&fit=crop",
+        "image": "images/onepiece.jpg",
         "rating": "9.8",
         "episodes": "1000+ حلقة"
     },
