@@ -32,22 +32,20 @@ body {
 .container {
     display: flex;
     width: 100%;
+    
 }
 
 /* تثبيت الـ sidebar في الجهة اليسرى */
-.sidebar {
-  top: 42%;
-    right: -13%;
-  transform: translate(-50%, -20%);
-position: fixed;
-    height: 70%; /* يجعلها تأخذ كل ارتفاع الشاشة */
-    width: 25%;
-    background-color: var(--bg-darker);
-    border-left: 1px solid #ddd;
-    padding: 10px;
-    box-sizing: border-box;
-    overflow-y: auto;
-}
+    .sidebar {
+       margin-top: 20%; /* يجعل الشريط الجانبي ينزل 15% من ارتفاع العنصر الأب */
+        height: 60%; /* يجعلها تأخذ كل ارتفاع الشاشة */
+        width: 25%;
+        background-color: var(--bg-darker);
+        border-left: 1px solid #ddd;
+        padding: 10px;
+        box-sizing: border-box;
+        overflow-y: auto;
+    }
 
 
 
@@ -64,7 +62,7 @@ position: fixed;
 
 .sidebar ul li {
     padding: 10px;
-    margin: 5px 0;
+    margin: 10px 0;
     background-color: var(--bg-dark);
     cursor: pointer;
     border-radius: 5px;
@@ -96,30 +94,15 @@ position: fixed;
 .anime-info-header h2 {
     color: var(--text-light);
     font-size: 1.5rem;
-    top: 12%;
-    left: 50%;
-    transform: translate(-50%, -20%);
-position: fixed;
-    z-index: 1000;
 }
 
 .anime-info-header p {
     color: var(--text-light);
     font-size: 1rem;
-  top: 17%;
-    left: 50%;
-    transform: translate(-50%, -20%);
-position: fixed;
-        z-index: 1000;
 }
 
 .server-buttons {
     margin-bottom: 10px;
-  top: 22%;
-    left: 50%;
-  transform: translate(-50%, -20%);
-position: fixed;
-        z-index: 1000;
 }
 
 .server-buttons button {
@@ -131,7 +114,6 @@ position: fixed;
     cursor: pointer;
     margin: 0 5px;
     transition: background-color 0.3s;
-    
 }
 
 .server-buttons button:hover {
@@ -143,10 +125,6 @@ position: fixed;
     max-width: 800px;
     height: 450px;
     margin-bottom: 10px;
-      top: 42%;
-    left: 40%;
-  transform: translate(-50%, -20%);
-position: fixed;
 }
 
 .video-container iframe {
@@ -160,11 +138,6 @@ position: fixed;
     justify-content: space-between;
     width: 100%;
     max-width: 800px;
-        z-index: 1000;
-      top: 100%;
-    right: -30%;
-  transform: translate(-40%, -20%);
-position: fixed;
 }
 
 .navigation-buttons button {
