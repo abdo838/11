@@ -131,7 +131,7 @@ body.light-mode .anime-info-header p {
 }
 
 .video-container iframe {
-    width: 100%;
+    width: 150%;
     height: 100%;
     border: none;
 }
@@ -198,7 +198,7 @@ body.light-mode .anime-info-header p {
     }
 
     .video-container {
-        width:100%;
+        width:430px;
         height: 300px;
     }
 
