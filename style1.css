@@ -8,7 +8,18 @@
     --text-dark: #000000;
     --text-gray-dark: #4b5563;
 }
-
+body.light-mode {
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+}
+body.light-mode .anime-info-header h2 {
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+}
+body.light-mode .anime-info-header p {
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+}
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: var(--bg-dark);
