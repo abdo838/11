@@ -46,13 +46,13 @@
         <div class="section-header">
             <h2>مميز</h2>
         </div>
-        <div class="anime-grid" id="anime-grid1"></div>
+        <div class="anime-grid" id="anime-grid"></div>
         <script>
             // تحميل قائمة الصفحات من ملف pages2.json (مميز)
             fetch('مميز.json')
                 .then(response => response.json())
                 .then(pages => {
-                    const animeGrid = document.getElementById('animeGrid');
+                    const animeGrid1 = document.getElementById('animeGrid');
                     
                     // إنشاء بطاقة لكل صفحة
                     pages.forEach(page => {
@@ -76,7 +76,7 @@
                                 </div>
                             </div>
                         `;
-                        animeGrid.appendChild(card);
+                        animeGrid1.appendChild(card);
                     });
                 })
                 .catch(error => console.error('خطأ في تحميل الصفحات:', error));
