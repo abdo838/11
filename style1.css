@@ -36,9 +36,10 @@ body {
 
 /* تثبيت الـ sidebar في الجهة اليسرى */
 .sidebar {
-    position: fixed;
-    top: 70px; /* تعديل المسافة بحيث تكون تحت الـ navbar */
-    right:  0;
+  top: 42%;
+    right: -13%;
+  transform: translate(-50%, -20%);
+position: fixed;
     height: 70%; /* يجعلها تأخذ كل ارتفاع الشاشة */
     width: 25%;
     background-color: var(--bg-darker);
@@ -90,32 +91,35 @@ body {
     width: 100%;
     text-align: center;
     margin-bottom: 10px;
-    top: 110px;
-    left: 580px; 
-    position: fixed;
 }
 
 .anime-info-header h2 {
     color: var(--text-light);
     font-size: 1.5rem;
-    top: 110px;
-    left: 580px; 
-    position: fixed;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+position: fixed;
+    z-index: 1000;
 }
 
 .anime-info-header p {
     color: var(--text-light);
     font-size: 1rem;
-    position: fixed;
-    top: 150px;
-    left: 600px; 
+  top: 17%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+position: fixed;
+        z-index: 1000;
 }
 
 .server-buttons {
     margin-bottom: 10px;
-    position: fixed;
-    top: 150px;
-    left: 600px; 
+  top: 22%;
+    left: 50%;
+  transform: translate(-50%, -20%);
+position: fixed;
+        z-index: 1000;
 }
 
 .server-buttons button {
@@ -127,6 +131,7 @@ body {
     cursor: pointer;
     margin: 0 5px;
     transition: background-color 0.3s;
+    
 }
 
 .server-buttons button:hover {
@@ -138,6 +143,10 @@ body {
     max-width: 800px;
     height: 450px;
     margin-bottom: 10px;
+      top: 42%;
+    left: 40%;
+  transform: translate(-50%, -20%);
+position: fixed;
 }
 
 .video-container iframe {
@@ -151,6 +160,11 @@ body {
     justify-content: space-between;
     width: 100%;
     max-width: 800px;
+        z-index: 1000;
+      top: 100%;
+    right: -30%;
+  transform: translate(-40%, -20%);
+position: fixed;
 }
 
 .navigation-buttons button {
