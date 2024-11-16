@@ -90,6 +90,9 @@ body {
     width: 100%;
     text-align: center;
     margin-bottom: 10px;
+    top: 110px;
+    left: 580px; 
+    position: fixed;
 }
 
 .anime-info-header h2 {
@@ -110,6 +113,9 @@ body {
 
 .server-buttons {
     margin-bottom: 10px;
+    position: fixed;
+    top: 150px;
+    left: 600px; 
 }
 
 .server-buttons button {
