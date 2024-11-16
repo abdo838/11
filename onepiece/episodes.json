@@ -1,0 +1,18 @@
+{
+    "episodes": [
+        {
+            "title": "الحلقة 1",
+            "servers": [
+                { "serverName": "السيرفر 1", "url": "https://server1.com/episode1" },
+                { "serverName": "السيرفر 2", "url": "https://server2.com/episode1" }
+            ]
+        },
+        {
+            "title": "الحلقة 2",
+            "servers": [
+                { "serverName": "السيرفر 1", "url": "https://server1.com/episode2" },
+                { "serverName": "السيرفر 2", "url": "https://server2.com/episode2" }
+            ]
+        }
+    ]
+}
