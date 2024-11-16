@@ -1,4 +1,4 @@
-/* تعريف الألوان */
+ /* تعريف الألوان */
 :root {
     --primary-color: #ef4444;
     --bg-dark: #111827;
@@ -18,7 +18,9 @@ body {
     line-height: 1.5;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 150vh;
+    margin: 0;
+    padding: 0;
 }
 
 /* الوضع الفاتح */
@@ -40,7 +42,7 @@ body.light-mode .anime-info-header p {
 
 /* الشريط الجانبي */
 .sidebar {
-    margin-top: 195px;
+    margin-top: 180px;
     height: 450px;
     width: 300px;
     background-color: var(--bg-darker);
@@ -76,16 +78,17 @@ body.light-mode .anime-info-header p {
 
 /* المحتوى الرئيسي */
 .main-content {
-    width: calc(100% - 300px); /* تأخذ العرض المتبقي بجانب الشريط الجانبي */
+    width: calc(100% - 300px); /* العرض بجانب الشريط الجانبي */
     padding: 20px;
     box-sizing: border-box;
-    margin-top: 195px;
+    margin-top: 20px;
 }
 
+/* عنوان الأنمي */
 .anime-info-header {
     width: 100%;
     text-align: center;
-    margin-bottom: 20px;
+    margin-top: 25px;
 }
 
 .anime-info-header h2 {
@@ -121,7 +124,7 @@ body.light-mode .anime-info-header p {
 
 /* الفيديو */
 .video-container {
-    width: 100%;
+    width: 200%;
     max-width: 800px;
     height: 450px;
     margin-bottom: 20px;
@@ -177,8 +180,16 @@ body.light-mode .anime-info-header p {
         padding: 10px;
     }
 
-    .anime-info-header {
-        margin-bottom: 10px;
+.anime-info-header {
+    width: 100%;
+    text-align: center;
+    margin-top: 160px;
+}
+
+-bottom
+    .server-buttons {
+        margin: 70px 0;
+        position: relative; /* إزالة التثبيت */
     }
 
     .server-buttons button {
@@ -187,8 +198,8 @@ body.light-mode .anime-info-header p {
     }
 
     .video-container {
-        width: 100%;
-        height: auto;
+        width:100%;
+        height: 300px;
     }
 
     .navigation-buttons {
