@@ -2,7 +2,7 @@
     {
         "name": "One Piece",
         "link": "onepiece.html",
-        "image": "images/onepiece.jpg",
+        "image": "/images/One Piece.jpg",
         "rating": "9.8",
         "episodes": "1000+ حلقة"
     },
