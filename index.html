@@ -22,7 +22,6 @@
                 <button class="icon-button">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>
                 </button> 
-                <button id="themeToggle" class="icon-button">تبديل الوضع</button>
                 <button class="icon-button">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"></path></svg>
                 </button>
@@ -43,54 +42,46 @@
         </div>
     </header>
 
-    <!-- Featured Section -->
     <main>
-        <section class="featured">
-            <div class="section-header">
-                <h2>مميز</h2>
-                <div class="filter-buttons">
-                    <button class="text-button">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
-                        الأكثر مشاهدة
-                    </button>
-                    <button class="text-button">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-                        أحدث الحلقات
-                    </button>
-                </div>
-            </div>
-
-            <div class="anime-grid">
-                <!-- Anime Card 1 -->
-                <div class="anime-card">
-                    <div class="anime-image">
-                        <img src="https://images.unsplash.com/photo-1578632767115-351597cf2477?w=800&auto=format&fit=crop" alt="Attack on Titan">
-                        <div class="rating">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
-                            9.5
-                        </div>
-                    </div>
-                    <div class="anime-info">
-                        <h3>Attack on Titan</h3>
-                        <div class="anime-meta">
-                            <span>87 حلقة</span>
-                            <button class="watch-button">شاهد الآن</button>
-                        </div>
-                    </div>
-                </div>
-
-               
-            </div>
-        </section>
-    </main>
-
-
-    <script>
-        const themeToggle = document.getElementById('themeToggle');
-        themeToggle.addEventListener('click', () => {
-            document.body.classList.toggle('light-mode');
-        });
-    </script>
+        <div class="section-header">
+            <h2>مميز</h2>
+        </div>
+        <div class="anime-grid" id="anime-grid1"></div>
+        <script>
+            // تحميل قائمة الصفحات من ملف pages2.json (مميز)
+            fetch('مميز.json')
+                .then(response => response.json())
+                .then(pages => {
+                    const animeGrid = document.getElementById('animeGrid1');
+                    
+                    // إنشاء بطاقة لكل صفحة
+                    pages.forEach(page => {
+                        const card = document.createElement('div');
+                        card.className = 'anime-card';
+                        card.innerHTML = `
+                            <div class="anime-image">
+                                <img src="${page.image}" alt="${page.name}">
+                                <div class="rating">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                    </svg>
+                                    ${page.rating}
+                                </div>
+                            </div>
+                            <div class="anime-info">
+                                <h3>${page.name}</h3>
+                                <div class="anime-meta">
+                                    <span>${page.episodes}</span>
+                                    <a href="${page.link}" class="watch-button">شاهد الآن</a>
+                                </div>
+                            </div>
+                        `;
+                        animeGrid.appendChild(card);
+                    });
+                })
+                .catch(error => console.error('خطأ في تحميل الصفحات:', error));
+        </script>
+         </main>
 
    <!-- بدايت احدث حلقات  -->
    <main>
@@ -100,7 +91,7 @@
     <div class="anime-grid" id="animeGrid"></div>
    <script>
        // تحميل قائمة الصفحات من JSON
-       fetch('aaa.json')
+       fetch('الجديد.json')
            .then(response => response.json())
            .then(pages => {
                const animeGrid = document.getElementById('animeGrid');
