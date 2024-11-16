@@ -121,7 +121,6 @@ navbar  /* Navigation */
 /* Hero Section */
 .hero {
     position: relative;
-    padding-top: 80px; /* إضافة padding لتجنب التداخل مع الـ navbar */
     height: 70vh; /* حجم الـ Hero Section */
     overflow: hidden;
 }
