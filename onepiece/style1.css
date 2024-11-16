@@ -1,0 +1,142 @@
+:root {
+    --primary-color: #ef4444;
+    --bg-dark: #111827;
+    --bg-darker: #1f2937;
+    --text-light: #ffffff;
+    --text-gray: #9ca3af;
+    --bg-light: #ffffff;
+    --text-dark: #000000;
+    --text-gray-dark: #4b5563;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+    line-height: 1.5;
+    display: flex;
+    flex-direction: row-reverse; /* عكس ترتيب المحتوى */
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: var(--bg-darker);
+    border-left: 1px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.sidebar h2 {
+    text-align: center;
+    color: var(--text-light);
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: var(--bg-dark);
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.sidebar ul li:hover {
+    background-color: var(--primary-color);
+}
+
+.main-content {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* مكان عرض اسم الأنمي ورقم الحلقة */
+.anime-info-header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.anime-info-header h2 {
+    color: var(--text-light);
+    font-size: 1.5rem;
+}
+
+.anime-info-header p {
+    color: var(--text-light);
+    font-size: 1rem;
+}
+
+.server-buttons {
+    margin-bottom: 10px;
+}
+
+.server-buttons button {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: background-color 0.3s;
+}
+
+.server-buttons button:hover {
+    background-color: #dc2626;
+}
+
+.video-container {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    margin-bottom: 10px;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.navigation-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+}
+
+.navigation-buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.navigation-buttons button:hover {
+    background-color: #dc2626;
+}
+
+/* Responsive Design */
