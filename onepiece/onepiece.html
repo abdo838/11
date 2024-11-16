@@ -76,7 +76,7 @@
                 button.textContent = server.serverName;
                 button.addEventListener('click', () => {
                     currentServerName = server.serverName;
-                    updatePlayer();
+                    updatePlayer(server.url);  // تحديث مشغل الفيديو مع رابط السيرفر
                 });
                 serverButtonsContainer.appendChild(button);
             });
@@ -85,15 +85,15 @@
         // تشغيل الحلقة المحددة
         function playEpisode(index) {
             currentEpisodeIndex = index;
-            updatePlayer();
+            updatePlayer();  // تحديث مشغل الفيديو
         }
 
         // تحديث مشغل الفيديو بناءً على الحلقة والسيرفر المحدد
-        function updatePlayer() {
+        function updatePlayer(serverUrl) {
             const currentEpisode = episodes[currentEpisodeIndex];
             const currentServer = currentEpisode.servers.find(server => server.serverName === currentServerName);
             if (currentServer) {
-                videoPlayer.src = currentServer.url;
+                videoPlayer.src = serverUrl || currentServer.url;  // إذا كان الرابط موجودًا، نستخدمه مباشرة
             }
 
             // تحديث اسم الأنمي ورقم الحلقة
