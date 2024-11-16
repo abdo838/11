@@ -121,11 +121,13 @@ navbar  /* Navigation */
 /* Hero Section */
 .hero {
     position: relative;
-    height: 70vh; /* حجم الـ Hero Section */
+    padding-top: 80px; /* تجنب التداخل مع الـ navbar */
+    height: 100vh; /* جعل الـ Hero Section يغطي الشاشة بالكامل */
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-
 
 .anime-slideshow-container {
     position: relative;
@@ -146,7 +148,7 @@ navbar  /* Navigation */
     position: absolute;
     width: 100%;
     height: 100%;
-    display: none;  /* إخفاء الصور عند التحميل */
+    display: none; /* إخفاء الصور عند التحميل */
 }
 
 .anime-image {
@@ -159,14 +161,14 @@ navbar  /* Navigation */
 /* النص الذي يظهر فوق الصورة */
 .text-overlay {
     position: absolute;
-    bottom: 10px;
-    left: 10px;
+    bottom: 10%;
+    left: 5%;
     color: white;
-    font-size: 1.2rem;
-    background-color: rgba(0, 0, 0, 0.5);  /* خلفية شفافة للنص */
-    padding: 5px;
+    font-size: clamp(1rem, 2vw, 1.5rem); /* حجم النص يعتمد على حجم الشاشة */
+    background-color: rgba(0, 0, 0, 0.5); /* خلفية شفافة للنص */
+    padding: 10px;
     border-radius: 5px;
-    width: calc(100% - 20px);
+    width: 90%; /* عرض النص بالنسبة للشاشة */
     text-align: center;
 }
 
@@ -178,7 +180,7 @@ navbar  /* Navigation */
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     border: none;
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 3vw, 2rem); /* حجم الأزرار يعتمد على الشاشة */
     padding: 10px;
     cursor: pointer;
     z-index: 10;
@@ -203,6 +205,17 @@ navbar  /* Navigation */
 
 .anime-slide:hover img {
     transform: scale(1.1); /* تكبير الصورة عند التمرير عليها */
+}
+
+/* تعديل إضافي للشاشات الصغيرة */
+@media (max-width: 768px) {
+    .text-overlay {
+        font-size: 1rem; /* تصغير النص على الهواتف */
+    }
+
+    .prev, .next {
+        font-size: 1.5rem; /* تصغير الأزرار */
+    }
 }
 
 
