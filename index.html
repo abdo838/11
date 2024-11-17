@@ -162,7 +162,7 @@
 
    <!-- Auto slideshow-->
    <script>
-   document.addEventListener("DOMContentLoaded", () => {
+  document.addEventListener("DOMContentLoaded", () => {
     const slidesContainer = document.querySelector(".slideshow");
     const indicatorsContainer = document.querySelector(".hero-indicators");
     const heroHeading = document.getElementById("hero-heading");
@@ -188,7 +188,7 @@
             // Create an anchor element for the image, using the correct link from the JSON data
             const anchor = document.createElement("a");
             anchor.href = slide.link; // Use the link from the JSON for each slide
-            anchor.setAttribute("target", "_blank"); // Open the link in a new tab (optional)
+            anchor.setAttribute("target", "_blank"); // Optional: open the link in a new tab
 
             const img = document.createElement("img");
             img.src = slide.image;
@@ -253,6 +253,7 @@
     // Auto slideshow
     setInterval(showNextSlide, 5000); // تغيير الصورة كل 5 ثوانٍ
 });
+
     </script>
     
 <script>
