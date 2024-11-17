@@ -122,7 +122,16 @@ body {
     position: relative;
     height: 60vh;
     background: linear-gradient(to bottom, transparent, var(--bg-dark));
-    margin-top: 4rem;
+    margin-top: 5rem;
+    overflow: hidden;
+}
+
+
+.slideshow {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .hero-image {
@@ -131,6 +140,11 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.hero-image.active {
     opacity: 0.4;
 }
 
@@ -140,6 +154,7 @@ body {
     right: 0;
     padding: 2rem;
     max-width: 36rem;
+    z-index: 1;
 }
 
 .hero h1 {
@@ -169,6 +184,53 @@ body {
 
 .primary-button:hover {
     background-color: #dc2626;
+}
+
+.hero-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    transform: translateY(-50%);
+}
+
+.control {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background 0.2s;
+}
+
+.control:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.hero-indicators {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 0.5rem;
+    z-index: 2;
+}
+
+.indicator {
+    width: 10px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    transition: background 0.2s;
+}
+
+.indicator.active {
+    background: white;
 }
 
 /* Featured Section */
