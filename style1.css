@@ -8,6 +8,7 @@
     --bg-light: #ffffff;
     --text-dark: #000000;
     --text-gray-dark: #4b5563;
+        --text-gray-dark1: #1979ff;
 }
 
 /* الوضع الليلي */
@@ -28,7 +29,14 @@ body.light-mode {
     background-color: var(--bg-light);
     color: var(--text-dark);
 }
-
+body.light-mode  .sidebar{
+    background-color: var(--primary-color);
+    color: var(--text-dark);
+}
+body.light-mode .sidebar ul li{
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+}
 body.light-mode .anime-info-header h2,
 body.light-mode .anime-info-header p {
     color: var(--text-dark);
