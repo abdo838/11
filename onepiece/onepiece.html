@@ -89,14 +89,17 @@
     episodesList.innerHTML = ''; // مسح الحلقات السابقة
     episodes.forEach(episode => {
         const li = document.createElement('li');
+        li.className = 'episode-item'; // تعيين الكلاس لتنسيق العنصر
+        
         const link = document.createElement('a');
-        li.className = 'episode-item';
         link.textContent = episode.title;
         link.href = `/onepiece/${episode.pageUrl}`; // استخدام رابط الصفحة
+
         li.appendChild(link);
         episodesList.appendChild(li);
     });
 }
+
 
             
             episodesList.innerHTML = ''; // مسح الحلقات السابقة
