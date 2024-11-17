@@ -2,6 +2,7 @@
     "episodes": [
         {
             "title": "الحلقة 1",
+            "pageUrl": "الحلقة_1.html",
             "servers": [
                 { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/FbqAiHnJ7eFAa" },
                 { "serverName": "Mp4upload FHD", "url": "https://www.mp4upload.com/embed-enty9vr8j5wc.html" }
@@ -9,6 +10,7 @@
         },
         {
             "title": "الحلقة 2",
+            "pageUrl": "الحلقة_2.html",
             "servers": [
                 { "serverName": "السيرفر 1", "url": "https://server1.com/episode2" },
                 { "serverName": "السيرفر 2", "url": "https://server2.com/episode2" }
