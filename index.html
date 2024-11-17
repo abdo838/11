@@ -7,55 +7,69 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="logo">
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="logo-icon"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
-                <span>AMK4UP</span>
+                <a href="index.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="logo-icon">
+                        <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                    </svg>
+                </a>
+                <span>AMK4UP</span> <!-- هذا هو اسم الموقع، لن يتأثر بالرابط -->
             </div>
             <div class="search-bar">
-                <input type="text" placeholder="ابحث عن الانمي المفضل لديك...">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="search-icon"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                <input type="text" id="searchInput" placeholder="ابحث عن الانمي المفضل لديك...">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="search-icon">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
             </div>
             <div class="nav-buttons">
                 <button class="icon-button">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>
-                </button> 
-                <button id="themeToggle" class="icon-button">تبديل الوضع</button>
+                    <a href="anime-list.html" style="color: inherit;">قائمة الأنمي</a>
+                </button>
                 <button class="icon-button">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"></path></svg>
+                    <a href="anime-movies.html" style="color: inherit;">أفلام الأنمي</a>
+                </button>
+                <button class="icon-button">
+                    <a href="seasonal-anime.html" style="color: inherit;">أنميات الموسم</a>
+                </button>
+                <button class="icon-button">
+                    <a href="episode-schedule.html" style="color: inherit;">مواعيد الحلقات</a>
+                </button>
+                <button id="themeToggle" class="icon-button">
+                    <svg id="themeIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"></path>
+                    </svg>
                 </button>
             </div>
         </div>
     </nav>
-
+       
+    
     <!-- Hero Section -->
 
     <header class="hero">
         <div class="slideshow">
-            <img src="https://images.unsplash.com/photo-1541562232579-512a21360020?w=1920&amp;auto=format&amp;fit=crop" alt="Slide 1" class="hero-image active">
-            <img src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=1920&amp;auto=format&amp;fit=crop" alt="Slide 2" class="hero-image">
-            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1920&amp;auto=format&amp;fit=crop" alt="Slide 3" class="hero-image">
+            <!-- يتم ملء الصور تلقائيًا باستخدام JavaScript -->
         </div>
         <div class="hero-controls">
             <button class="control prev">&lt;</button>
             <button class="control next">&gt;</button>
         </div>
         <div class="hero-indicators">
-            <span class="indicator active"></span>
-            <span class="indicator"></span>
-            <span class="indicator"></span>
+            <!-- يتم ملء المؤشرات تلقائيًا باستخدام JavaScript -->
         </div>
         <div class="hero-content">
-            <h1>اكتشف عالم الانمي</h1>
-            <p>شاهد أحدث وأفضل مسلسلات الانمي مترجمة بجودة عالية</p>
-            <button class="primary-button">
+            <h1 id="hero-heading">اكتشف عالم الانمي</h1>
+            <p id="hero-description">شاهد أحدث وأفضل مسلسلات الانمي مترجمة بجودة عالية</p>
+            <a id="hero-button" class="primary-button" href="start-watching.html">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
                 ابدأ المشاهدة
-            </button>
+            </a>
         </div>
     </header>
+    
         <!-- قسم مميز -->
     <main>
         <div class="section-header">
@@ -138,50 +152,127 @@
            .catch(error => console.error('خطأ في تحميل الصفحات:', error));
    </script>
    </main>
-   <!-- تبديل الوضع -->
+   <!-- Auto slideshow-->
    <script>
     const themeToggle = document.getElementById('themeToggle');
     themeToggle.addEventListener('click', () => {
         document.body.classList.toggle('light-mode');
     });
 </script>
+
+   <!-- Auto slideshow-->
+   <script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const slidesContainer = document.querySelector(".slideshow");
+        const indicatorsContainer = document.querySelector(".hero-indicators");
+        const heroHeading = document.getElementById("hero-heading");
+        const heroDescription = document.getElementById("hero-description");
+        const heroButton = document.getElementById("hero-button");
+        const prevButton = document.querySelector(".control.prev");
+        const nextButton = document.querySelector(".control.next");
+    
+        let currentSlide = 0;
+        let slidesData = [];
+    
+        // Load slider data from slider.json
+        fetch('slider.json')
+            .then(response => response.json())
+            .then(data => {
+                slidesData = data;
+                initializeSlider();
+            })
+            .catch(error => console.error("Error loading slider data:", error));
+    
+        function initializeSlider() {
+            slidesData.forEach((slide, index) => {
+                const img = document.createElement("img");
+                img.src = slide.image;
+                img.alt = `Slide ${index + 1}`;
+                img.classList.add("hero-image");
+                if (index === 0) img.classList.add("active");
+                slidesContainer.appendChild(img);
+    
+                const indicator = document.createElement("span");
+                indicator.classList.add("indicator");
+                if (index === 0) indicator.classList.add("active");
+                indicator.addEventListener("click", () => showSlide(index));
+                indicatorsContainer.appendChild(indicator);
+            });
+            updateSlideContent();
+        }
+    
+        function updateSlideContent() {
+            const slide = slidesData[currentSlide];
+            heroHeading.textContent = slide.heading;
+            heroDescription.textContent = slide.description;
+            heroButton.href = slide.link;
+        }
+    
+        function showSlide(index) {
+            currentSlide = index;
+            updateSlides();
+            updateSlideContent();
+        }
+    
+        function updateSlides() {
+            const slides = document.querySelectorAll(".hero-image");
+            const indicators = document.querySelectorAll(".indicator");
+    
+            slides.forEach((slide, index) => {
+                slide.classList.toggle("active", index === currentSlide);
+            });
+    
+            indicators.forEach((indicator, index) => {
+                indicator.classList.toggle("active", index === currentSlide);
+            });
+        }
+    
+        function showNextSlide() {
+            currentSlide = (currentSlide + 1) % slidesData.length;
+            updateSlides();
+            updateSlideContent();
+        }
+    
+        function showPrevSlide() {
+            currentSlide = (currentSlide - 1 + slidesData.length) % slidesData.length;
+            updateSlides();
+            updateSlideContent();
+        }
+    
+        nextButton.addEventListener("click", showNextSlide);
+        prevButton.addEventListener("click", showPrevSlide);
+    
+        // Auto slideshow
+        setInterval(showNextSlide, 5000); // تغيير الصورة كل 5 ثوانٍ
+    });
+    </script>
+    
 <script>
-document.addEventListener("DOMContentLoaded", () => {
-    const slides = document.querySelectorAll(".hero-image");
-    const indicators = document.querySelectorAll(".indicator");
-    const prevButton = document.querySelector(".control.prev");
-    const nextButton = document.querySelector(".control.next");
-    let currentSlide = 0;
-
-    function updateSlides() {
-        slides.forEach((slide, index) => {
-            slide.classList.toggle("active", index === currentSlide);
-        });
-        indicators.forEach((indicator, index) => {
-            indicator.classList.toggle("active", index === currentSlide);
-        });
+// JavaScript for toggling between Sun and Moon icons
+document.getElementById('themeToggle').addEventListener('click', function() {
+    const icon = document.getElementById('themeIcon');
+    // Check the current icon and change it
+    if (icon.getAttribute('d') === "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z") {
+        // Change to Moon icon
+        icon.setAttribute('d', "M12 2C7.03 2 3 6.03 3 12s4.03 10 9 10 9-4.03 9-10-4.03-10-9-10z");
+        document.body.classList.add('dark-mode');
+        document.body.classList.remove('light-mode');
+    } else {
+        // Change to Sun icon
+        icon.setAttribute('d', "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z");
+        document.body.classList.add('light-mode');
+        document.body.classList.remove('dark-mode');
     }
-
-    function showNextSlide() {
-        currentSlide = (currentSlide + 1) % slides.length;
-        updateSlides();
-    }
-
-    function showPrevSlide() {
-        currentSlide = (currentSlide - 1 + slides.length) % slides.length;
-        updateSlides();
-    }
-
-    // Event listeners for buttons
-    nextButton.addEventListener("click", showNextSlide);
-    prevButton.addEventListener("click", showPrevSlide);
-
-    // Auto slideshow
-    setInterval(showNextSlide, 5000); // تغيير الصورة كل 5 ثوانٍ
 });
 
- </script>
+// Functionality for the search bar
+document.getElementById('searchInput').addEventListener('input', function() {
+    let query = this.value.toLowerCase();
+    // يمكنك هنا تنفيذ أي عملية بحث بناءً على النص المدخل
+    console.log('بحث عن: ', query);
+});
 
+     </script>
 
 </body>
 </html>
