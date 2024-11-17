@@ -57,10 +57,9 @@
         </div>
         <div class="hero-indicators"></div>
         <div class="hero-content">
-            <h1 id="hero-heading">اكتشف عالم الانمي</h1>
-            <p id="hero-description">شاهد أحدث وأفضل مسلسلات الانمي مترجمة بجودة عالية</p>
         </div>
     </header>
+    
         
         <!-- قسم مميز -->
     <main>
@@ -157,11 +156,6 @@
     document.addEventListener("DOMContentLoaded", () => {
         const slidesContainer = document.querySelector(".slideshow");
         const indicatorsContainer = document.querySelector(".hero-indicators");
-        const heroHeading = document.getElementById("hero-heading");
-        const heroDescription = document.getElementById("hero-description");
-        const prevButton = document.querySelector(".control.prev");
-        const nextButton = document.querySelector(".control.next");
-    
         let currentSlide = 0;
         let slidesData = [];
     
@@ -187,12 +181,8 @@
                 img.classList.add("hero-image");
                 if (index === 0) img.classList.add("active");
     
-                const description = document.createElement("p");
-                description.textContent = slide.description;
-    
-                // Append the image and description inside the anchor
+                // Append the image inside the anchor
                 anchor.appendChild(img);
-                anchor.appendChild(description);
                 slidesContainer.appendChild(anchor);  // Append anchor to the slideshow
     
                 const indicator = document.createElement("span");
@@ -201,19 +191,11 @@
                 indicator.addEventListener("click", () => showSlide(index));
                 indicatorsContainer.appendChild(indicator);
             });
-            updateSlideContent();
-        }
-    
-        function updateSlideContent() {
-            const slide = slidesData[currentSlide];
-            heroHeading.textContent = slide.description;
-            heroDescription.textContent = slide.description;
         }
     
         function showSlide(index) {
             currentSlide = index;
             updateSlides();
-            updateSlideContent();
         }
     
         function updateSlides() {
@@ -229,28 +211,27 @@
             });
         }
     
-        function showNextSlide() {
+        const nextButton = document.querySelector(".control.next");
+        const prevButton = document.querySelector(".control.prev");
+    
+        nextButton.addEventListener("click", () => {
             currentSlide = (currentSlide + 1) % slidesData.length;
             updateSlides();
-            updateSlideContent();
-        }
+        });
     
-        function showPrevSlide() {
+        prevButton.addEventListener("click", () => {
             currentSlide = (currentSlide - 1 + slidesData.length) % slidesData.length;
             updateSlides();
-            updateSlideContent();
-        }
-    
-        nextButton.addEventListener("click", showNextSlide);
-        prevButton.addEventListener("click", showPrevSlide);
-    
-        // Initialize the slider after the page loads
-        initializeSlider();
+        });
     
         // Auto slideshow
-        setInterval(showNextSlide, 5000); // تغيير الصورة كل 5 ثوانٍ
+        setInterval(() => {
+            currentSlide = (currentSlide + 1) % slidesData.length;
+            updateSlides();
+        }, 5000); // تغيير الصورة كل 5 ثوانٍ
     });
     </script>
+    
     
     
     
