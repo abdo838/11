@@ -204,8 +204,7 @@ body.light-mode .anime-info-header p {
 .video-container iframe {
     width: 100%;
     height: 400px;
-   margin-left: -4%;
-    uyt
+   margin-left: -7%;
 }
 
 
@@ -213,7 +212,7 @@ body.light-mode .anime-info-header p {
         flex-direction: column;
         align-items: center;
         width:100%;
-        height: 90px;
+        height: 95px;
          margin-left: -1%;
         
     }
