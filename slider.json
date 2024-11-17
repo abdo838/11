@@ -6,15 +6,15 @@
         "link": "start-watching.html"
     },
     {
-        "image": "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=1920&auto=format&fit=crop",
+        "image": "https://cnime4up.shop/wp-content/uploads/2024/10/Blue-Lock-season-2-270x165.webp",
         "heading": "الأنميات الجديدة",
         "description": "استمتع بأحدث الحلقات من الأنميات المفضلة لديك",
-        "link": "anime-list.html"
+        "link": "/Blue Lock vs. U-20 Japan/Blue Lock vs. U-20 Japan.html"
     },
     {
-        "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1920&auto=format&fit=crop",
+        "image": "https://raw.githubusercontent.com/abdo838/11/refs/heads/main/images/OnePiece.jpg",
         "heading": "أنميات الموسم",
         "description": "تابع أفضل الأنميات لهذا الموسم",
-        "link": "seasonal-anime.html"
+        "link": "/onepiece/onepiece.html"
     }
 ]
