@@ -86,6 +86,17 @@
 
         // عرض الحلقات في القائمة الجانبية
         function loadEpisodes() {
+    episodesList.innerHTML = ''; // مسح الحلقات السابقة
+    episodes.forEach(episode => {
+        const li = document.createElement('li');
+        const link = document.createElement('a');
+        link.textContent = episode.title;
+        link.href = `/onepiece/${episode.pageUrl}`; // استخدام رابط الصفحة
+        li.appendChild(link);
+        episodesList.appendChild(li);
+    });
+}
+
             
             episodesList.innerHTML = ''; // مسح الحلقات السابقة
             episodes.forEach((episode, index) => {
@@ -95,7 +106,7 @@
                 li.addEventListener('click', () => playEpisode(index));
                 episodesList.appendChild(li);
             });
-        }
+        
 
         // عرض الأزرار الخاصة بالسيرفرات
         function loadServerButtons(episode) {
