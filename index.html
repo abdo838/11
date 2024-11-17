@@ -158,7 +158,7 @@
         const indicatorsContainer = document.querySelector(".hero-indicators");
         let currentSlide = 0;
         let slidesData = [];
-    
+
         // Load slider data from slider.json
         fetch('slider.json')
             .then(response => response.json())
@@ -167,65 +167,80 @@
                 initializeSlider();
             })
             .catch(error => console.error("Error loading slider data:", error));
-    
+
         function initializeSlider() {
             slidesData.forEach((slide, index) => {
-                // Create an image element without the anchor (no link)
+                // Create anchor element to wrap the image and add a link
+                const anchor = document.createElement("a");
+                anchor.href = slide.link;
+                anchor.setAttribute("target", "_blank");
+
+                // Create the image element
                 const img = document.createElement("img");
                 img.src = slide.image;
                 img.alt = `Slide ${index + 1}`;
                 img.classList.add("hero-image");
                 if (index === 0) img.classList.add("active");
-    
-                // Append the image directly to the slides container
-                slidesContainer.appendChild(img);
-    
+
+                // Append the image to the anchor and then the anchor to the slides container
+                anchor.appendChild(img);
+                slidesContainer.appendChild(anchor);
+
+                // Create indicator for the slide
                 const indicator = document.createElement("span");
                 indicator.classList.add("indicator");
                 if (index === 0) indicator.classList.add("active");
                 indicator.addEventListener("click", () => showSlide(index));
                 indicatorsContainer.appendChild(indicator);
+
+                // Create description for each slide
+                const description = document.createElement("div");
+                description.classList.add("description");
+                description.textContent = slide.description;
+                anchor.appendChild(description);
             });
         }
-    
+
         function showSlide(index) {
             currentSlide = index;
             updateSlides();
         }
-    
+
         function updateSlides() {
             const slides = document.querySelectorAll(".hero-image");
             const indicators = document.querySelectorAll(".indicator");
-    
+
             slides.forEach((slide, index) => {
                 slide.classList.toggle("active", index === currentSlide);
             });
-    
+
             indicators.forEach((indicator, index) => {
                 indicator.classList.toggle("active", index === currentSlide);
             });
         }
-    
+
         const nextButton = document.querySelector(".control.next");
         const prevButton = document.querySelector(".control.prev");
-    
+
         nextButton.addEventListener("click", () => {
             currentSlide = (currentSlide + 1) % slidesData.length;
             updateSlides();
         });
-    
+
         prevButton.addEventListener("click", () => {
             currentSlide = (currentSlide - 1 + slidesData.length) % slidesData.length;
             updateSlides();
         });
-    
+
         // Auto slideshow
         setInterval(() => {
             currentSlide = (currentSlide + 1) % slidesData.length;
             updateSlides();
-        }, 5000); // تغيير الصورة كل 5 ثوانٍ
+        }, 5000); // Change image every 5 seconds
     });
-    </script>
+</script>
+
+
     
 <script>
 // JavaScript for toggling between Sun and Moon icons
