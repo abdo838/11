@@ -42,9 +42,9 @@ body.light-mode .anime-info-header p {
 
 /* الشريط الجانبي */
 .sidebar {
-    margin-top: 180px;
+    margin-top: 190px;
        margin-right: 30px;
-    height: 450px;
+    height: 900px;
     width: 300px;
     background-color: var(--bg-darker);
     border-left: 1px solid #ddd;
@@ -133,8 +133,8 @@ body.light-mode .anime-info-header p {
 }
 
 .video-container iframe {
-    width: 800px;
-    height: 120%;
+    width: 1100px;
+    height: 90%;
     border: none;
 }
 
@@ -142,9 +142,8 @@ body.light-mode .anime-info-header p {
 .navigation-buttons {
     display: flex;
     justify-content: space-between;
-    width: 1200px;
+    width: 1100px;
     max-width: 2000px;
-    margin-top: 10px;
     margin-left: 30px;
 }
 
