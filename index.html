@@ -162,7 +162,7 @@
 
    <!-- Auto slideshow-->
    <script>
-    document.addEventListener("DOMContentLoaded", () => {
+   document.addEventListener("DOMContentLoaded", () => {
     const slidesContainer = document.querySelector(".slideshow");
     const indicatorsContainer = document.querySelector(".hero-indicators");
     const heroHeading = document.getElementById("hero-heading");
@@ -242,7 +242,7 @@
 
     function showPrevSlide() {
         currentSlide = (currentSlide - 1 + slidesData.length) % slidesData.length;
-        updateSlides();
+        updateSlides();ش
         updateSlideContent();
     }
 
@@ -252,6 +252,7 @@
     // Auto slideshow
     setInterval(showNextSlide, 5000); // تغيير الصورة كل 5 ثوانٍ
 });
+
 
     </script>
     
