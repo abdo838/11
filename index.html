@@ -185,9 +185,10 @@
 
     function initializeSlider() {
         slidesData.forEach((slide, index) => {
-            // Create an anchor element for the image
+            // Create an anchor element for the image, using the correct link from the JSON data
             const anchor = document.createElement("a");
-            anchor.href = slide.link; // Set the link for each slide
+            anchor.href = slide.link; // Use the link from the JSON for each slide
+            anchor.setAttribute("target", "_blank"); // Open the link in a new tab (optional)
 
             const img = document.createElement("img");
             img.src = slide.image;
@@ -212,7 +213,7 @@
         const slide = slidesData[currentSlide];
         heroHeading.textContent = slide.heading;
         heroDescription.textContent = slide.description;
-        heroButton.href = slide.link;
+        heroButton.href = slide.link;  // Set the button link to the current slide link
     }
 
     function showSlide(index) {
@@ -242,7 +243,7 @@
 
     function showPrevSlide() {
         currentSlide = (currentSlide - 1 + slidesData.length) % slidesData.length;
-        updateSlides();ش
+        updateSlides();
         updateSlideContent();
     }
 
@@ -252,8 +253,6 @@
     // Auto slideshow
     setInterval(showNextSlide, 5000); // تغيير الصورة كل 5 ثوانٍ
 });
-
-
     </script>
     
 <script>
