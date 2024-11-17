@@ -30,7 +30,7 @@ body.light-mode .hero {
     background: linear-gradient(to bottom, transparent, var(--bg-light));
 }
 
-body.light-mode .hero-image {
+body.light-mode .hero-image.active {
     opacity: 0.6;
 }
 
