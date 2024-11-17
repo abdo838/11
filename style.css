@@ -113,9 +113,39 @@ body {
     padding: 0.25rem;
 }
 
+.icon-button a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .icon-button:hover {
     color: var(--primary-color);
+    transform: scale(1.1); /* تأثير تكبير عند التمرير */
 }
+
+/* Dark/Light mode toggle */
+body.dark-mode {
+    background-color: #121212;
+    color: #fff;
+}
+
+body.light-mode {
+    background-color: #ffffff;
+    color: #000;
+}
+
+#themeToggle {
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+/* Style for the theme icon */
+#themeIcon {
+    transition: transform 0.3s ease;
+}
+
 
 /* Hero Section */
 .hero {
