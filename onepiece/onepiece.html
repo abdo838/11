@@ -85,21 +85,19 @@
         }
 
         // عرض الحلقات في القائمة الجانبية
-        function loadEpisodes() {
+// عرض الحلقات في القائمة الجانبية
+function loadEpisodes() {
     episodesList.innerHTML = ''; // مسح الحلقات السابقة
     episodes.forEach(episode => {
         const li = document.createElement('li');
-        li.className = 'anime-info-header'; // تعيين الكلاس لتنسيق العنصر
-        
         const link = document.createElement('a');
         link.textContent = episode.title;
         link.href = `/onepiece/${episode.pageUrl}`; // استخدام رابط الصفحة
-
+        link.style.color = 'inherit'; // تطبيق النمط "color: inherit;" على الرابط
         li.appendChild(link);
         episodesList.appendChild(li);
     });
 }
-
 
 
             
