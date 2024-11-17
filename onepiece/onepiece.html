@@ -90,6 +90,7 @@
     episodes.forEach(episode => {
         const li = document.createElement('li');
         const link = document.createElement('a');
+        li.className = 'episode-item';
         link.textContent = episode.title;
         link.href = `/onepiece/${episode.pageUrl}`; // استخدام رابط الصفحة
         li.appendChild(link);
