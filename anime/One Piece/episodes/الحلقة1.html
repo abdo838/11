@@ -74,7 +74,7 @@
 
         // تحميل البيانات من ملف JSON
         function loadEpisodesData() {
-            fetch('../anime/One Piece/episodes.json')
+            fetch('../episodes.json')
                 .then(response => response.json())
                 .then(data => {
                     episodes = data;
