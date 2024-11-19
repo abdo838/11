@@ -2,7 +2,7 @@
     {
         "number": 1,
         "title": "الحلقة 1",
-        "link": "episodes/الحلقة1.html"
+        "link": "../episodes/الحلقة1.html"
     },
     {
         "number": 2,
