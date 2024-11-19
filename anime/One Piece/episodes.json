@@ -2,7 +2,9 @@
     {
         "number": 1,
         "title": "الحلقة 1",
+        "image": "images/Profile_One_Piece.png",
         "link": "../episodes/الحلقة1.html"
+
     },
     {
         "number": 2,
