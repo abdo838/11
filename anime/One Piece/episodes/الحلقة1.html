@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>مشاهدة حلقات الأنمي</title>
-    <!-- تحميل style1.css للصفحة بالكامل -->
     <link rel="stylesheet" href="../../../CSS/episodes.css">
-    <!-- تحميل style.css فقط للـ navbar -->
     <link rel="stylesheet" href="../../../CSS/style.css">
 </head>
 <body>
@@ -14,21 +12,7 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="logo">
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="logo-icon"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
                 <span>AMK4UP</span>
-            </div>
-            <div class="search-bar">
-                <input type="text" placeholder="ابحث عن الأنمي المفضل لديك...">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="search-icon"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-            </div>
-            <div class="nav-buttons">
-                <button class="icon-button">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>
-                </button> 
-                <button id="themeToggle" class="icon-button">تبديل الوضع</button>
-                <button class="icon-button">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"></path></svg>
-                </button>
             </div>
         </div>
     </nav>
@@ -40,10 +24,7 @@
                 <h2 id="anime-title">اسم الأنمي</h2>
                 <p id="episode-title">رقم الحلقة: 1</p>
             </div>
-            <div class="server-buttons" id="server-buttons-container">
-                <button onclick="updatePlayerWithUrl('https://megamax.me/iframe/FbqAiHnJ7eFAa')">سيرفر 1</button>
-                <button onclick="updatePlayerWithUrl('https://www.mp4upload.com/embed-enty9vr8j5wc.html')">سيرفر 2</button>
-            </div>            
+            <div class="server-buttons" id="server-buttons-container"></div>
             <div class="video-container">
                 <iframe id="video-player" src="" frameborder="0" allowfullscreen></iframe>
             </div>
@@ -90,57 +71,65 @@
             episodes.forEach((episode, index) => {
                 const li = document.createElement('li');
                 li.className = 'episode-item';
-                li.textContent = episode.title;
-                li.addEventListener('click', () => playEpisode(index));
+
+                const anchor = document.createElement('a');
+                anchor.href = episode.link;
+                anchor.textContent = episode.title;
+                anchor.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    playEpisode(index);
+                });
+
+                li.appendChild(anchor);
                 episodesList.appendChild(li);
             });
         }
 
-        // عرض السيرفرات للحلقة
+        // عرض السيرفرات
         function loadServerButtons() {
-    serverButtonsContainer.innerHTML = ''; // مسح الأزرار السابقة
-    const currentEpisode = episodes[currentEpisodeIndex];
+            serverButtonsContainer.innerHTML = '';
+            const currentEpisode = episodes[currentEpisodeIndex];
 
-    currentEpisode.servers.forEach(server => {
-        const button = document.createElement('button');
-        button.textContent = server.serverName;
-        button.classList.add('server-button');
-        if (server.serverName === currentServerName) {
-            button.classList.add('active'); // تحديد السيرفر الحالي
+            currentEpisode.servers.forEach(server => {
+                const button = document.createElement('button');
+                button.textContent = server.serverName;
+                button.classList.add('server-button');
+                if (server.serverName === currentServerName) {
+                    button.classList.add('active');
+                }
+                button.addEventListener('click', () => {
+                    currentServerName = server.serverName;
+                    videoPlayer.src = server.url;
+                    loadServerButtons();
+                });
+                serverButtonsContainer.appendChild(button);
+            });
         }
-        button.addEventListener('click', () => {
-            currentServerName = server.serverName;
-            videoPlayer.src = server.url; // تحديث مشغل الفيديو
-            loadServerButtons(); // إعادة تحديث أزرار السيرفرات
-        });
-        serverButtonsContainer.appendChild(button);
-    });
-}
 
-        // تحديث الفيديو بناءً على الحلقة المحددة
+        // تحديث مشغل الفيديو
         function updatePlayer() {
-    const currentEpisode = episodes[currentEpisodeIndex];
-    animeTitle.textContent = "اسم الأنمي"; // يمكن تغييره ديناميكيًا
-    episodeTitle.textContent = `رقم الحلقة: ${currentEpisode.number}`;
+            const currentEpisode = episodes[currentEpisodeIndex];
+            animeTitle.textContent = "اسم الأنمي"; // يمكن تغييره ديناميكيًا
+            episodeTitle.textContent = `رقم الحلقة: ${currentEpisode.number}`;
 
-    // اختيار السيرفر الأول كافتراضي إذا لم يكن هناك سيرفر محدد
-    if (!currentServerName && currentEpisode.servers.length > 0) {
-        currentServerName = currentEpisode.servers[0].serverName;
-    }
+            if (!currentServerName && currentEpisode.servers.length > 0) {
+                currentServerName = currentEpisode.servers[0].serverName;
+            }
 
-    const currentServer = currentEpisode.servers.find(server => server.serverName === currentServerName);
-    if (currentServer) {
-        videoPlayer.src = currentServer.url; // تحميل رابط السيرفر
-    } else {
-        console.warn('لا يوجد سيرفر مناسب.');
-    }
+            const currentServer = currentEpisode.servers.find(server => server.serverName === currentServerName);
+            if (currentServer) {
+                videoPlayer.src = currentServer.url;
+            } else {
+                console.warn('لا يوجد سيرفر مناسب.');
+            }
 
-    loadServerButtons(); // عرض أزرار السيرفرات
-}
+            loadServerButtons();
+        }
 
-        // تشغيل حلقة محددة
+        // تشغيل حلقة
         function playEpisode(index) {
             currentEpisodeIndex = index;
+            currentServerName = '';
             updatePlayer();
         }
 
@@ -149,17 +138,12 @@
             currentEpisodeIndex += direction;
             if (currentEpisodeIndex < 0) currentEpisodeIndex = 0;
             if (currentEpisodeIndex >= episodes.length) currentEpisodeIndex = episodes.length - 1;
+            currentServerName = '';
             updatePlayer();
         }
 
         prevBtn.addEventListener('click', () => navigateEpisode(-1));
         nextBtn.addEventListener('click', () => navigateEpisode(1));
-
-        // تبديل الوضع بين الداكن والفاتح
-        const themeToggle = document.getElementById('themeToggle');
-        themeToggle.addEventListener('click', () => {
-            document.body.classList.toggle('light-mode');
-        });
 
         window.onload = loadEpisodesData;
     </script>
