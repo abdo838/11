@@ -2,18 +2,20 @@
     {
         "number": 1,
         "title": "الحلقة 1",
-        "image": "images/Profile_One_Piece.png",
-        "link": "../episodes/الحلقة1.html"
-
+        "link": "../episodes/episode1.html",
+        "image": "../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفر 1", "url": "https://megamax.me/iframe/FbqAiHnJ7eFAa" },
+            { "serverName": "سيرفر 2", "url": "https://www.mp4upload.com/embed-enty9vr8j5wc.html" }
+        ]
     },
     {
         "number": 2,
         "title": "الحلقة 2",
-        "link": "episodes/الحلقة1.html"
-    },
-    {
-        "number": 3,
-        "title": "الحلقة 3",
-        "link": "episodes/الحلقة1.html"
+        "link": "../episodes/episode2.html",
+        "servers": [
+            { "serverName": "سيرفر 1", "url": "https://megamax.me/iframe/FbqAiHnJ7eFAa" },
+            { "serverName": "سيرفر 2", "url": "https://www.mp4upload.com/embed-enty9vr8j5wc.html" }
+        ]
     }
 ]
