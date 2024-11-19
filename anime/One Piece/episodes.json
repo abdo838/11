@@ -1,21 +1,72 @@
 [
-    {
+    {    
         "number": 1,
         "title": "الحلقة 1",
-        "link": "../episodes/episode1.html",
+        "link": "../episodes/الحلقة1.html",
         "image": "../../images/episodes_One_Piece.png",
         "servers": [
             { "serverName": "سيرفر 1", "url": "https://megamax.me/iframe/FbqAiHnJ7eFAa" },
             { "serverName": "سيرفر 2", "url": "https://www.mp4upload.com/embed-enty9vr8j5wc.html" }
         ]
     },
+
     {
         "number": 2,
         "title": "الحلقة 2",
-        "link": "../episodes/episode2.html",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../images/episodes_One_Piece.png",
         "servers": [
-            { "serverName": "سيرفر 1", "url": "https://megamax.me/iframe/FbqAiHnJ7eFAa" },
-            { "serverName": "سيرفر 2", "url": "https://www.mp4upload.com/embed-enty9vr8j5wc.html" }
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/FbqAiHnJ7eFAa" }
         ]
-    }
+    },
+
+    {
+        "number": 3,
+        "title": "الحلقة 3",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/77ZEGmy5WDq3N" }
+        ]
+    },
+
+    {
+        "number": 4,
+        "title": "الحلقة 4",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/peWSN9BZqFEaB" }
+        ]
+    },
+
+    {
+        "number": 5,
+        "title": "الحلقة 5",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/g7ulrOqWkvpXG" }
+        ]
+    },
+
+    {
+        "number": 6,
+        "title": "الحلقة 6",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/lfxbo4yTw4uJ5" }
+        ]
+    },
+
+    {
+        "number": 6,
+        "title": "الحلقة 7",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/mHhvkQk0i2dkl" }
+        ]
+    },
 ]
