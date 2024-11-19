@@ -63,7 +63,7 @@
             </div>
             <script>
                 // تحميل الحلقات من ملف JSON
-                fetch('../onepiece.json')  <!-- تأكد من المسار الصحيح للملف -->
+                fetch('../episodes.json')  <!-- تأكد من المسار الصحيح للملف -->
                     .then(response => response.json())
                     .then(episodes => {
                         const episodesGrid = document.querySelector('.episodes-grid');
