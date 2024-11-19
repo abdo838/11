@@ -71,16 +71,10 @@
             episodes.forEach((episode, index) => {
                 const li = document.createElement('li');
                 li.className = 'episode-item';
+                li.textContent = episode.title;
 
-                const anchor = document.createElement('a');
-                anchor.href = episode.link;
-                anchor.textContent = episode.title;
-                anchor.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    playEpisode(index);
-                });
+                li.addEventListener('click', () => playEpisode(index));
 
-                li.appendChild(anchor);
                 episodesList.appendChild(li);
             });
         }
