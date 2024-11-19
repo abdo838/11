@@ -61,10 +61,10 @@
     },
 
     {
-        "number": 6,
+        "number": 7,
         "title": "الحلقة 7",
         "link": "../episodes/الحلقة1.html",
-        "image": "../../images/episodes_One_Piece.png",
+        "image": "../../../images/episodes_One_Piece.png",
         "servers": [
             { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/mHhvkQk0i2dkl" }
         ]
