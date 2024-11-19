@@ -2,16 +2,16 @@
     {
         "number": 1,
         "title": "الحلقة 1",
-        "link": "../anime/One Piece/episodes/الحلقة1.html"
+        "link": "episodes/الحلقة1.html"
     },
     {
         "number": 2,
         "title": "الحلقة 2",
-        "link": "../anime/One Piece/episodes/الحلقة1.html"
+        "link": "episodes/الحلقة1.html"
     },
     {
         "number": 3,
         "title": "الحلقة 3",
-        "link": "../anime/One Piece/episodes/الحلقة1.html"
+        "link": "episodes/الحلقة1.html"
     }
 ]
