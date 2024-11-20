@@ -1,0 +1,363 @@
+[
+    {    
+        "number": 1,
+        "title": "الحلقة 1",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفر 1", "url": "https://megamax.me/iframe/FbqAiHnJ7eFAa" },
+            { "serverName": "سيرفر 2", "url": "https://www.mp4upload.com/embed-enty9vr8j5wc.html" }
+        ]
+    },
+
+    {
+        "number": 2,
+        "title": "الحلقة 2",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/FbqAiHnJ7eFAa" }
+        ]
+    },
+
+    {
+        "number": 3,
+        "title": "الحلقة 3",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/77ZEGmy5WDq3N" }
+        ]
+    },
+
+    {
+        "number": 4,
+        "title": "الحلقة 4",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/peWSN9BZqFEaB" }
+        ]
+    },
+
+    {
+        "number": 5,
+        "title": "الحلقة 5",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/g7ulrOqWkvpXG" }
+        ]
+    },
+
+    {
+        "number": 6,
+        "title": "الحلقة 6",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/lfxbo4yTw4uJ5" }
+        ]
+    },
+
+    {
+        "number": 7,
+        "title": "الحلقة 7",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/mHhvkQk0i2dkl" }
+        ]
+    },
+
+    {
+        "number": 8,
+        "title": "الحلقة 8",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/mD2RTR5GOhQB2" }
+        ]
+    },
+
+    {
+        "number": 9,
+        "title": "الحلقة 9",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/dhhCF66zZArAu" }
+        ]
+    },
+
+    {
+        "number": 10,
+        "title": "الحلقة 10",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/OGAQcRVCR1Gu0" }
+        ]
+    },
+
+    {
+        "number": 11,
+        "title": "الحلقة 11",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/qeb5eo55Z6ngO" }
+        ]
+    }, 
+
+    {
+        "number": 12,
+        "title": "الحلقة 12",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/qdgfetuwqzxCg" }
+        ]
+    },
+
+    {
+        "number": 13,
+        "title": "الحلقة 12",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/duM9GAd0WuPYy" }
+        ]
+    },
+
+    {
+        "number": 14,
+        "title": "الحلقة 12",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/wgVmBGKRsw7nd" }
+        ]
+    },
+
+    {
+        "number": 15,
+        "title": "الحلقة 12",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/dGewhgscV1Shb" }
+        ]
+    },
+    
+    {
+        "number": 16,
+        "title": "الحلقة 12",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/Ac0EMB7ZXMb6t" }
+        ]
+    },
+    
+    {
+        "number": 17,
+        "title": "الحلقة 12",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/qdgfetuwqzxCg" }
+        ]
+    },
+    
+    {
+        "number": 18,
+        "title": "الحلقة 12",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/qdgfetuwqzxCg" }
+        ]
+    },
+    
+    {
+        "number": 19,
+        "title": "الحلقة 12",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/qdgfetuwqzxCg" }
+        ]
+    },
+    
+    {
+        "number": 20,
+        "title": "الحلقة 12",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/qdgfetuwqzxCg" }
+        ]
+    },
+    
+    {
+        "number": 21,
+        "title": "الحلقة 12",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/qdgfetuwqzxCg" }
+        ]
+    },
+    
+    {
+        "number": 22,
+        "title": "الحلقة 12",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/qdgfetuwqzxCg" }
+        ]
+    },
+    
+    {
+        "number": 23,
+        "title": "الحلقة 12",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/qdgfetuwqzxCg" }
+        ]
+    },
+    
+    {
+        "number": 24,
+        "title": "الحلقة 12",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/qdgfetuwqzxCg" }
+        ]
+    },
+    
+    {
+        "number": 25,
+        "title": "الحلقة 12",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/qdgfetuwqzxCg" }
+        ]
+    },
+    
+    {
+        "number": 26,
+        "title": "الحلقة 12",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/qdgfetuwqzxCg" }
+        ]
+    },
+    
+    {
+        "number": 27,
+        "title": "الحلقة 12",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/qdgfetuwqzxCg" }
+        ]
+    },
+    
+    {
+        "number": 28,
+        "title": "الحلقة 12",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/qdgfetuwqzxCg" }
+        ]
+    },
+    
+    {
+        "number": 29,
+        "title": "الحلقة 12",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/qdgfetuwqzxCg" }
+        ]
+    },
+    
+    {
+        "number": 30,
+        "title": "الحلقة 12",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/qdgfetuwqzxCg" }
+        ]
+    },
+    
+    {
+        "number": 31,
+        "title": "الحلقة 12",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/qdgfetuwqzxCg" }
+        ]
+    },
+    
+    {
+        "number": 32,
+        "title": "الحلقة 12",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/qdgfetuwqzxCg" }
+        ]
+    },
+    
+    {
+        "number": 33,
+        "title": "الحلقة 12",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/qdgfetuwqzxCg" }
+        ]
+    },
+    
+    {
+        "number": 34,
+        "title": "الحلقة 12",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/qdgfetuwqzxCg" }
+        ]
+    },
+    
+    {
+        "number": 35,
+        "title": "الحلقة 12",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/qdgfetuwqzxCg" }
+        ]
+    },
+    
+    {
+        "number": 36,
+        "title": "الحلقة 12",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/episodes_One_Piece.png",
+        "servers": [
+            { "serverName": "سيرفرات متعددة FHD", "url": "https://megamax.me/iframe/qdgfetuwqzxCg" }
+        ]
+    }
+    
+]
