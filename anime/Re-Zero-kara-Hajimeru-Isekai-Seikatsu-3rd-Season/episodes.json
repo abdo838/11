@@ -1,0 +1,63 @@
+[
+    {
+        "number": 1,
+        "title": "الحلقة 1",
+        "link": "../episodes/المشاهده.html",
+        "image": "../../../images/Re-Zero-kara-Hajimeru-Isekai-Seikatsu-3rd-Season.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1ij_ZDJj3F3E_gigEIXCZoIG01150rxNm/preview" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/zuYmgRhQ#nN-eQ1wncFw2q_VN5MO1fXVB4YC6QLmAE_5tnFtuhuU" },
+            { "serverName": "4shared", "url": "https://www.4shared.com/web/embed/file/MO02GwMpku" }
+        ]
+    },
+    {
+        "number": 2,
+        "title": "الحلقة 2",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1-cYkWyYkF3lqax6Qt5MShdLCQRhbYxwm/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=863168775&id=456240033&hash=d9ff06f5a588380b" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/TvgGkQbC#Hvqr6NfLZExz75KXar4oA7pH6QgsuQN0hd7_EqBEgFQ" }
+        ]
+    },
+    {
+        "number": 3,
+        "title": "الحلقة 3",
+        "servers": [
+            { "serverName": "Mega", "url": "https://mega.nz/embed/2nRjmabb#6589P3RgkrxTRSkb4iTUn3qdBsMbzfrt_-c1gTo3ogU" }
+        ]
+    },
+    {
+        "number": 4,
+        "title": "الحلقة 4",
+        "servers": [
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240106&hash=d973f8319bbb56db" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/ynx1hBjC#8USbIUwLF7DZsuFxVC8zAwpLaJXUILBjp_fPgZS0ivM" },
+            { "serverName": "4shared", "url": "https://www.4shared.com/web/embed/file/1x_FEtyGge" }
+        ]
+    },
+    {
+        "number": 5,
+        "title": "الحلقة 5",
+        "servers": [
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240161&hash=5cc2c3ca3c321047" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/rjxUxDyb#2-xdeG0wvua5AmzlRUy1Mp4-OskkFfE2eigBC2_MP9U" },
+            { "serverName": "4shared", "url": "https://www.4shared.com/web/embed/file/9dcdhx-zjq" }
+        ]
+    },
+    {
+        "number": 6,
+        "title": "الحلقة 6",
+        "servers": [
+            { "serverName": "Mega", "url": "https://mega.nz/embed/3zAFyYLI#3D1sT6s_mQsHAhMgGTVmdNGcNmTvIeP9WPsFB723tEg" }
+        ]
+    },
+    {
+        "number": 7,
+        "title": "الحلقة 7",
+        "servers": [
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240271&hash=8dd7d0b357af55b9" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/DzAAHDpQ#E5wgjQMeZan1qrJ_8--ww5dsNlsR2ctpU7SC7FmZxF4" },
+            { "serverName": "4shared", "url": "https://www.4shared.com/web/embed/file/qurfudHCku" }
+        ]
+    }
+]
