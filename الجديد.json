@@ -1,14 +1,14 @@
 [
     {
         "name": "One Piece",
-        "link": "anime/One Piece/episodes/الحلقة1.html",
+        "link": "../../../anime/One Piece/episodes/الحلقة1.html",
         "image": "images/Profile_One_Piece.png",
         "rating": "9.8",
         "episodes": "1 حلقة"
     },
     {
         "name": "Blue Lock vs. U-20 Japan",
-        "link": "episodes/onepiece.html",
+        "link": "../../../anime/Blue-Lock-vs.-U-20-Japan/episodes/الحلقة1.html",
         "image": "https://2u.pw/NBgPWzCb",
         "rating": "9.2",
         "نوع": "مسلسلات الانمي",
