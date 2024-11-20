@@ -1,16 +1,39 @@
 [
     {
         "name": "One Piece",
-        "link": "anime/One Piece/Profile/onepiece.html",
+        "link": "anime/One Piece/episodes/الحلقة1.html",
         "image": "images/Profile_One_Piece.png",
         "rating": "9.8",
-        "episodes": ""
+        "episodes": "1 حلقة"
     },
     {
         "name": "Blue Lock vs. U-20 Japan",
-        "link": "anime/Blue-Lock-vs.-U-20-Japan/Profile/Blue-Lock-vs.-U-20-Japan.html",
-        "image": "https://2u.pw/NBgPWzCb",
+        "link": "anime/Blue-Lock-vs.-U-20-Japan/episodes/الحلقة1.html",
+        "image": "images/Blue-Lock-vs.-U-20-Japan.jpg",
         "rating": "9.2",
-        "episodes": ""
+        "نوع": "مسلسلات الانمي",
+        "موعد": "الاحد",
+        "الحالة": "متوقف",
+        "episodes": "7 حلقة"
+    },
+    {
+        "name": "Bleach-Sennen-Kessen-hen-Soukoku-tan",
+        "link": "anime/Bleach-Sennen-Kessen-hen-Soukoku-tan/episodes/الحلقة1.html",
+        "image": "images/Bleach-Sennen-Kessen-hen-Soukoku-tan.jpg",
+        "rating": "9.2",
+        "نوع": "مسلسلات الانمي",
+        "موعد": "الاحد",
+        "الحالة": "متوقف",
+        "episodes": "6 حلقة"
+    },
+    {
+        "name": "Dandadan",
+        "link": "anime/Dandadan/episodes/المشاهده.html",
+        "image": "images/Dandadan.jpg",
+        "rating": "9.2",
+        "نوع": "مسلسلات الانمي",
+        "موعد": "الاحد",
+        "الحالة": "متوقف",
+        "episodes": "6 حلقة"
     }
 ]
