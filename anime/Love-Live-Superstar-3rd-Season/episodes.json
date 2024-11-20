@@ -58,5 +58,19 @@
         "servers": [
             { "serverName": "Videa", "url": "https://videa.hu/player?v=IMDbITdkiXpvmA07" }
         ]
+    },
+    {
+        "number": 7,
+        "title": "الحلقة 7",
+        "link": "../episodes/المشاهده.html",
+        "image": "../../../images/Love-Live-Superstar-3rd-Season.jpg",
+        "servers": [
+            { "serverName": "سيرفرات متعددة", "url": "https://megamax.me/iframe/CuSWjBH2Sva1Y" },
+            { "serverName": "vidmoly", "url": "https://vidmoly.to/embed-cdtteb4dk8lm.html" },
+            { "serverName": "uqload", "url": "https://uqload.net/embed-ft8vr0ew9phi.html" },
+            { "serverName": "ok.ru", "url": "https://www.ok.ru/videoembed/8016029289178" },
+            { "serverName": "Mp4upload", "url": "https://www.mp4upload.com/embed-e3ve1ttflrwk.html" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/j3ATUSpb!jUFK-rwJ81Rlj3Sgv08Me_vW7FfLqP4CQRB2yOikP2o" }
+        ]
     }
 ]
