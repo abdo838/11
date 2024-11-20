@@ -22,36 +22,29 @@
             <button class="icon-button"><a href="episode-schedule.html" style="color: inherit;">مواعيد الحلقات</a></button>
             <button id="themeToggle" class="icon-button">
                 <svg id="themeIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"></path>
+                    <path id="themeIconPath" d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"></path>
                 </svg>
             </button>
+            
         </div>
     </div>
 </nav>
 
 <script>
-    // JavaScript for toggling between Sun and Moon icons
-    document.getElementById('themeToggle').addEventListener('click', function() {
-        const icon = document.getElementById('themeIcon');
-        // Check the current icon and change it
-        if (icon.getAttribute('d') === "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z") {
-            // Change to Moon icon
-            icon.setAttribute('d', "M12 2C7.03 2 3 6.03 3 12s4.03 10 9 10 9-4.03 9-10-4.03-10-9-10z");
-            document.body.classList.add('dark-mode');
-            document.body.classList.remove('light-mode');
-        } else {
-            // Change to Sun icon
-            icon.setAttribute('d', "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z");
-            document.body.classList.add('light-mode');
-            document.body.classList.remove('dark-mode');
-        }
-    });
-    
-    // Functionality for the search bar
-    document.getElementById('searchInput').addEventListener('input', function() {
-        let query = this.value.toLowerCase();
-        // يمكنك هنا تنفيذ أي عملية بحث بناءً على النص المدخل
-        console.log('بحث عن: ', query);
-    });
-    
+document.getElementById('themeToggle').addEventListener('click', function() {
+    const icon = document.getElementById('themeIcon');
+    const path = document.getElementById('themeIconPath');
+
+    if (document.body.classList.contains('dark-mode')) {
+        document.body.classList.remove('dark-mode');
+        document.body.classList.add('light-mode');
+        // تغيير الأيقونة إلى أيقونة الشمس
+        path.setAttribute('d', 'M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z');
+    } else {
+        document.body.classList.remove('light-mode');
+        document.body.classList.add('dark-mode');
+        // تغيير الأيقونة إلى أيقونة القمر
+        path.setAttribute('d', 'M12 2C7.03 2 3 6.03 3 12s4.03 10 9 10 9-4.03 9-10-4.03-10-9-10z');
+    }
+});  
          </script>
