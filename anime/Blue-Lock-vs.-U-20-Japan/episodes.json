@@ -1,0 +1,95 @@
+[
+    {    
+        "number": 1,
+        "title": "الحلقة 1",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/Blue-Lock-vs.-U-20-Japan.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1xgA-1b6dDEeYR5XxsBStW4PUxdEIw5ax/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=863168775&id=456240011&hash=d1bdd585ce0b24fe" },
+            { "serverName": "OK.ru", "url": "https://ok.ru/videoembed/8278941108784" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/wqcT2A4C#Tbfdxftr5xy0NrHTpB4LYmVj9nY9zqwklpEx079YDrw" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=4YpU6lZSMVxhFKeQ" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5703185&share=1" }
+        ]
+    },
+    {
+        "number": 2,
+        "title": "الحلقة 2",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/Blue-Lock-vs.-U-20-Japan.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1jjrMEaL3oyjtuXG6TC5M-ZVbNGPgcOyK/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240011&hash=19428a3ccb72dc93" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/pyUnHQyY#4OJcEvwVO1H446i6y-5OsRN6xWvuK25XsAOlEXc1EPg" },
+            { "serverName": "Mail", "url": "https://my.mail.ru/video/embed/4752585637503178656" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=GuGzyr9cbjcBfwdq" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5713097&share=1" }
+        ]
+    },
+    {
+        "number": 3,
+        "title": "الحلقة 3",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/Blue-Lock-vs.-U-20-Japan.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/15d2s2MKfxfJRgIZ7B5OpwPGAaTKCj2hG/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240073&hash=eeb16ad68e4a3dc7" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/FitiUJxC#zCVVIjWFLwyu1HpG3mrqxr_2DvcfQR8R9pW4X13XRPg" },
+            { "serverName": "Mail", "url": "https://my.mail.ru/video/embed/4752585637503178719" },
+            { "serverName": "4Shared", "url": "https://www.4shared.com/web/embed/file/2kg1btmzfa" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5722005&share=1" }
+        ]
+    },
+    {
+        "number": 4,
+        "title": "الحلقة 4",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/Blue-Lock-vs.-U-20-Japan.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1-IMNplBW6fJ76i_KaFsLUZtVANWkIP9Z/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240130&hash=0ded0d3f92a3e4b4" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/VzsDGYDC#iWcfvinMeOrbdmT__IzHoMKJ5AojCpjPWdy-QEA45SM" },
+            { "serverName": "Mail", "url": "https://my.mail.ru/video/embed/4752585637503178774" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=yNoLixpbTjK6vl0n" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5730723&share=1" }
+        ]
+    },
+    {
+        "number": 5,
+        "title": "الحلقة 5",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/Blue-Lock-vs.-U-20-Japan.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/10Q8eQs1nhRt0nVZPy19s7-NVPp0Ad9kR/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240187&hash=ad177418dcf68813" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/trdUwSRC#ECA_GE8xTPPdnWIiWsYLTK4GYTbUHqP3rSgAdMzM-Sg" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=dAsUdecFEL8O0aoX" }
+        ]
+    },
+    {
+        "number": 6,
+        "title": "الحلقة 6",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/Blue-Lock-vs.-U-20-Japan.jpg",
+        "servers": [
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240241&hash=d437732214a317b9" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/9j93RLhC#t9sxz_HdVuASF8S3uBuxGDlogKff929aKA0Mrtolnhk" },
+            { "serverName": "Mail", "url": "https://my.mail.ru/video/embed/4752585637503178886" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=iACllpE84I75i5sP" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5746424&share=1" }
+        ]
+    },
+    {
+        "number": 7,
+        "title": "الحلقة 7",
+        "link": "../episodes/الحلقة1.html",
+        "image": "../../../images/Blue-Lock-vs.-U-20-Japan.jpg",
+        "servers": [
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240297&hash=4e49155437848ced" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/oftVSCSZ#p1a7VX2keRMV3usOSQjWunVQ-msCP2VfcPM1v78vvRA" },
+            { "serverName": "Mail", "url": "https://my.mail.ru/video/embed/4752585637503178941" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5753385&share=1" }
+        ]
+    }
+]
