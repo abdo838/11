@@ -274,6 +274,7 @@ body.light-mode {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .section-header h2 {
