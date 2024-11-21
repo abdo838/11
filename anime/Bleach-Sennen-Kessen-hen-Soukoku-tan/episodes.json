@@ -2,7 +2,7 @@
     {
         "number": 1,
         "title": "الحلقة 1",
-        "link": "../episodes/الحلقة1.html",
+        "link": "../episodes/الحلقة1.html?episode=1",
         "image": "../../../images/Bleach-Sennen-Kessen-hen-Soukoku-tan.jpg",
         "servers": [
             { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1FWoGbuYgXN0Ql9j6t1WYAK-X6Gx1PUPW/preview" },
@@ -17,7 +17,7 @@
     {
         "number": 2,
         "title": "الحلقة 2",
-        "link": "../episodes/الحلقة1.html",
+        "link": "../episodes/الحلقة1.html?episode=2",
         "image": "../../../images/Bleach-Sennen-Kessen-hen-Soukoku-tan.jpg",
         "servers": [
             { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1YzymWL5B5WQThIJIxZnD6YtG6EXEoTUj/preview" },
@@ -27,7 +27,7 @@
     {
         "number": 3,
         "title": "الحلقة 3",
-        "link": "../episodes/الحلقة1.html",
+        "link": "../episodes/الحلقة1.html?episode=3",
         "image": "../../../images/Bleach-Sennen-Kessen-hen-Soukoku-tan.jpg",
         "servers": [
             { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1I8RlYt8HpId_c83oFuo4r5eRfo9Yzwp7/preview" },
@@ -43,7 +43,7 @@
     {
         "number": 4,
         "title": "الحلقة 4",
-        "link": "../episodes/الحلقة1.html",
+        "link": "../episodes/الحلقة1.html?episode=4",
         "image": "../../../images/Bleach-Sennen-Kessen-hen-Soukoku-tan.jpg",
         "servers": [
             { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1BYtIzLHJiZ-9ZpK91LkesrYgH-7me13a/preview" },
@@ -58,7 +58,7 @@
     {
         "number": 5,
         "title": "الحلقة 5",
-        "link": "../episodes/الحلقة1.html",
+        "link": "../episodes/الحلقة1.html?episode=5",
         "image": "../../../images/Bleach-Sennen-Kessen-hen-Soukoku-tan.jpg",
         "servers": [
             { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1sBdveqDtzIz34iKtQxHG8e7ePZzFsQi5/preview" },
@@ -69,7 +69,7 @@
     {
         "number": 6,
         "title": "الحلقة 6",
-        "link": "../episodes/الحلقة1.html",
+        "link": "../episodes/الحلقة1.html?episode=6",
         "image": "../../../images/Bleach-Sennen-Kessen-hen-Soukoku-tan.jpg",
         "servers": [
             { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1Kkpt-EPh1S75vzFKvqZwDVEfkcpr0yIT/preview" },
