@@ -28,7 +28,7 @@
         <!-- قسم مميز -->
     <main>
         <div class="section-header">
-            <h2>مميز</h2>
+            <h1>مميز</h1>
         </div>
         <div class="anime-grid" id="animeGrid1"></div>
         <script>
@@ -69,7 +69,7 @@
    <!--  احدث حلقات  -->
    <main>
     <div class="section-header">
-        <h2> احدث حلقات   </h2>
+        <h1> احدث حلقات   </h1>
     </div>
     <div class="anime-grid" id="animeGrid"></div>
    <script>
@@ -107,13 +107,7 @@
            .catch(error => console.error('خطأ في تحميل الصفحات:', error));
    </script>
    </main>
-   <!-- Auto slideshow-->
-   <script>
-    const themeToggle = document.getElementById('themeToggle');
-    themeToggle.addEventListener('click', () => {
-        document.body.classList.toggle('light-mode');
-    });
-</script>
+
 
    <!-- Auto slideshow-->
    <script>
@@ -198,6 +192,8 @@
             .then(response => response.text())
             .then(data => document.getElementById('navbar-container').innerHTML = data);
     </script>
+
+    
     
 <script>
 // JavaScript for toggling between Sun and Moon icons
@@ -225,6 +221,7 @@ document.getElementById('searchInput').addEventListener('input', function() {
 });
 
      </script>
+
 
 </body>
 </html>
