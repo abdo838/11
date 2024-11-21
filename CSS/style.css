@@ -274,7 +274,7 @@ body.light-mode {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 
 .section-header h2 {
@@ -412,5 +412,6 @@ body.light-mode {
         flex-direction: column;
         gap: 1rem;
         align-items: flex-start;
+       margin-top: 12rem;
     }
 }
