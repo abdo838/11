@@ -78,18 +78,25 @@
         }
 
         // عرض قائمة الحلقات
-        function loadEpisodes() {
-            episodesList.innerHTML = '';
-            episodes.forEach((episode, index) => {
-                const li = document.createElement('li');
-                li.className = 'episode-item';
-                li.textContent = episode.title;
+// عرض قائمة الحلقات
+function loadEpisodes() {
+    episodesList.innerHTML = ''; // إفراغ القائمة السابقة
+    episodes.forEach((episode, index) => {
+        const li = document.createElement('li');
+        li.className = 'episode-item';
+        
+        // تعيين عنوان الحلقة
+        li.textContent = episode.title;
 
-                li.addEventListener('click', () => playEpisode(index));
+        // إضافة حدث عند الضغط على الحلقة
+        li.addEventListener('click', () => {
+            window.location.href = episode.link; // الانتقال إلى الرابط الموجود في JSON
+        });
 
-                episodesList.appendChild(li);
-            });
-        }
+        episodesList.appendChild(li);
+    });
+}
+
 
         // عرض السيرفرات
         function loadServerButtons() {
