@@ -2,7 +2,7 @@
     {
         "number": 1,
         "title": "الحلقة 1",
-        "link": "../episodes/المشاهده.html",
+        "link": "../episodes/المشاهده.html?episode=1",
         "image": "../../../images/Nanatsu-no-Taizai-Mokushiroku-no-Yonkishi-2nd-Season.jpg",
         "servers": [
             { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/10ZSpPs_aI7qIMkC2-rmxILfcIZVi1ssW/preview" },
@@ -16,7 +16,7 @@
     {
         "number": 2,
         "title": "الحلقة 2",
-        "link": "../episodes/المشاهده.html",
+        "link": "../episodes/المشاهده.html?episode=2",
         "image": "../../../images/Nanatsu-no-Taizai-Mokushiroku-no-Yonkishi-2nd-Season.jpg",
         "servers": [
             { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1MUwK6lZyw1y7MZtXWsAjrFg67VN1w0Xg/preview" },
@@ -31,7 +31,7 @@
     {
         "number": 3,
         "title": "الحلقة 3",
-        "link": "../episodes/المشاهده.html",
+        "link": "../episodes/المشاهده.html?episode=3",
         "image": "../../../images/Nanatsu-no-Taizai-Mokushiroku-no-Yonkishi-2nd-Season.jpg",
         "servers": [
             { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/18xkZYPzxDKDH6rAgau4XLJrA_U-EzJei/preview" },

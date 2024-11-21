@@ -2,7 +2,7 @@
     {
         "number": 1,
         "title": "الحلقة 1",
-        "link": "../episodes/المشاهده.html",
+        "link": "../episodes/المشاهده.html?episode=1",
         "image": "../../../images/Rurouni-Kenshin-Meiji-Kenkaku-Romantan-Kyoto-Douran.jpg",
         "servers": [
             { "serverName": "Google Drive 1", "url": "https://drive.google.com/file/d/1qMYnnbHrgXvH1m9F7b7JwyEpSHGfTNBu/preview" },
@@ -19,7 +19,7 @@
     {
         "number": 2,
         "title": "الحلقة 2",
-        "link": "../episodes/المشاهده.html",
+        "link": "../episodes/المشاهده.html?episode=2",
         "image": "../../../images/Rurouni-Kenshin-Meiji-Kenkaku-Romantan-Kyoto-Douran.jpg",
         "servers": [
             { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/17ZELGuT7wYhsUvWNo6x6hSgSjnVUAgoD/preview" },
@@ -34,7 +34,7 @@
     {
         "number": 3,
         "title": "الحلقة 3",
-        "link": "../episodes/المشاهده.html",
+        "link": "../episodes/المشاهده.html?episode=3",
         "image": "../../../images/Rurouni-Kenshin-Meiji-Kenkaku-Romantan-Kyoto-Douran.jpg",
         "servers": [
             { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240060&hash=abc46079ed8056d5" },
@@ -48,7 +48,7 @@
     {
         "number": 4,
         "title": "الحلقة 4",
-        "link": "../episodes/المشاهده.html",
+        "link": "../episodes/المشاهده.html?episode=4",
         "image": "../../../images/Rurouni-Kenshin-Meiji-Kenkaku-Romantan-Kyoto-Douran.jpg",
         "servers": [
             { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/18hEmM2VYXjpIvPQhLtwFY7yaox1tt7OR/preview" },
@@ -58,7 +58,7 @@
     {
         "number": 5,
         "title": "الحلقة 5",
-        "link": "../episodes/المشاهده.html",
+        "link": "../episodes/المشاهده.html?episode=5",
         "image": "../../../images/Rurouni-Kenshin-Meiji-Kenkaku-Romantan-Kyoto-Douran.jpg",
         "servers": [
             { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1--wlVIfpFOANAzLjknxyQOhQgZd2-DYH/preview" },
@@ -68,7 +68,7 @@
     {
         "number": 6,
         "title": "الحلقة 6",
-        "link": "../episodes/المشاهده.html",
+        "link": "../episodes/المشاهده.html?episode=6",
         "image": "../../../images/Rurouni-Kenshin-Meiji-Kenkaku-Romantan-Kyoto-Douran.jpg",
         "servers": [
             { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240227&hash=f9a188c56b690217" },

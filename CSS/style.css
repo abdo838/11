@@ -297,7 +297,24 @@ body.light-mode {
     cursor: pointer;
     padding: 0.25rem;
 }
+/* Anime day */
+.anime-day-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-bottom: 2px solid #ccc;
+}
 
+.anime-day-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.anime-day-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
 /* Anime Grid */
 .anime-grid {
     display: grid;

@@ -2,7 +2,7 @@
     {    
         "number": 1,
         "title": "الحلقة 1",
-        "link": "../episodes/الحلقة1.html",
+        "link": "../episodes/الحلقة1.html?episode=1",
         "image": "../../../images/Blue-Lock-vs.-U-20-Japan.jpg",
         "servers": [
             { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1xgA-1b6dDEeYR5XxsBStW4PUxdEIw5ax/preview" },
@@ -16,7 +16,7 @@
     {
         "number": 2,
         "title": "الحلقة 2",
-        "link": "../episodes/الحلقة1.html",
+        "link": "../episodes/الحلقة1.html?episode=2",
         "image": "../../../images/Blue-Lock-vs.-U-20-Japan.jpg",
         "servers": [
             { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1jjrMEaL3oyjtuXG6TC5M-ZVbNGPgcOyK/preview" },
@@ -30,7 +30,7 @@
     {
         "number": 3,
         "title": "الحلقة 3",
-        "link": "../episodes/الحلقة1.html",
+        "link": "../episodes/الحلقة1.html?episode=3",
         "image": "../../../images/Blue-Lock-vs.-U-20-Japan.jpg",
         "servers": [
             { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/15d2s2MKfxfJRgIZ7B5OpwPGAaTKCj2hG/preview" },
@@ -44,7 +44,7 @@
     {
         "number": 4,
         "title": "الحلقة 4",
-        "link": "../episodes/الحلقة1.html",
+        "link": "../episodes/الحلقة1.html?episode=4",
         "image": "../../../images/Blue-Lock-vs.-U-20-Japan.jpg",
         "servers": [
             { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1-IMNplBW6fJ76i_KaFsLUZtVANWkIP9Z/preview" },
@@ -58,7 +58,7 @@
     {
         "number": 5,
         "title": "الحلقة 5",
-        "link": "../episodes/الحلقة1.html",
+        "link": "../episodes/الحلقة1.html?episode=5",
         "image": "../../../images/Blue-Lock-vs.-U-20-Japan.jpg",
         "servers": [
             { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/10Q8eQs1nhRt0nVZPy19s7-NVPp0Ad9kR/preview" },
@@ -70,7 +70,7 @@
     {
         "number": 6,
         "title": "الحلقة 6",
-        "link": "../episodes/الحلقة1.html",
+        "link": "../episodes/الحلقة1.html?episode=6",
         "image": "../../../images/Blue-Lock-vs.-U-20-Japan.jpg",
         "servers": [
             { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240241&hash=d437732214a317b9" },
@@ -83,7 +83,7 @@
     {
         "number": 7,
         "title": "الحلقة 7",
-        "link": "../episodes/الحلقة1.html",
+        "link": "../episodes/الحلقة1.html?episode=7",
         "image": "../../../images/Blue-Lock-vs.-U-20-Japan.jpg",
         "servers": [
             { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240297&hash=4e49155437848ced" },

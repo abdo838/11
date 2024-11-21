@@ -46,6 +46,25 @@
         const nextBtn = document.getElementById('next-btn');
         const serverButtonsContainer = document.getElementById('server-buttons-container');
 
+        // استخراج معلمات URL
+        function getQueryParam(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+
+        // تعيين الحلقة بناءً على معلمة URL
+        function setEpisodeFromURL() {
+            const episodeParam = getQueryParam('episode');
+            if (episodeParam) {
+                const episodeIndex = parseInt(episodeParam, 10) - 1; // الفهرس يبدأ من 0
+                if (episodeIndex >= 0 && episodeIndex < episodes.length) {
+                    playEpisode(episodeIndex);
+                } else {
+                    console.warn('رقم الحلقة غير صالح');
+                }
+            }
+        }
+
         // تحميل البيانات من ملف JSON
         function loadEpisodesData() {
             fetch('../episodes.json')
@@ -53,24 +72,31 @@
                 .then(data => {
                     episodes = data;
                     loadEpisodes();
-                    updatePlayer();
+                    setEpisodeFromURL(); // تعيين الحلقة بناءً على الرابط
                 })
                 .catch(error => console.error('Error loading episodes data:', error));
         }
 
         // عرض قائمة الحلقات
-        function loadEpisodes() {
-            episodesList.innerHTML = '';
-            episodes.forEach((episode, index) => {
-                const li = document.createElement('li');
-                li.className = 'episode-item';
-                li.textContent = episode.title;
+// عرض قائمة الحلقات
+function loadEpisodes() {
+    episodesList.innerHTML = ''; // إفراغ القائمة السابقة
+    episodes.forEach((episode, index) => {
+        const li = document.createElement('li');
+        li.className = 'episode-item';
+        
+        // تعيين عنوان الحلقة
+        li.textContent = episode.title;
 
-                li.addEventListener('click', () => playEpisode(index));
+        // إضافة حدث عند الضغط على الحلقة
+        li.addEventListener('click', () => {
+            window.location.href = episode.link; // الانتقال إلى الرابط الموجود في JSON
+        });
 
-                episodesList.appendChild(li);
-            });
-        }
+        episodesList.appendChild(li);
+    });
+}
+
 
         // عرض السيرفرات
         function loadServerButtons() {
@@ -96,7 +122,7 @@
         // تحديث مشغل الفيديو
         function updatePlayer() {
             const currentEpisode = episodes[currentEpisodeIndex];
-            animeTitle.textContent = "Re Zero-kara-Hajimeru-Isekai-Seikatsu-3rd-Season"; // يمكن تغييره ديناميكيًا
+            animeTitle.textContent = "Re-Zero-kara-Hajimeru-Isekai-Seikatsu-3rd-Season"; // يمكن تغييره ديناميكيًا
             episodeTitle.textContent = `رقم الحلقة: ${currentEpisode.number}`;
 
             if (!currentServerName && currentEpisode.servers.length > 0) {
@@ -132,6 +158,7 @@
         prevBtn.addEventListener('click', () => navigateEpisode(-1));
         nextBtn.addEventListener('click', () => navigateEpisode(1));
 
+        // تحميل البيانات عند بدء الصفحة
         window.onload = loadEpisodesData;
     </script>
 
