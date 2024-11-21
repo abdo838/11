@@ -1,58 +1,417 @@
+:root {
+    --primary-color: #ef4444;
+    --bg-dark: #111827;
+    --bg-darker: #1f2937;
+    --text-light: #ffffff;
+    --text-gray: #9ca3af;
 
-<nav class="navbar">
-    <div class="nav-container">
-        <div class="logo">
-            <a href="https://abdo838.github.io/11/index.html">
-                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="logo-icon">
-                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
-                </svg>
-            </a>
-            <span>AMK4UP</span> <!-- هذا هو اسم الموقع -->
-        </div>
-        <div class="search-bar">
-            <input type="text" id="searchInput" placeholder="ابحث عن الانمي المفضل لديك...">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="search-icon">
-                <circle cx="11" cy="11" r="8"></circle>
-                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-            </svg>
-        </div>
-        <div class="nav-buttons">
-            <button class="icon-button"><a href="https://2u.pw/1GjbPvRi" style="color: inherit;">قائمة الأنمي</a></button>
-            <button class="icon-button"><a href="" style="color: inherit;">أفلام الأنمي</a></button>
-            <button class="icon-button"><a href="https://2u.pw/dWYSsJZL" style="color: inherit;">أنميات الموسم</a></button>
-            <button class="icon-button"><a href="https://2u.pw/50bTvJFo" style="color: inherit;">مواعيد الحلقات</a></button>
-            <button id="themeToggle" class="icon-button">
-                <svg id="themeIcon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"></path>
-                </svg>
-            </button>
-        </div>
-    </div>
-</nav>
+    --bg-light: #ffffff;
+    --text-dark: #000000;
+    --text-gray-dark: #4b5563;
 
-<script>
-    // JavaScript for toggling between Sun and Moon icons
-    document.getElementById('themeToggle').addEventListener('click', function() {
-        const icon = document.getElementById('themeIcon');
-        // Check the current icon and change it
-        if (icon.getAttribute('d') === "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z") {
-            // Change to Moon icon
-            icon.setAttribute('d', "M12 2C7.03 2 3 6.03 3 12s4.03 10 9 10 9-4.03 9-10-4.03-10-9-10z");
-            document.body.classList.add('dark-mode');
-            document.body.classList.remove('light-mode');
-        } else {
-            // Change to Sun icon
-            icon.setAttribute('d', "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z");
-            document.body.classList.add('light-mode');
-            document.body.classList.remove('dark-mode');
-        }
-    });
     
-    // Functionality for the search bar
-    document.getElementById('searchInput').addEventListener('input', function() {
-        let query = this.value.toLowerCase();
-        // يمكنك هنا تنفيذ أي عملية بحث بناءً على النص المدخل
-        console.log('بحث عن: ', query);
-    });
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body.light-mode {
+    background-color: var(--bg-light);
+    color: var(--text-dark);
+}
+
+
+body.light-mode .icon-button:hover {
+    color: var(--primary-color);
     
-         </script>
+}
+body.light-mode .hero {
+    background: linear-gradient(to bottom, transparent, var(--bg-light));
+}
+
+body.light-mode .hero-image.active {
+    opacity: 0.6;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+    line-height: 1.5;
+}
+
+/* Navigation */
+.navbar {
+    background-color: var(--bg-darker);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+}
+
+.nav-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.logo-icon {
+    color: var(--primary-color);
+}
+
+.search-bar {
+    position: relative;
+    max-width: 32rem;
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 0.5rem 2.5rem 0.5rem 1rem;
+    background-color: #374151;
+    border: none;
+    border-radius: 0.5rem;
+    color: var(--text-light);
+}
+
+.search-bar input:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: -2px;
+}
+
+.search-icon {
+    position: absolute;
+    right: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-gray);
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    color: var(--text-light);
+    cursor: pointer;
+    padding: 0.25rem;
+}
+
+.icon-button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.icon-button:hover {
+    color: var(--primary-color);
+    transform: scale(1.1); /* تأثير تكبير عند التمرير */
+}
+
+/* Dark/Light mode toggle */
+body.dark-mode {
+    background-color: #121212;
+    color: #fff;
+}
+
+body.light-mode {
+    background-color: #ffffff;
+    color: #000;
+}
+
+#themeToggle {
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+/* Style for the theme icon */
+#themeIcon {
+    transition: transform 0.3s ease;
+}
+
+
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 60vh;
+    background: linear-gradient(to bottom, transparent, var(--bg-dark));
+    margin-top: 5rem;
+    overflow: hidden;
+}
+
+
+.slideshow {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.hero-image.active {
+    opacity: 0.4;
+}
+
+.hero-content {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 2rem;
+    max-width: 36rem;
+    z-index: 1;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.primary-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.primary-button:hover {
+    background-color: #dc2626;
+}
+
+.hero-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    transform: translateY(-50%);
+}
+
+.control {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background 0.2s;
+}
+
+.control:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.hero-indicators {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 0.5rem;
+    z-index: 2;
+}
+
+.indicator {
+    width: 10px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    transition: background 0.2s;
+}
+
+.indicator.active {
+    background: white;
+}
+
+/* Featured Section */
+.featured {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
+}
+
+.section-header h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.filter-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.text-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    background: none;
+    border: none;
+    color: var(--primary-color);
+    cursor: pointer;
+    padding: 0.25rem;
+}
+/* Anime day */
+.anime-day-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+.anime-day-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.anime-day-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+/* Anime Grid */
+.anime-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.anime-card {
+    background-color: var(--bg-darker);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.anime-card:hover {
+    transform: scale(1.05);
+}
+
+.anime-image {
+    position: relative;
+}
+
+.anime-image img {
+    width: 100%;
+    height: 16rem;
+    object-fit: cover;
+}
+
+.rating {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background-color: var(--primary-color);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.anime-info {
+    padding: 1rem;
+}
+
+.anime-info h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.anime-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.anime-meta span {
+    color: var(--text-gray);
+}
+
+.watch-button {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.watch-button:hover {
+    background-color: #dc2626;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .search-bar {
+        width: 100%;
+        margin: 0;
+    }
+
+    .hero-content {
+        padding: 1rem;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .section-header {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-start;
+       margin-top: 12rem;
+    }
+}
