@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../../../CSS/style.css">
 </head>
 <body>
-    <div id="navbar-container"></div>>
+    <div id="navbar-container"></div>
 
     <!-- Content -->
     <div class="container">
@@ -46,6 +46,25 @@
         const nextBtn = document.getElementById('next-btn');
         const serverButtonsContainer = document.getElementById('server-buttons-container');
 
+        // استخراج معلمات URL
+        function getQueryParam(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+
+        // تعيين الحلقة بناءً على معلمة URL
+        function setEpisodeFromURL() {
+            const episodeParam = getQueryParam('episode');
+            if (episodeParam) {
+                const episodeIndex = parseInt(episodeParam, 10) - 1; // الفهرس يبدأ من 0
+                if (episodeIndex >= 0 && episodeIndex < episodes.length) {
+                    playEpisode(episodeIndex);
+                } else {
+                    console.warn('رقم الحلقة غير صالح');
+                }
+            }
+        }
+
         // تحميل البيانات من ملف JSON
         function loadEpisodesData() {
             fetch('../episodes.json')
@@ -53,7 +72,7 @@
                 .then(data => {
                     episodes = data;
                     loadEpisodes();
-                    updatePlayer();
+                    setEpisodeFromURL(); // تعيين الحلقة بناءً على الرابط
                 })
                 .catch(error => console.error('Error loading episodes data:', error));
         }
@@ -132,14 +151,15 @@
         prevBtn.addEventListener('click', () => navigateEpisode(-1));
         nextBtn.addEventListener('click', () => navigateEpisode(1));
 
+        // تحميل البيانات عند بدء الصفحة
         window.onload = loadEpisodesData;
     </script>
 
-         <!-- تحميل الشريط العلوي من ملف -->
-         <script>
-            fetch('../../../navbar.html')
-                .then(response => response.text())
-                .then(data => document.getElementById('navbar-container').innerHTML = data);
-        </script>
+    <!-- تحميل الشريط العلوي من ملف -->
+    <script>
+        fetch('../../../navbar.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('navbar-container').innerHTML = data);
+    </script>
 </body>
 </html>
