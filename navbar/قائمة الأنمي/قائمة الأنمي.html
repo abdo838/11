@@ -15,12 +15,12 @@
    <!--  احدث حلقات  -->
    <main>
     <div class="section-header">
-        <h1> احدث حلقات   </h1>
+        <h1> قائمة الأنمي</h1>
     </div>
     <div class="anime-grid" id="animeGrid"></div>
    <script>
        // تحميل قائمة الصفحات من JSON
-       fetch('الجديد.json')
+       fetch('قائمة الأنمي.json')
            .then(response => response.json())
            .then(pages => {
                const animeGrid = document.getElementById('animeGrid');
