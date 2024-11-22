@@ -1,0 +1,76 @@
+[
+    {
+        "number": 1,
+        "title": "الحلقة 1",
+        "link": "../episodes/المشاهده.html?episode=1",
+        "image": "../../../images/Love-Live-Superstar-3rd-Season.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1ycsUdXe4x4Te5ZJBogUFPmZs3MJCeKnl/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=863168775&id=456240035&hash=f5cdabb6c0d073e0" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=nFrRjRMiRjjdPugu" }
+        ]
+    },
+    {
+        "number": 2,
+        "title": "الحلقة 2",
+        "link": "../episodes/المشاهده.html?episode=2",
+        "image": "../../../images/Love-Live-Superstar-3rd-Season.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1Ir8cz9C8LgHlUSdMgu5GQZdNqLw_CMut/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=863168775&id=456240061&hash=dfe0cb8d95d13e39" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=tRisCE1sYd55sUUi" }
+        ]
+    },
+    {
+        "number": 3,
+        "title": "الحلقة 3",
+        "link": "../episodes/المشاهده.html?episode=3",
+        "image": "../../../images/Love-Live-Superstar-3rd-Season.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1joIph574mBsM5xTyYRT5B7P55Zbya6XZ/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=863168775&id=456240084&hash=3d14cca1dd8e25d3" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=iAmKS2Wlttpo5T8o" }
+        ]
+    },
+    {
+        "number": 4,
+        "title": "الحلقة 4",
+        "link": "../episodes/المشاهده.html?episode=4",
+        "image": "../../../images/Love-Live-Superstar-3rd-Season.jpg",
+        "servers": [
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=zorSYDL5HpA7cGKb" }
+        ]
+    },
+    {
+        "number": 5,
+        "title": "الحلقة 5",
+        "link": "../episodes/المشاهده.html?episode=5",
+        "image": "../../../images/Love-Live-Superstar-3rd-Season.jpg",
+        "servers": [
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=jv0cKWH3TILHqqXj" }
+        ]
+    },
+    {
+        "number": 6,
+        "title": "الحلقة 6",
+        "link": "../episodes/المشاهده.html?episode=6",
+        "image": "../../../images/Love-Live-Superstar-3rd-Season.jpg",
+        "servers": [
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=IMDbITdkiXpvmA07" }
+        ]
+    },
+    {
+        "number": 7,
+        "title": "الحلقة 7",
+        "link": "../episodes/المشاهده.html?episode=7",
+        "image": "../../../images/Love-Live-Superstar-3rd-Season.jpg",
+        "servers": [
+            { "serverName": "سيرفرات متعددة", "url": "https://megamax.me/iframe/CuSWjBH2Sva1Y" },
+            { "serverName": "vidmoly", "url": "https://vidmoly.to/embed-cdtteb4dk8lm.html" },
+            { "serverName": "uqload", "url": "https://uqload.net/embed-ft8vr0ew9phi.html" },
+            { "serverName": "ok.ru", "url": "https://www.ok.ru/videoembed/8016029289178" },
+            { "serverName": "Mp4upload", "url": "https://www.mp4upload.com/embed-e3ve1ttflrwk.html" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/j3ATUSpb!jUFK-rwJ81Rlj3Sgv08Me_vW7FfLqP4CQRB2yOikP2o" }
+        ]
+    }
+]

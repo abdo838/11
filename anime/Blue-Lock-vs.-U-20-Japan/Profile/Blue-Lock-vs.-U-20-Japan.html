@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Piece - تعريف الأنمي</title>
+    <link rel="stylesheet" href="../../../CSS/Profile.css">
+    <link rel="stylesheet" href="../../../CSS/style.css">
+</head>
+
+<body>
+    <div id="navbar-container"></div>
+    <div class="container">
+        <h1 class="anime-title">Blue-Lock-vs.-U-20-Japan</h1>
+        <div class="content-wrapper">
+            <div class="anime-image">
+                <img src="../../../images/Blue-Lock-vs.-U-20-Japan.jpg" alt="صورة أنمي Blue-Lock-vs.-U-20-Japan">
+            </div>
+            <div class="anime-info">
+                <div class="info-item">
+                    <strong>التصنيف:</strong> أكشن، كوميدي، خارق للعادة، شونين
+                </div>
+                <div class="info-item">
+                    <strong>النوع:</strong> TV
+                </div>
+                <div class="info-item">
+                    <strong>بداية العرض:</strong> 2024
+                </div>
+                <div class="info-item">
+                    <strong>حالة الأنمي:</strong> يعرض الآن
+                </div>
+                <div class="info-item">
+                    <strong>عدد الحلقات:</strong> 14
+                </div>
+                <div class="info-item">
+                    <strong>مدة الحلقة:</strong> 24 دقيقة
+                </div>
+                <div class="info-item">
+                    <strong>الموسم:</strong> خريف 2024
+                </div>
+                <div class="info-item">
+                    <strong>المصدر:</strong> مانجا
+                </div>
+            </div>
+        </div>
+        <div class="story">
+            <h2>القصة:</h2>
+            <p>
+                بعد أن تم رفضها بشكل عدواني، تجد “مومو أياسي” نفسها تتذمر عندما تعثر على فتى يتعرض للتنمر.
+                يتم إنقاذه بفضل لُطفها الجارف، ليحاول الفتى المهووس بالأمور الخارقة التحدث معها حول اهتماماته الخارقة
+                التي يعتقد أنهما يشتركان فيها. رفضت “أياسي” تلك المزاعم، وأعلنت أنها بدلاً من ذلك تؤمن بالأشباح، مما
+                أدى إلى نشوب جدال بينهما حول أيهما هو الحقيقي. في محاولة لتحديد الصحيح، قرر الاثنان زيارة أماكن تتعلق
+                بالأمور الخارقة والخارقة لكل منهما بشكل منفصل، “أياسي” تزور الأماكن المرتبطة بالفضائيين، بينما يزور
+                الفتى الأماكن المرتبطة بالأشباح. وعندما يصل الاثنان إلى أماكنهما المختارة، يتضح أن أيًا منهما لم يكن
+                مخطئًا، وأن كل من الأمور الخارقة، الفضائيين والأشباح، حقيقية! وبهذا تبدأ مغامرة “أياسي” والفتى، حيث
+                يحاولون إصلاح العناصر الخارقة والخيالية من حولهم للعودة إلى حياة طبيعية.
+            </p>
+        </div>
+
+        <div class="episodes-section">
+            <h2>حلقات الأنمي:</h2>
+            <div class="episodes-grid">
+                <!-- الحلقات سيتم إضافتها هنا بواسطة جافا سكربت -->
+            </div>
+            <script>
+                // تحميل الحلقات من ملف JSON
+                fetch('../episodes.json')  <!-- تأكد من المسار الصحيح للملف -->
+                    .then(response => response.json())
+                    .then(episodes => {
+                        const episodesGrid = document.querySelector('.episodes-grid');
+            
+                        // إنشاء الحلقات ديناميكيًا
+                        episodes.forEach(episode => {
+                            const episodeItem = document.createElement('a');
+                            episodeItem.className = 'episode-item';
+                            episodeItem.href = episode.link;
+            
+                            episodeItem.innerHTML = `
+                                <img src="${episode.image}" alt="الحلقة ${episode.number}">
+                                <div class="episode-number">الحلقة ${episode.number}</div>
+                            `;
+            
+                            episodesGrid.appendChild(episodeItem);
+                        });
+                    })
+                    .catch(error => console.error('خطأ في تحميل الحلقات:', error));
+            </script>    
+        </div>
+    </div>
+
+         <!-- تحميل الشريط العلوي من ملف -->
+         <script>
+            fetch('../../../navbar.html')
+                .then(response => response.text())
+                .then(data => document.getElementById('navbar-container').innerHTML = data);
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+:root {
+    --primary-color: #ef4444;
+    --bg-dark: #111827;
+    --bg-darker: #1f2937;
+    --text-light: #ffffff;
+    --text-gray: #9ca3af;
+
+    --bg-light: #ffffff;
+    --text-dark: #000000;
+    --text-gray-dark: #4b5563;
+
+    
+}
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background-color: var( --bg-darker);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+
+        .anime-title {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: var(--text-light);
+        }
+
+        .content-wrapper {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+        }
+
+        .anime-image {
+            flex-shrink: 0;
+        }
+
+        .anime-image img {
+            width: 230px;
+            height: 328px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+            object-fit: cover;
+        }
+
+        .anime-info {
+            flex-grow: 1;
+        }
+
+        .info-item {
+            margin-bottom: 10px;
+        }
+
+        .info-item strong {
+            color: #2980b9;
+        }
+
+        .info-item a {
+            color: #e74c3c;
+            text-decoration: none;
+        }
+
+        .info-item a:hover {
+            text-decoration: underline;
+        }
+
+        .story {
+            margin-top: 20px;
+        }
+
+        .story h2 {
+            color: var(--text-light);
+            font-size: 1.5em;
+        }
+
+        .story p {
+            text-align: justify;
+        }
+
+        .episodes-section {
+            margin-top: 20px;
+        }
+
+        .episodes-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+            gap: 15px;
+        }
+
+        .episode-item {
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+            background: #fff;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .episode-item img {
+            width: 100%;
+            height: 175px;
+            object-fit: cover;
+        }
+
+        .episode-number {
+            background: #2980b9;
+            color: #fff;
+            font-size: 14px;
+            padding: 5px 0;
+            font-weight: bold;
+        }
+
+        .episode-number:hover {
+            background: #3498db;
+        }
