@@ -113,12 +113,13 @@
 
    <!-- Auto slideshow-->
    <script>
-   document.addEventListener("DOMContentLoaded", () => {
+  document.addEventListener("DOMContentLoaded", () => {
     const slidesContainer = document.querySelector(".slideshow");
     const indicatorsContainer = document.querySelector(".hero-indicators");
     const heroContent = document.querySelector(".hero-content");
     let currentSlide = 0;
     let slidesData = [];
+    let autoSlideInterval;
 
     // جلب بيانات الشريحة من ملف JSON
     fetch('slider.json')
@@ -147,11 +148,15 @@
             const indicator = document.createElement("span");
             indicator.classList.add("indicator");
             if (index === 0) indicator.classList.add("active");
-            indicator.addEventListener("click", () => showSlide(index));
+            indicator.addEventListener("click", () => {
+                resetAutoSlide(); // إعادة تعيين العداد
+                showSlide(index);
+            });
             indicatorsContainer.appendChild(indicator);
         });
 
         updateContent();
+        startAutoSlide();
     }
 
     function showSlide(index) {
@@ -190,18 +195,27 @@
     nextButton.addEventListener("click", () => {
         currentSlide = (currentSlide + 1) % slidesData.length;
         updateSlides();
+        resetAutoSlide(); // إعادة تعيين العداد عند الضغط
     });
 
     prevButton.addEventListener("click", () => {
         currentSlide = (currentSlide - 1 + slidesData.length) % slidesData.length;
         updateSlides();
+        resetAutoSlide(); // إعادة تعيين العداد عند الضغط
     });
 
     // تغيير الصور تلقائيًا
-    setInterval(() => {
-        currentSlide = (currentSlide + 1) % slidesData.length;
-        updateSlides();
-    }, 5000); // تغيير الصورة كل 5 ثوانٍ
+    function startAutoSlide() {
+        autoSlideInterval = setInterval(() => {
+            currentSlide = (currentSlide + 1) % slidesData.length;
+            updateSlides();
+        }, 5000); // تغيير الصورة كل 5 ثوانٍ
+    }
+
+    function resetAutoSlide() {
+        clearInterval(autoSlideInterval); // إيقاف العداد الحالي
+        startAutoSlide(); // بدء عداد جديد
+    }
 });
 
     </script>
