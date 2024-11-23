@@ -1,7 +1,3 @@
-:root {
-    --bg-darker: #1f2937;
-}
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -27,31 +23,25 @@ ul {
     padding: 0;
 }
 
-#history-list {
-    background-color: var(--bg-darker); /* تطبيق المتغير هنا */
-    color: white; /* تغيير اللون ليكون مناسب مع الخلفية */
-    padding: 10px;
-    border-radius: 5px;
-}
 
 ul li {
-    background: #ffffff;
+    background: #202936;
     margin: 10px 0;
     padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    border: 9px solid #000000;
+    border-radius: 40px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 button {
-    padding: 10px 15px;
+    padding: 20px 30px;
     margin: 5px;
     background-color: #6200ea;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 40px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 button:hover {
