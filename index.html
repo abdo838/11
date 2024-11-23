@@ -132,13 +132,13 @@
     slidesData.forEach((slide, index) => {
         // Create a link element
         const link = document.createElement("a");
-        link.href = slide.link; // الرابط الخاص بالصورة
+        link.href = slide.link; // استخدام الرابط الصحيح لكل صورة
         link.target = "_blank"; // يفتح الرابط في نافذة جديدة
 
         // Create an image element
         const img = document.createElement("img");
         img.src = slide.image;
-        img.alt = `Slide ${index + 1}`;
+        img.alt = slide.description; // نص بديل للصورة
         img.classList.add("hero-image");
         if (index === 0) img.classList.add("active");
 
@@ -153,6 +153,7 @@
         indicator.addEventListener("click", () => showSlide(index));
         indicatorsContainer.appendChild(indicator);
     });
+
 }
 
     
