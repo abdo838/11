@@ -1,0 +1,83 @@
+[
+    {
+        "number": 1,
+        "title": "الحلقة 1",
+        "link": "../episodes/الحلقة1.html?episode=1",
+        "image": "../../../images/Bleach-Sennen-Kessen-hen-Soukoku-tan.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1FWoGbuYgXN0Ql9j6t1WYAK-X6Gx1PUPW/preview" },
+            { "serverName": "OK", "url": "https://ok.ru/videoembed/7732573571782" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=863168775&id=456240009&hash=28c5c3d797fca65c" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/WV53QDqI#51Di5eGwADSCtEv9Ox5w1mkRQZl8d0is-hf-W_7PuiU" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/H3Ts5Z74N4Kuo" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=zgtY7MJf045cHrkq" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5703361&share=1" }
+        ]
+    },
+    {
+        "number": 2,
+        "title": "الحلقة 2",
+        "link": "../episodes/الحلقة1.html?episode=2",
+        "image": "../../../images/Bleach-Sennen-Kessen-hen-Soukoku-tan.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1YzymWL5B5WQThIJIxZnD6YtG6EXEoTUj/preview" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/vRIRhSAI#0GKQg4ABMEI0BYMlMYQ5dmB53mi0z_PBVwjPaBL8h8s" }
+        ]
+    },
+    {
+        "number": 3,
+        "title": "الحلقة 3",
+        "link": "../episodes/الحلقة1.html?episode=3",
+        "image": "../../../images/Bleach-Sennen-Kessen-hen-Soukoku-tan.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1I8RlYt8HpId_c83oFuo4r5eRfo9Yzwp7/preview" },
+            { "serverName": "OK", "url": "https://ok.ru/videoembed/7818560801478?nochat=1" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/IwEO8DeSPct5V" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/uzxTFCZB#BakJwPDmKpDralOF3VvFmTYUffCdIVIgDAhCImNxWfY" },
+            { "serverName": "Mail", "url": "https://my.mail.ru/video/embed/4752585637503178720" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=emYWjoZ6DWlzwUnB" },
+            { "serverName": "4shared", "url": "https://www.4shared.com/web/embed/file/dkMr1vdgku" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5722028&share=1" }
+        ]
+    },
+    {
+        "number": 4,
+        "title": "الحلقة 4",
+        "link": "../episodes/الحلقة1.html?episode=4",
+        "image": "../../../images/Bleach-Sennen-Kessen-hen-Soukoku-tan.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1BYtIzLHJiZ-9ZpK91LkesrYgH-7me13a/preview" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/yAYAhSYT#OxU1FLEZBAR0gAhW7F0VF9tYFKM4M0AfihJ0N04HCXw" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/hUz5qUP99mpde" },
+            { "serverName": "Mail", "url": "https://my.mail.ru/video/embed/4752585637503178773" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=4KbAi8HNZFVhY499" },
+            { "serverName": "4shared", "url": "https://www.4shared.com/web/embed/file/s1lMzw8oge" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5730684&share=1" }
+        ]
+    },
+    {
+        "number": 5,
+        "title": "الحلقة 5",
+        "link": "../episodes/الحلقة1.html?episode=5",
+        "image": "../../../images/Bleach-Sennen-Kessen-hen-Soukoku-tan.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1sBdveqDtzIz34iKtQxHG8e7ePZzFsQi5/preview" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/vAhkwSDS#FqU8Z_Uy7Z3Go_LY6mS_wfdW6Gg8R-eE1YXGNLX5bnc" },
+            { "serverName": "4shared", "url": "https://www.4shared.com/web/embed/file/aVdr7V1Mku" }
+        ]
+    },
+    {
+        "number": 6,
+        "title": "الحلقة 6",
+        "link": "../episodes/الحلقة1.html?episode=6",
+        "image": "../../../images/Bleach-Sennen-Kessen-hen-Soukoku-tan.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1Kkpt-EPh1S75vzFKvqZwDVEfkcpr0yIT/preview" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/HUZlFRJL#8HefHRpxH-C2voqPW8zpjaDB3XcGaOC9YSPeQ3CEyqU" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/k178PW9oGRhFk" },
+            { "serverName": "Mail", "url": "https://my.mail.ru/video/embed/4752585637503178884" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=S32IJw3Nn8oxkRnx" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5746366&share=1" }
+        ]
+    }
+]
