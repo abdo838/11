@@ -1,9 +1,14 @@
+:root {
+    --bg-darker: #1f2937;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
     color: #333;
+    margin-top: 6rem;
 }
 
 header {
@@ -20,6 +25,13 @@ main {
 ul {
     list-style: none;
     padding: 0;
+}
+
+#history-list {
+    background-color: var(--bg-darker); /* تطبيق المتغير هنا */
+    color: white; /* تغيير اللون ليكون مناسب مع الخلفية */
+    padding: 10px;
+    border-radius: 5px;
 }
 
 ul li {
@@ -44,4 +56,11 @@ button {
 
 button:hover {
     background-color: #3700b3;
+}
+
+@media (max-width: 768px) {
+    header {
+    
+            margin-top: 13rem;
+    } 
 }
