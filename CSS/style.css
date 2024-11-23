@@ -155,16 +155,6 @@ body.light-mode {
     overflow: hidden;
 }
 
-.slideshow a {
-    display: none;
-    position: absolute;
-    width: 100%;
-    height: auto;
-}
-
-.slideshow a.active {
-    display: block;
-}
 
 .slideshow {
     position: absolute;
