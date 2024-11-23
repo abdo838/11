@@ -8,7 +8,6 @@ body {
     padding: 0;
     background-color: #f9f9f9;
     color: #333;
-    margin-top: 6rem;
 }
 
 header {
@@ -16,6 +15,7 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
+    margin-top: 6rem;
 }
 
 main {
