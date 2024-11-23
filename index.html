@@ -113,92 +113,97 @@
 
    <!-- Auto slideshow-->
    <script>
-    document.addEventListener("DOMContentLoaded", () => {
-        const slidesContainer = document.querySelector(".slideshow");
-        const indicatorsContainer = document.querySelector(".hero-indicators");
-        let currentSlide = 0;
-        let slidesData = [];
-    
-        // Load slider data from slider.json
-        fetch('slider.json')
-            .then(response => response.json())
-            .then(data => {
-                slidesData = data;
-                initializeSlider();
-            })
-            .catch(error => console.error("Error loading slider data:", error));
-    
-            function initializeSlider() {
-    slidesData.forEach((slide, index) => {
-        // Create a link element
-        const link = document.createElement("a");
-        link.href = slide.link; // استخدام الرابط الصحيح لكل صورة
-        link.target = "_blank"; // يفتح الرابط في نافذة جديدة
+   document.addEventListener("DOMContentLoaded", () => {
+    const slidesContainer = document.querySelector(".slideshow");
+    const indicatorsContainer = document.querySelector(".hero-indicators");
+    const heroContent = document.querySelector(".hero-content");
+    let currentSlide = 0;
+    let slidesData = [];
 
-        // Create an image element
-        const img = document.createElement("img");
-        img.src = slide.image;
-        img.alt = slide.description; // نص بديل للصورة
-        img.classList.add("hero-image");
-        if (index === 0) img.classList.add("active");
+    // جلب بيانات الشريحة من ملف JSON
+    fetch('slider.json')
+        .then(response => response.json())
+        .then(data => {
+            slidesData = data;
+            initializeSlider();
+        })
+        .catch(error => console.error("Error loading slider data:", error));
 
-        // Append the image to the link, and the link to the slides container
-        link.appendChild(img);
-        slidesContainer.appendChild(link);
+    function initializeSlider() {
+        slidesData.forEach((slide, index) => {
+            const link = document.createElement("a");
+            link.href = slide.link;
+            link.target = "_blank";
 
-        // Create indicator
-        const indicator = document.createElement("span");
-        indicator.classList.add("indicator");
-        if (index === 0) indicator.classList.add("active");
-        indicator.addEventListener("click", () => showSlide(index));
-        indicatorsContainer.appendChild(indicator);
-    });
+            const img = document.createElement("img");
+            img.src = slide.image;
+            img.alt = slide.description;
+            img.classList.add("hero-image");
+            if (index === 0) img.classList.add("active");
 
-}
+            link.appendChild(img);
+            slidesContainer.appendChild(link);
 
-    
-        function showSlide(index) {
-            currentSlide = index;
-            updateSlides();
-        }
-    
-        function updateSlides() {
-    const slides = document.querySelectorAll(".hero-image");
-    const indicators = document.querySelectorAll(".indicator");
-
-    slides.forEach((slide, index) => {
-        if (index === currentSlide) {
-            slide.classList.add("active");
-        } else {
-            slide.classList.remove("active");
-        }
-    });
-
-    indicators.forEach((indicator, index) => {
-        indicator.classList.toggle("active", index === currentSlide);
-    });
-}
-
-    
-        const nextButton = document.querySelector(".control.next");
-        const prevButton = document.querySelector(".control.prev");
-    
-        nextButton.addEventListener("click", () => {
-            currentSlide = (currentSlide + 1) % slidesData.length;
-            updateSlides();
+            const indicator = document.createElement("span");
+            indicator.classList.add("indicator");
+            if (index === 0) indicator.classList.add("active");
+            indicator.addEventListener("click", () => showSlide(index));
+            indicatorsContainer.appendChild(indicator);
         });
-    
-        prevButton.addEventListener("click", () => {
-            currentSlide = (currentSlide - 1 + slidesData.length) % slidesData.length;
-            updateSlides();
+
+        updateContent();
+    }
+
+    function showSlide(index) {
+        currentSlide = index;
+        updateSlides();
+    }
+
+    function updateSlides() {
+        const slides = document.querySelectorAll(".hero-image");
+        const indicators = document.querySelectorAll(".indicator");
+
+        slides.forEach((slide, index) => {
+            slide.classList.toggle("active", index === currentSlide);
         });
-    
-        // Auto slideshow
-        setInterval(() => {
-            currentSlide = (currentSlide + 1) % slidesData.length;
-            updateSlides();
-        }, 5000); // تغيير الصورة كل 5 ثوانٍ
+
+        indicators.forEach((indicator, index) => {
+            indicator.classList.toggle("active", index === currentSlide);
+        });
+
+        updateContent();
+    }
+
+    function updateContent() {
+        heroContent.innerHTML = `
+            <h1>${slidesData[currentSlide].description}</h1>
+            <a href="${slidesData[currentSlide].link}" class="primary-button" target="_blank">
+                شاهد الآن
+            </a>
+        `;
+    }
+
+    // التحكم في الأزرار
+    const nextButton = document.querySelector(".control.next");
+    const prevButton = document.querySelector(".control.prev");
+
+    nextButton.addEventListener("click", () => {
+        currentSlide = (currentSlide + 1) % slidesData.length;
+        updateSlides();
     });
+
+    prevButton.addEventListener("click", () => {
+        currentSlide = (currentSlide - 1 + slidesData.length) % slidesData.length;
+        updateSlides();
+    });
+
+    // تغيير الصور تلقائيًا
+    setInterval(() => {
+        currentSlide = (currentSlide + 1) % slidesData.length;
+        updateSlides();
+    }, 5000); // تغيير الصورة كل 5 ثوانٍ
+});
+
     </script>
     
 
