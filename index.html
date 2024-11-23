@@ -194,8 +194,13 @@
             .then(response => response.text())
             .then(data => document.getElementById('navbar-container').innerHTML = data);
     </script>
-
-    
+    <div id="test-test"></div>
+<script>
+    // تحميل الشريط العلوي من ملف navbar.html
+    fetch('test/سجل المشاهدة.HTML')
+        .then(response => response.text())
+        .then(data => document.getElementById('test-test').innerHTML = data);
+</script>
 
 
 </body>
