@@ -11,7 +11,7 @@
 </head>
 <body>
     <div id="navbar-container"></div>
-    
+
     <header>
         <h1>سجل المشاهدة</h1>
     </header>
@@ -33,7 +33,7 @@
 
     <!-- تحميل الشريط العلوي من ملف -->
     <script>
-        fetch('navbar.html')
+        fetch('../navbar.html')
             .then(response => response.text())
             .then(data => document.getElementById('navbar-container').innerHTML = data);
     </script>
