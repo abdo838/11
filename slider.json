@@ -1,17 +1,17 @@
 [
     {
-        "image": "images/episodes_One_Piece.png",
+        "image": "images/Bleach-Sennen-Kessen-hen-Soukoku-tan.jpg",
         "description": "شاهد أحدث وأفضل مسلسلات الانمي مترجمة بجودة عالية",
-        "link": "start-watching.html"
+        "link": "anime/Bleach-Sennen-Kessen-hen-Soukoku-tan/Profile/Bleach-Sennen-Kessen-hen-Soukoku-tan.html"
     },
     {
         "image": "images/Blue-Lock-vs.-U-20-Japan.jpg",
         "description": "استمتع بأحدث الحلقات من الأنميات المفضلة لديك",
-        "link": "anime-list.html"
+        "link": "anime/Blue-Lock-vs.-U-20-Japan/Profile/Blue-Lock-vs.-U-20-Japan.html"
     },
     {
         "image": "images/Dandadan.jpg",
         "description": "تابع أفضل الأنميات لهذا الموسم",
-        "link": "seasonal-anime.html"
+        "link": "anime/Dandadan/Profile/Dandadan.html"
     }
 ]
