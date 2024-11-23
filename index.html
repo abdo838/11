@@ -13,6 +13,18 @@
     
        
     
+    <!-- Hero Section -->
+
+    <header class="hero">
+        <div class="slideshow"></div>
+        <div class="hero-controls">
+            <button class="control prev">&lt;</button>
+            <button class="control next">&gt;</button>
+        </div>
+        <div class="hero-indicators"></div>
+        <div class="hero-content">
+        </div>
+    </header>
     
         
         <!-- قسم مميز -->
@@ -99,7 +111,89 @@
    </main>
 
 
+   <!-- Auto slideshow-->
+   <script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const slidesContainer = document.querySelector(".slideshow");
+        const indicatorsContainer = document.querySelector(".hero-indicators");
+        let currentSlide = 0;
+        let slidesData = [];
+    
+        // Load slider data from slider.json
+        fetch('slider.json')
+            .then(response => response.json())
+            .then(data => {
+                slidesData = data;
+                initializeSlider();
+            })
+            .catch(error => console.error("Error loading slider data:", error));
+    
+            function initializeSlider() {
+    slidesData.forEach((slide, index) => {
+        // Create a link element
+        const link = document.createElement("a");
+        link.href = slide.link; // الرابط الخاص بالصورة
+        link.target = "_blank"; // يفتح الرابط في نافذة جديدة
 
+        // Create an image element
+        const img = document.createElement("img");
+        img.src = slide.image;
+        img.alt = `Slide ${index + 1}`;
+        img.classList.add("hero-image");
+        if (index === 0) img.classList.add("active");
+
+        // Append the image to the link, and the link to the slides container
+        link.appendChild(img);
+        slidesContainer.appendChild(link);
+
+        // Create indicator
+        const indicator = document.createElement("span");
+        indicator.classList.add("indicator");
+        if (index === 0) indicator.classList.add("active");
+        indicator.addEventListener("click", () => showSlide(index));
+        indicatorsContainer.appendChild(indicator);
+    });
+}
+
+    
+        function showSlide(index) {
+            currentSlide = index;
+            updateSlides();
+        }
+    
+        function updateSlides() {
+            const slides = document.querySelectorAll(".hero-image");
+            const indicators = document.querySelectorAll(".indicator");
+    
+            slides.forEach((slide, index) => {
+                slide.classList.toggle("active", index === currentSlide);
+            });
+    
+            indicators.forEach((indicator, index) => {
+                indicator.classList.toggle("active", index === currentSlide);
+            });
+        }
+    
+        const nextButton = document.querySelector(".control.next");
+        const prevButton = document.querySelector(".control.prev");
+    
+        nextButton.addEventListener("click", () => {
+            currentSlide = (currentSlide + 1) % slidesData.length;
+            updateSlides();
+        });
+    
+        prevButton.addEventListener("click", () => {
+            currentSlide = (currentSlide - 1 + slidesData.length) % slidesData.length;
+            updateSlides();
+        });
+    
+        // Auto slideshow
+        setInterval(() => {
+            currentSlide = (currentSlide + 1) % slidesData.length;
+            updateSlides();
+        }, 5000); // تغيير الصورة كل 5 ثوانٍ
+    });
+    </script>
     
 
 
