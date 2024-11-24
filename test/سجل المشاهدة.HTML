@@ -1,37 +1,36 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>سجل الصفحات</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            direction: rtl;
-            text-align: right;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        h1 {
-            color: #333;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            background: #fff;
-            margin: 5px 0;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-        }
-    </style>
+    <title>سجل التنقل</title>
+    <link rel="stylesheet" href="سحل.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="../navbar/navbar.js"defer></script>
+    <script src="../RS.js" defer></script>
 </head>
 <body>
-    <h1>سجل الصفحات</h1>
-    <ul id="history-list"></ul>
+    <div id="navbar-container"></div>
+    
+    <header>
+        <h1>سجل المشاهدة</h1>
+    </header>
+    <main>
+        <div>
+            <button id="clear-history">مسح السجل</button>
+            <button id="reverse-history">عكس الترتيب</button>
+        </div>
+        <ul id="history-list">
+            <!-- سيتم إدراج السجل هنا بواسطة JavaScript -->
+        </ul>
+    </main>
 
-    <script src="../RS.js" defer></script>
+    <!-- تحميل الشريط العلوي من ملف -->
+    <script>
+        fetch('../navbar.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('navbar-container').innerHTML = data);
+    </script>
+    
 </body>
 </html>

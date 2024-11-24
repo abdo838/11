@@ -1,36 +1,53 @@
-// الدالة لتحديث سجل الصفحات
-function updateHistory() {
-    const pageTitle = document.title;
-    const pageUrl = window.location.href;
 
-    // جلب السجل الحالي من LocalStorage
-    let history = JSON.parse(localStorage.getItem("pageHistory")) || [];
 
-    // إضافة الصفحة الحالية للسجل
-    history.push({ title: pageTitle, url: pageUrl });
+const historyKey = "browsingHistory";
 
-    // تخزين السجل المحدث
-    localStorage.setItem("pageHistory", JSON.stringify(history));
+// الحصول على السجل الموجود أو إنشاء سجل جديد
+let history = JSON.parse(localStorage.getItem(historyKey)) || [];
 
-    // عرض السجل في الصفحة
-    displayHistory(history);
+// إضافة الصفحة الحالية إلى السجل
+function addToHistory(pageName) {
+    history.push(pageName);
+    localStorage.setItem(historyKey, JSON.stringify(history));
 }
 
-// الدالة لعرض السجل
-function displayHistory(history) {
+// عرض السجل في الصفحة إذا كان هناك قائمة لعرضه
+function displayHistory() {
     const historyList = document.getElementById("history-list");
-    historyList.innerHTML = "";
+    if (historyList) {
+        historyList.innerHTML = ""; // تفريغ القائمة
 
-    history.forEach((entry) => {
-        const listItem = document.createElement("li");
-        listItem.innerHTML = `<a href="${entry.url}" target="_blank">${entry.title}</a>`;
-        historyList.appendChild(listItem);
-    });
+        if (history.length === 0) {
+            historyList.innerHTML = "<li>لا يوجد سجل حتى الآن</li>";
+        } else {
+            history.forEach((page) => {
+                const listItem = document.createElement("li");
+                listItem.textContent = page;
+                historyList.appendChild(listItem);
+            });
+        }
+    }
 }
 
-// عند تحميل الصفحة، تحديث السجل وعرضه
-window.onload = () => {
-    const history = JSON.parse(localStorage.getItem("pageHistory")) || [];
-    displayHistory(history);
-    updateHistory();
-};
+// مسح السجل
+function clearHistory() {
+    history = []; // إفراغ السجل في الذاكرة
+    localStorage.removeItem(historyKey); // إزالة السجل من localStorage
+    displayHistory(); // تحديث العرض
+}
+
+// عكس ترتيب السجل
+function reverseHistory() {
+    history.reverse(); // عكس ترتيب المصفوفة
+    localStorage.setItem(historyKey, JSON.stringify(history)); // تحديث localStorage
+    displayHistory(); // تحديث العرض
+}
+
+// إضافة الأحداث للزرين
+document.getElementById("clear-history").addEventListener("click", clearHistory);
+document.getElementById("reverse-history").addEventListener("click", reverseHistory);
+
+// عند تحميل الصفحة
+const currentPage = document.title || "صفحة غير معنونة";
+addToHistory(currentPage); // إضافة الصفحة الحالية
+displayHistory(); // عرض السجل
