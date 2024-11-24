@@ -1,0 +1,99 @@
+[
+    {
+        "number": 1,
+        "title": "الحلقة 1",
+        "link": "../episodes/المشاهده.html?episode=1",
+        "image": "../../../images/Shangri-La-Frontier-2nd-Season.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1DlYpd6AbzuHB1lwFZj-cflr8G3kdo06r/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=863168775&id=456240054&hash=d2f35b08d05287b3" },
+            { "serverName": "OK", "url": "https://ok.ru/videoembed/8354883177008?nochat=1" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/uFgH3TZD#AWmY4NP_wiDCev5Sb-3Gyummcw4eLXykXmdmL4Z0cmA" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/f1IhPeZzqqWna" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178667" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=vH4Up1g7P4pWNHNd" },
+            { "serverName": "4Shared", "url": "https://www.4shared.com/web/embed/file/ddERZ-jwfa" }
+        ]
+    },
+    {
+        "number": 2,
+        "title": "الحلقة 2",
+        "link": "../episodes/المشاهده.html?episode=2",
+        "image": "../../../images/Shangri-La-Frontier-2nd-Season.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1mFsDbo0f9lXtBhWSWVLI2D3nMCKXGHST/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=863168775&id=456240077&hash=1adef00def0755b5" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/3UoA3Q4S#A3pWhy9gxa1zZOs8nKwFna8uKW_7dlDH8JDvYxgt7gI" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/6WUm5983g0fxg" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178728" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=ug136al3ULw6JwfP" },
+            { "serverName": "4Shared", "url": "https://www.4shared.com/web/embed/file/akVs7gHxge" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5722943&share=1" }
+        ]
+    },
+    {
+        "number": 3,
+        "title": "الحلقة 3",
+        "link": "../episodes/المشاهده.html?episode=3",
+        "image": "../../../images/Shangri-La-Frontier-2nd-Season.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/10bv26jM6G9pqcFRDaEb9L0qw69TmdUek/preview" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/TYQQ2AaQ#bhX4mTAoFz2VVh1FxwTVb_AhkiHNatgv8Wrzd2mSYw4" },
+            { "serverName": "4Shared", "url": "https://www.4shared.com/web/embed/file/5dvfMx_Hku" }
+        ]
+    },
+    {
+        "number": 4,
+        "title": "الحلقة 4",
+        "link": "../episodes/المشاهده.html?episode=4",
+        "image": "../../../images/Shangri-La-Frontier-2nd-Season.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/125R6ACB3Y1YEra78sdV3gNj7gw742NUC/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240194&hash=1c6280250637db9b" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/kC1iALyQ#PH034zQCIC37KKLsK4tBxjyw7xAXbpL7jqRO6sbZmsk" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/k3ciykWeVZ85Z" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178836" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=JQTiCBQwzjR4s0TP" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5739983&share=1" }
+        ]
+    },
+    {
+        "number": 5,
+        "title": "الحلقة 5",
+        "link": "../episodes/المشاهده.html?episode=5",
+        "image": "../../../images/Shangri-La-Frontier-2nd-Season.jpg",
+        "servers": [
+            { "serverName": "Mega", "url": "https://mega.nz/embed/1WtEFDhR#WpJTYusYMn4Cxggm2T_mvyde3IRAM0VoEkVGMFGrbhI" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/XGVfCFhVxwu7b" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178894" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=fOoyK5kw0GhxrJHN" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5747099&share=1" }
+        ]
+    },
+    {
+        "number": 6,
+        "title": "الحلقة 6",
+        "link": "../episodes/المشاهده.html?episode=6",
+        "image": "../../../images/Shangri-La-Frontier-2nd-Season.jpg",
+        "servers": [
+            { "serverName": "Mega", "url": "https://mega.nz/embed/1WtEFDhR#WpJTYusYMn4Cxggm2T_mvyde3IRAM0VoEkVGMFGrbhI" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/XGVfCFhVxwu7b" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178894" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=fOoyK5kw0GhxrJHN" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5747099&share=1" }
+        ]
+    },
+    {
+        "number": 7,
+        "title": "الحلقة 7",
+        "link": "../episodes/المشاهده.html?episode=7",
+        "image": "../../../images/Shangri-La-Frontier-2nd-Season.jpg",
+        "servers": [
+            { "serverName": "Mega", "url": "https://mega.nz/embed/1WtEFDhR#WpJTYusYMn4Cxggm2T_mvyde3IRAM0VoEkVGMFGrbhI" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/XGVfCFhVxwu7b" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178894" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=fOoyK5kw0GhxrJHN" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5747099&share=1" }
+        ]
+    }
+]
