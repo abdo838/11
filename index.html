@@ -179,14 +179,6 @@
         updateContent();
     }
 
-    function updateContent() {
-        heroContent.innerHTML = `
-            <h1>${slidesData[currentSlide].description}</h1>
-            <a href="${slidesData[currentSlide].link}" class="primary-button" target="_blank">
-                شاهد الآن
-            </a>
-        `;
-    }
 
     // التحكم في الأزرار
     const nextButton = document.querySelector(".control.next");
