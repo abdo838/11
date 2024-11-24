@@ -76,11 +76,11 @@
         "link": "../episodes/المشاهده.html?episode=6",
         "image": "../../../images/Shangri-La-Frontier-2nd-Season.jpg",
         "servers": [
-            { "serverName": "Mega", "url": "https://mega.nz/embed/1WtEFDhR#WpJTYusYMn4Cxggm2T_mvyde3IRAM0VoEkVGMFGrbhI" },
-            { "serverName": "Megamax", "url": "https://megamax.me/iframe/XGVfCFhVxwu7b" },
-            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178894" },
-            { "serverName": "Videa", "url": "https://videa.hu/player?v=fOoyK5kw0GhxrJHN" },
-            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5747099&share=1" }
+            { "serverName": "سيرفرات متعددة", "url": "https://megamax.me/iframe/a8q3lp5oPM8rV" },
+            { "serverName": "vidmoly", "url": "https://vidmoly.to/embed-czmxksr9xkuv.html" },
+            { "serverName": "uqload", "url": "https://uqload.net/embed-pjj9x6ekcf8h.html" },
+            { "serverName": "ok.ru", "url": "https://www.ok.ru/videoembed/7965617490650" },
+            { "serverName": "Mp4upload", "url": "https://www.mp4upload.com/embed-78k956g3giwf.html" }
         ]
     },
     {
@@ -89,11 +89,11 @@
         "link": "../episodes/المشاهده.html?episode=7",
         "image": "../../../images/Shangri-La-Frontier-2nd-Season.jpg",
         "servers": [
-            { "serverName": "Mega", "url": "https://mega.nz/embed/1WtEFDhR#WpJTYusYMn4Cxggm2T_mvyde3IRAM0VoEkVGMFGrbhI" },
-            { "serverName": "Megamax", "url": "https://megamax.me/iframe/XGVfCFhVxwu7b" },
-            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178894" },
-            { "serverName": "Videa", "url": "https://videa.hu/player?v=fOoyK5kw0GhxrJHN" },
-            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5747099&share=1" }
+            { "serverName": "سيرفرات متعددة", "url": "https://megamax.me/iframe/wUmZZkMyIALCE" },
+            { "serverName": "vidmoly", "url": "https://vidmoly.to/embed-4l88jc8llooy.html" },
+            { "serverName": "uqload", "url": "https://uqload.net/embed-xe26yry4pqch.html" },
+            { "serverName": "ok.ru", "url": "https://www.ok.ru/videoembed/8126959651546" },
+            { "serverName": "Mp4upload", "url": "https://www.mp4upload.com/embed-c046wsgpxvq7.html" }
         ]
     }
 ]
