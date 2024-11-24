@@ -1,0 +1,133 @@
+[
+    {
+        "number": 1,
+        "title": "الحلقة 1",
+        "link": "../episodes/المشاهده.html?episode=1",
+        "image": "../../../images/DanChi-Chikyuu-no-Undou-ni-Tsuitedadan.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/18eiOZTuEn_Gaf3Kyn3_nyR6RC0LZ_hLy/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=863168775&id=456240015&hash=5230bac1c9d1d758" },
+            { "serverName": "OK", "url": "https://ok.ru/videoembed/8279086467632" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/nyg2TLaS#K0LoDVTIT-XmzIZENBEsajrnbkFtsDvbm_wOhOAYCXQ" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/7QpIOogrbjKtB" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178598" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=hy8OiLEy0J3zQf1v" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5703303&share=1" }
+        ]
+    },
+    {
+        "number": 2,
+        "title": "الحلقة 2",
+        "link": "../episodes/المشاهده.html?episode=2",
+        "image": "../../../images/DanChi-Chikyuu-no-Undou-ni-Tsuitedadan.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/18uY9Emn63ZgeWgM0a0YKlONG42MfUHUu/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=863168775&id=456240016&hash=47cf3bf4d2bcc0fc" },
+            { "serverName": "OK", "url": "https://ok.ru/videoembed/8279088892464" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/amZngCzK#3ll3nOkRu6AXKT_oaBfAV1hfJeeenFj_TmLgqvEEmfA" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/xg67dDQKbSCj0" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178599" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=xotKEcJ08uKv6QYU" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5703305&share=1" }
+        ]
+    },
+    {
+        "number": 3,
+        "title": "الحلقة 3",
+        "link": "../episodes/المشاهده.html?episode=3",
+        "image": "../../../images/DanChi-Chikyuu-no-Undou-ni-Tsuitedadan.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/131JKjVL2lZ6zbBH_TiXpCpxGZVEvGkS8/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=863168775&id=456240051&hash=b7a5a3e146dd4ff5" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/RCxzPZvXtqkfw" }
+        ]
+    },
+    {
+        "number": 4,
+        "title": "الحلقة 4",
+        "link": "../episodes/المشاهده.html?episode=4",
+        "image": "../../../images/DanChi-Chikyuu-no-Undou-ni-Tsuitedadan.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/15dZxzT_XqBUBQKm6y71lRiwI_YpjOYbo/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240072&hash=aa823d7b986edf58" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/q2w21BQY#LiM8x41nNWHXvAXFs_Y5kX6aMhA47FVhBHskYOKZ0z4" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/zHH28SthEGZ5y" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178718" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5721974&share=1" }
+        ]
+    },
+    {
+        "number": 5,
+        "title": "الحلقة 5",
+        "link": "../episodes/المشاهده.html?episode=5",
+        "image": "../../../images/DanChi-Chikyuu-no-Undou-ni-Tsuitedadan.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1AmEmSpFfD826slGXzfnW4ZIxP3elvz52/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240131&hash=0d86bb9f6072c692" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/WmwCVJwT#U4sKv4jOmKe--BEBB0WTUyn5dLhDxNC9thCfX2HS59s" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178775" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=kTNvpCA3Cmj3DxSp" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5730747&share=1" }
+        ]
+    },
+    {
+        "number": 6,
+        "title": "الحلقة 6",
+        "link": "../episodes/المشاهده.html?episode=6",
+        "image": "../../../images/DanChi-Chikyuu-no-Undou-ni-Tsuitedadan.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/10QRVreLrFhkpUjL9jtQnzCOtjoUaVQNk/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240185&hash=e3308c8c428db45f" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/TnoFWZiL#dVq41fYdMCGdJYEnuBYAiip9zaVTuTRhYfE7ojjX2sU" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/aMDWN58jBRHvb" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178827" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=rRzUmbKnXU0rKGgs" },
+            { "serverName": "4Shared", "url": "https://www.4shared.com/web/embed/file/XfoLnQAlku" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5739240&share=1" }
+        ]
+    },
+    {
+        "number": 7,
+        "title": "الحلقة 7",
+        "link": "../episodes/المشاهده.html?episode=7",
+        "image": "../../../images/DanChi-Chikyuu-no-Undou-ni-Tsuitedadan.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1p9czkxPU9tI13AIb2IjLOsoNZ9tx4Nfu/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240244&hash=6ea7d2f7468816da" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/jiJVXBCS#zX_JRflSOODGZXaNphkUKcGQdZYSvFjGyDyGPZlbVXw" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178896" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=brJkbb9lb7gLtKiA" },
+            { "serverName": "4Shared", "url": "https://www.4shared.com/web/embed/file/pROAifjaea" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5747887&share=1" }
+        ]
+    },
+    {
+        "number": 8,
+        "title": "الحلقة 8",
+        "link": "../episodes/المشاهده.html?episode=8",
+        "image": "../../../images/DanChi-Chikyuu-no-Undou-ni-Tsuitedadan.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1XZsR8x7GASR9OxoX5L19_YgbBepTHm7C/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240250&hash=79cc0e69f04b1b43" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/LrQUzCQQ#AcKpMKsW5ty6_Kh8mU1PQ03EZSaX6ZMP8Pz96ZhLPlg" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/NknFeZYpjW61b" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178899" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=kfowcVik5YrdAlY8" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5747889&share=1" }
+        ]
+    },
+    {
+        "number": 9,
+        "title": "الحلقة 9",
+        "link": "../episodes/المشاهده.html?episode=9",
+        "image": "../../../images/DanChi-Chikyuu-no-Undou-ni-Tsuitedadan.jpg",
+        "servers": [
+            { "serverName": "سيرفرات متعددة", "url": "https://megamax.me/iframe/WriDPY2kYH3fX" },
+            { "serverName": "vidmoly", "url": "https://vidmoly.to/embed-o1k616z58uwt.html" },
+            { "serverName": "uqload", "url": "https://uqload.net/embed-nxqmgf5avvpc.html" },
+            { "serverName": "ok.ru", "url": "https://www.ok.ru/videoembed/8116212861658" },
+            { "serverName": "Mp4upload", "url": "https://www.mp4upload.com/embed-ykwtv4du7pzd.html" },
+            { "serverName": "Sendvid", "url": "https://sendvid.com/embed/h9vm0yvx" }
+        ]
+    }
+]
