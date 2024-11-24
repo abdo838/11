@@ -36,18 +36,14 @@
     },
     {
         "name": "One Piece",
-        "link": "anime/One Piece/episodes/الحلقة1.html?episode=1",
+        "link": "anime/One Piece/episodes/الحلقة1.html",
         "image": "images/Profile_One_Piece.png",
         "rating": "يعرض الان",
         "episodes": "1 حلقة"
     },
     {
         "name": "Blue Lock vs. U-20 Japan",
-<<<<<<< HEAD
-        "link": "anime/Blue-Lock-vs.-U-20-Japan/episodes/الحلقة1.html?episode=1",
-=======
         "link": "anime/Blue-Lock-vs.-U-20-Japan/episodes/الحلقة1.html?episode=7",
->>>>>>> 718d08da805df8a775bd29cb12c778e660c5bd44
         "image": "images/Blue-Lock-vs.-U-20-Japan.jpg",
         "rating": "يعرض الان",
         "نوع": "مسلسلات الانمي",
@@ -57,7 +53,7 @@
     },
     {
         "name": "Bleach-Sennen-Kessen-hen-Soukoku-tan",
-        "link": "anime/Bleach-Sennen-Kessen-hen-Soukoku-tan/episodes/الحلقة1.html?episode=1",
+        "link": "anime/Bleach-Sennen-Kessen-hen-Soukoku-tan/episodes/الحلقة1.html",
         "image": "images/Bleach-Sennen-Kessen-hen-Soukoku-tan.jpg",
         "rating": "يعرض الان",
         "نوع": "مسلسلات الانمي",
@@ -67,7 +63,7 @@
     },
     {
         "name": "Dandadan",
-        "link": "anime/Dandadan/episodes/المشاهده.html?episode=1",
+        "link": "anime/Dandadan/episodes/المشاهده.html",
         "image": "images/Dandadan.jpg",
         "rating": "يعرض الان",
         "نوع": "مسلسلات الانمي",
@@ -77,7 +73,7 @@
     },
     {
         "name": "Rurouni-Kenshin-Meiji-Kenkaku-Romantan-Kyoto-Douran",
-        "link": "anime/DandaRurouni-Kenshin-Meiji-Kenkaku-Romantan-Kyoto-Dourandan/episodes/المشاهده.html?episode=1",
+        "link": "anime/DandaRurouni-Kenshin-Meiji-Kenkaku-Romantan-Kyoto-Dourandan/episodes/المشاهده.html",
         "image": "images/Rurouni-Kenshin-Meiji-Kenkaku-Romantan-Kyoto-Douran.jpg",
         "rating": "يعرض الان",
         "نوع": "مسلسلات الانمي",
@@ -87,7 +83,7 @@
     },
     {
         "name": "Love-Live-Superstar-3rd-Season",
-        "link": "anime/Love-Live-Superstar-3rd-Season/episodes/المشاهده.html?episode=1",
+        "link": "anime/Love-Live-Superstar-3rd-Season/episodes/المشاهده.html",
         "image": "images/Love-Live-Superstar-3rd-Season.jpg",
         "rating": "يعرض الان",
         "نوع": "مسلسلات الانمي",
@@ -97,7 +93,7 @@
     },
     {
         "name": "Nanatsu-no-Taizai-Mokushiroku-no-Yonkishi-2nd-Season",
-        "link": "anime/Nanatsu-no-Taizai-Mokushiroku-no-Yonkishi-2nd-Season/episodes/المشاهده.html?episode=1",
+        "link": "anime/Nanatsu-no-Taizai-Mokushiroku-no-Yonkishi-2nd-Season/episodes/المشاهده.html",
         "image": "images/Nanatsu-no-Taizai-Mokushiroku-no-Yonkishi-2nd-Season.jpg",
         "rating": "يعرض الان",
         "نوع": "مسلسلات الانمي",
