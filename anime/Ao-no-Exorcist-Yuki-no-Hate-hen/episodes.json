@@ -1,0 +1,119 @@
+[
+    {
+        "number": 1,
+        "title": "الحلقة 1",
+        "link": "../episodes/المشاهده.html?episode=1",
+        "image": "../../../images/Ao-no-Exorcist-Yuki-no-Hate-hen.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/17rspC9p0IVX2VU3UfPwIhgThzxKbScff/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=863168775&id=456240013&hash=96c6b56314bb3816" },
+            { "serverName": "OK", "url": "https://ok.ru/videoembed/8279137061424" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/EP1VjYzb#5PCVFpLYDF5Qdu1gAH7ecyGJbJUiaelUGr4i5t-s0aQ" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/kYQlCLMtG1TmT" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178600" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=AtZw78pHZEKaglH3" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5703318&share=1" }
+        ]
+    },
+    {
+        "number": 2,
+        "title": "الحلقة 2",
+        "link": "../episodes/المشاهده.html?episode=2",
+        "image": "../../../images/Ao-no-Exorcist-Yuki-no-Hate-hen.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1-mOshVVyea7MMu0oPrnU98wYufL98Iy5/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240014&hash=2030b3eb4f1a23ac" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/wP8CnQwb#FIiFurtwfX0T5PYbCoMPAjU-ibdBLlgjrWHABbpx9-Y" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/HrKIVX91vp8BL" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178659" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=hGdZQvXvpVhmGNPv" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5713176&share=1" }
+        ]
+    },
+    {
+        "number": 3,
+        "title": "الحلقة 3",
+        "link": "../episodes/المشاهده.html?episode=3",
+        "image": "../../../images/Ao-no-Exorcist-Yuki-no-Hate-hen.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/15jfEXlznM5TjA3v7prPBtacMr_tg2z3h/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240076&hash=f0a877f98b607f52" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/YTcjUSRK#I9LgNgPRs-XAaFauBo7bOXtcLEeH8DnfC3QetiY1H9c" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/OezVhhRcHfAvb" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178722" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5722088&share=1" }
+        ]
+    },
+    {
+        "number": 4,
+        "title": "الحلقة 4",
+        "link": "../episodes/المشاهده.html?episode=4",
+        "image": "../../../images/Ao-no-Exorcist-Yuki-no-Hate-hen.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1-GcnGpHYzSNf6GAbo-lfbXHzngWUpKAo/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240133&hash=62f3def49e372ce7" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/ge02FCwA#dA3II4j0HQ8SJtcjFieIMFPsaSJ_-bVjP9aEVuYyNdU" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/DOK3ELGjQPyVD" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178777" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=Rw6isAfVUB2sTK6A" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5730871&share=1" }
+        ]
+    },
+    {
+        "number": 5,
+        "title": "الحلقة 5",
+        "link": "../episodes/المشاهده.html?episode=5",
+        "image": "../../../images/Ao-no-Exorcist-Yuki-no-Hate-hen.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/10Rm5WkuuADu72m4UgCSPWhiSFqu_i2MC/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240189&hash=307ae218ee75924c" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/0adnCYCJ#Xsuq90p_uGeUl7-fpWSDGxoUvu1yLJqRm83-icIw8QA" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/3XxN7hVLGR5GQ" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178831" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=sCV5X5rlJq0vZRPm" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5739346&share=1" }
+        ]
+    },
+    {
+        "number": 6,
+        "title": "الحلقة 6",
+        "link": "../episodes/المشاهده.html?episode=6",
+        "image": "../../../images/Ao-no-Exorcist-Yuki-no-Hate-hen.jpg",
+        "servers": [
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240245&hash=d4073ad4c78e25c0" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/gbFxGLSb#YjKHJaCk9EXRgqS8yzRsaC-vTA9B15Z9ZAg3uGELX8I" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/vr0GJIHVuaFKN" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178890" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=omhi27CJ5GPjCnPq" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5746474&share=1" }
+        ]
+    },
+    {
+        "number": 7,
+        "title": "الحلقة 7",
+        "link": "../episodes/المشاهده.html?episode=7",
+        "image": "../../../images/Ao-no-Exorcist-Yuki-no-Hate-hen.jpg",
+        "servers": [
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240300&hash=c361ef9c408672cb" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/dCVxnQ7S#aeCN79GwkD1VOrTHCw54Hf3flG9TEuFVQ2TgvFUYy0I" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/LzDnE9XDpXONI" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178943" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=LaNcNNw99YXEA8gZ" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5753416&share=1" }
+        ]
+    },
+    {
+        "number": 8,
+        "title": "الحلقة 8",
+        "link": "../episodes/المشاهده.html?episode=8",
+        "image": "../../../images/Ao-no-Exorcist-Yuki-no-Hate-hen.jpg",
+        "servers": [
+            { "serverName": "سيرفرات متعددة", "url": "https://megamax.me/iframe/wIP9inc4EZl3G" },
+            { "serverName": "vidmoly", "url": "https://vidmoly.to/embed-ip1j07o9o7dz.html" },
+            { "serverName": "ok.ru", "url": "https://www.ok.ru/videoembed/8116577503962" },
+            { "serverName": "Mp4upload", "url": "https://www.mp4upload.com/embed-8328vqc0pvpm.html" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/SA1BDQqB!bMdT93r8Texee6XW2BvQH2dmyalxL6SnYN8PiCQFcMw" }
+        ]
+    }
+    
+]
