@@ -41,5 +41,47 @@
             { "serverName": "Videa", "url": "https://videa.hu/player?v=aVxqvTOXadu6nOE0" },
             { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5729350&share=1" }
         ]
+    },
+    {
+        "number": 4,
+        "title": "الحلقة 4",
+        "link": "../episodes/المشاهده.html?episode=4",
+        "image": "../../../images/Nanatsu-no-Taizai-Mokushiroku-no-Yonkishi-2nd-Season.jpg",
+        "servers": [
+            { "serverName": "سيرفرات متعددة", "url": "https://megamax.me/iframe/3ATFnvexBFZkt" },
+            { "serverName": "vidmoly", "url": "https://vidmoly.to/embed-b52wszhsh25y.html" },
+            { "serverName": "uqload", "url": "https://uqload.net/embed-sz4fa87exeqn.html" },
+            { "serverName": "ok.ru", "url": "https://www.ok.ru/videoembed/7737243077338" },
+            { "serverName": "Mp4upload", "url": "https://www.mp4upload.com/embed-6i5l1h5io3xm.html" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/eQBX0KSI!W2-PdytMp9jmAd0xWlmMvTdbkVF-5rA3instnApv4rQ" }
+        ]
+    },
+    {
+        "number": 5,
+        "title": "الحلقة 5",
+        "link": "../episodes/المشاهده.html?episode=5",
+        "image": "../../../images/Nanatsu-no-Taizai-Mokushiroku-no-Yonkishi-2nd-Season.jpg",
+        "servers": [
+            { "serverName": "سيرفرات متعددة", "url": "https://megamax.me/iframe/JfqUMfkYToU1p" },
+            { "serverName": "vidmoly", "url": "https://vidmoly.to/embed-d9eqqe3pqvze.html" },
+            { "serverName": "uqload", "url": "https://uqload.net/embed-ihcyzby3riau.html" },
+            { "serverName": "ok.ru", "url": "https://www.ok.ru/videoembed/8082089904858" },
+            { "serverName": "Mp4upload", "url": "https://www.mp4upload.com/embed-lju4as1nmk9e.html" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/mmAF1CzI!OD7ulw3nrcwP-Y08diWr7F4b5id7QEvxcKX2f8rNOgY" }
+        ]
+    },
+    {
+        "number": 6,
+        "title": "الحلقة 6",
+        "link": "../episodes/المشاهده.html?episode=6",
+        "image": "../../../images/Nanatsu-no-Taizai-Mokushiroku-no-Yonkishi-2nd-Season.jpg",
+        "servers": [
+            { "serverName": "سيرفرات متعددة", "url": "https://megamax.me/iframe/jmQXI0SJnU6DH" },
+            { "serverName": "vidmoly", "url": "https://vidmoly.to/embed-1c8i2pofizug.html" },
+            { "serverName": "uqload", "url": "https://uqload.net/embed-g69hxvm3htu7.html" },
+            { "serverName": "ok.ru", "url": "https://www.ok.ru/videoembed/8082096917210" },
+            { "serverName": "Mp4upload", "url": "https://www.mp4upload.com/embed-yeucti41r5n3.html" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/zjpUXK4Y!J0UHYI39jFFURvBPr5-1_u5wqmH1qobZxmhxe88_JxY" }
+        ]
     }
 ]

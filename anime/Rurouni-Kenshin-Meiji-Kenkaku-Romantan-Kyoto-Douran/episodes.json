@@ -78,5 +78,33 @@
             { "serverName": "Videa", "url": "https://videa.hu/player?v=0C8sO2TxzZU1U5Gv" },
             { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5744386&share=1" }
         ]
+    },
+    {   
+        "number": 7,
+        "title": "الحلقة 7",
+        "link": "../episodes/المشاهده.html?episode=7",
+        "image": "../../../images/Rurouni-Kenshin-Meiji-Kenkaku-Romantan-Kyoto-Douran.jpg",
+        "servers": [
+            { "serverName": "سيرفرات متعددة", "url": "https://megamax.me/iframe/EnAwdQzhz0ZwM" },
+            { "serverName": "vidmoly", "url": "https://vidmoly.to/embed-m6ez2jdsq9b0.html" },
+            { "serverName": "uqload", "url": "https://uqload.net/embed-xqm1hz82jpgz.html" },
+            { "serverName": "ok.ru", "url": "https://www.ok.ru/videoembed/7917236325082" },
+            { "serverName": "Mp4upload", "url": "https://www.mp4upload.com/embed-sppgumnol0wc.html" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/RkQUnCba!qYfI4B1d1k5vmtgmpFjF2NFstlm4L7iZ-7Qx5fp1_HM" }
+        ]
+    },
+    {
+        "number": 8,
+        "title": "الحلقة 8",
+        "link": "../episodes/المشاهده.html?episode=8",
+        "image": "../../../images/Rurouni-Kenshin-Meiji-Kenkaku-Romantan-Kyoto-Douran.jpg",
+        "servers": [
+            { "serverName": "سيرفرات متعددة", "url": "https://megamax.me/iframe/wFUHN6xBKdaXW" },
+            { "serverName": "vidmoly", "url": "https://vidmoly.to/embed-yhtqjxxm3cei.html" },
+            { "serverName": "uqload", "url": "https://uqload.net/embed-6vizl8hxvsu7.html" },
+            { "serverName": "ok.ru", "url": "https://www.ok.ru/videoembed/8067807840986" },
+            { "serverName": "Mp4upload", "url": "https://www.mp4upload.com/embed-b21bi1nw25r0.html" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/aiRilZyb!72-dGTWde9wgeij8a_SOKpLHMnlgJ0gS6iyUEFbzLco" }
+        ]
     }
 ]

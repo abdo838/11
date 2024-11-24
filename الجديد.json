@@ -1,7 +1,14 @@
 [
     {
+        "name": "Dragon-Ball-Daima",
+        "link": "anime/Dragon-Ball-Daima/episodes/المشاهده.html?episode=7",
+        "image": "images/Dragon-Ball-Daima.jpg",
+        "rating": "9.8",
+        "episodes": "حلقة 7"
+    },
+    {
         "name": "Re-Zero-kara-Hajimeru-Isekai-Seikatsu-3rd-Season",
-        "link": "anime/Re-Zero-kara-Hajimeru-Isekai-Seikatsu-3rd-Season/episodes/المشاهده.html",
+        "link": "anime/Re-Zero-kara-Hajimeru-Isekai-Seikatsu-3rd-Season/episodes/المشاهده.html?episode=8",
         "image": "images/Re-Zero-kara-Hajimeru-Isekai-Seikatsu-3rd-Season.jpg",
         "rating": "9.8",
         "episodes": "1 حلقة"

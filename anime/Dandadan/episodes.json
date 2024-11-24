@@ -81,9 +81,11 @@
         "link": "../episodes/المشاهده.html?episode=6",
         "image": "../../../images/Dandadan.jpg",
         "servers": [
-            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1ij_ZDJj3F3E_gigEIXCZoIG01150rxNm/preview" },
-            { "serverName": "Mega", "url": "https://mega.nz/embed/zuYmgRhQ#nN-eQ1wncFw2q_VN5MO1fXVB4YC6QLmAE_5tnFtuhuU" },
-            { "serverName": "4shared", "url": "https://www.4shared.com/web/embed/file/MO02GwMpku" }
+            { "serverName": "سيرفرات متعددة", "url": "https://megamax.me/iframe/orBI1w3sz6j50" },
+            { "serverName": "vidmoly", "url": "https://vidmoly.to/embed-o3rrfupn5981.html" },
+            { "serverName": "ok.ru", "url": "https://www.ok.ru/videoembed/7913921907418" },
+            { "serverName": "Mp4upload", "url": "https://www.mp4upload.com/embed-8corazc7v5gg.html" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/Z0JUEY4C!ER9y2RWErII7CihP3JRHJJ_3CfBIrhacCHIC9nr49Ec" }
         ]
     }
 ]

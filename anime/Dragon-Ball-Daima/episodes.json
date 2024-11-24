@@ -1,0 +1,109 @@
+[
+    {
+        "number": 1,
+        "title": "الحلقة 1",
+        "link": "../episodes/المشاهده.html?episode=1",
+        "image": "../../../images/Dragon-Ball-Daima.jpg",
+        "servers": [
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=863168775&id=456240048&hash=f98f8d058e3a3d53" },
+            { "serverName": "OK", "url": "https://ok.ru/videoembed/8339391777328?nochat=1" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/JdRylBYT#m0HuIJXlc-oszmYFDPb-A_s5vPWUGWOkN4qwRGwQ5Fg" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/twTXB9B2HXF1W" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178649" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=lchsW3XNzIf8pcSS" },
+            { "serverName": "4Shared", "url": "https://www.4shared.com/web/embed/file/Nw1GEKkXge" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5712393&share=1" }
+        ]
+    },
+    {
+        "number": 2,
+        "title": "الحلقة 2",
+        "link": "../episodes/المشاهده.html?episode=2",
+        "image": "../../../images/Dragon-Ball-Daima.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/13vbcno5bu4A1XHosbpO2Lflhxcl1qF-7/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240068&hash=6334a8dc4210fa9e" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/kAJX3JIL#UGlXGrHAqHiVT91dFHQv7_GYJqkLHzOEM72XqEvmBqs" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/VYOJkjAuQShbJ" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178713" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=9FPao06MlJximY0P" },
+            { "serverName": "4Shared", "url": "https://www.4shared.com/web/embed/file/QF6iilfBjq" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5720902&share=1" }
+        ]
+    },
+    {
+        "number": 3,
+        "title": "الحلقة 3",
+        "link": "../episodes/المشاهده.html?episode=3",
+        "image": "../../../images/Dragon-Ball-Daima.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/197nWuoYrvn7YOanQiWusjW2fZf_Ihfpt/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240126&hash=cba9d66e1da7a181" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/YRQSnaAA#OHjw2WY_SceZl1t9jQt0SpFs1qG3JpKlgPobqNhkuYo" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/BuX8oTOzOU5wj" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178770" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=gUDqOrrrHp5CuuxG" },
+            { "serverName": "4Shared", "url": "https://www.4shared.com/web/embed/file/u1kpKnQbfa" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5729727&share=1" }
+        ]
+    },
+    {
+        "number": 4,
+        "title": "الحلقة 4",
+        "link": "../episodes/المشاهده.html?episode=4",
+        "image": "../../../images/Dragon-Ball-Daima.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/10H5FM98CISgyLM2fid2VEAqIwNv2PCUV/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240182&hash=d197e9a762355035" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/gNJTRL6B#i-yv5bzpwt1-PWhLlaXhLkb3fJtTcHALC-eXtdBn9ck" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/tQc2bU0OskgAm" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178824" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=3eBDfFXfjOR9Yg6R" },
+            { "serverName": "4Shared", "url": "https://www.4shared.com/web/embed/file/6c0hcHM4ku" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5738558&share=1" }
+        ]
+    },
+    {
+        "number": 5,
+        "title": "الحلقة 5",
+        "link": "../episodes/المشاهده.html?episode=5",
+        "image": "../../../images/Dragon-Ball-Daima.jpg",
+        "servers": [
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240232&hash=0285f58bc232863d" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/pQoTnYhQ#FlcQfvDsf1tW_mBEbeKckMCEIekEZ-eYuLrdk70dptA" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/5rHbsFJ6vaXjB" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178877" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=puq9vM7gYOMxoQ3p" },
+            { "serverName": "4Shared", "url": "https://www.4shared.com/web/embed/file/R9Y3bdYxge" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5745446&share=1" }
+        ]
+    },
+    {
+        "number": 6,
+        "title": "الحلقة 6",
+        "link": "../episodes/المشاهده.html?episode=6",
+        "image": "../../../images/Dragon-Ball-Daima.jpg",
+        "servers": [
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240288&hash=c1c99deff85287bd" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/lNxQXbQZ#QdTKdHs6taKGAOetxEi0i92MuMztAW5iIFH2NdO1NVA" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/4RPFBfT1g8idP" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178945" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=SnfYu3CfDf5Yh6Md" },
+            { "serverName": "4Shared", "url": "https://www.4shared.com/web/embed/file/Zbl0itnxfh" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5752794&share=1" }
+        ]
+    },
+    {
+        "number": 7,
+        "title": "الحلقة 7",
+        "link": "../episodes/المشاهده.html?episode=7",
+        "image": "../../../images/Dragon-Ball-Daima.jpg",
+        "servers": [
+            { "serverName": "سيرفرات متعددة", "url": "https://megamax.me/iframe/SZhi5WnQ9e7S6" },
+            { "serverName": "vidmoly", "url": "https://vidmoly.to/embed-0tm10bkboks6.html" },
+            { "serverName": "ok.ru", "url": "https://www.ok.ru/videoembed/8092266072794" },
+            { "serverName": "Mp4upload", "url": "https://www.mp4upload.com/embed-jkrkqvszl03y.html" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/PU02mLpI!5o2HYl9FDQ1D3iKTMRJTRQX8sZ4JeoflSblaPLPwVvI" }
+        ]
+    }
+]

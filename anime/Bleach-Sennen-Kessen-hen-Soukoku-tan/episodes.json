@@ -79,5 +79,34 @@
             { "serverName": "Videa", "url": "https://videa.hu/player?v=S32IJw3Nn8oxkRnx" },
             { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5746366&share=1" }
         ]
+    },
+    {
+        "number": 7,
+        "title": "الحلقة 7",
+        "link": "../episodes/الحلقة1.html?episode=7",
+        "image": "../../../images/Bleach-Sennen-Kessen-hen-Soukoku-tan.jpg",
+        "servers": [
+            { "serverName": "سيرفرات متعددة", "url": "https://megamax.me/iframe/RVWbpNK2Bbxm6" },
+            { "serverName": "vidmoly", "url": "https://vidmoly.to/embed-xgdt96h4fno0.html" },
+            { "serverName": "uqload", "url": "https://uqload.net/embed-497cynl8pje0.html" },
+            { "serverName": "ok.ru", "url": "https://www.ok.ru/videoembed/7949713738458" },
+            { "serverName": "Mp4upload", "url": "https://www.mp4upload.com/embed-p8m64svp12ag.html" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/nRsnWDTA!TDvO3jpjsK97To7XZToxzk59OVRROtMS2EcMNTSn0cA" }
+        ]
+    },
+    {
+        "number": 8,
+        "title": "الحلقة 8",
+        "link": "../episodes/الحلقة1.html?episode=8",
+        "image": "../../../images/Bleach-Sennen-Kessen-hen-Soukoku-tan.jpg",
+        "servers": [
+           { "serverName": "سيرفرات متعددة", "url": "https://megamax.me/iframe/Wh19fdWmn2Ctn" },
+            { "serverName": "vidmoly", "url": "https://vidmoly.to/embed-vpa5ynhalokg.html" },
+            { "serverName": "uqload", "url": "https://uqload.net/embed-jlelezulbqso.html" },
+            { "serverName": "ok.ru", "url": "https://www.ok.ru/videoembed/8113251879642" },
+            { "serverName": "Mp4upload", "url": "https://www.mp4upload.com/embed-f8lhah00o8vo.html" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/DBlA1YbI!wExW0Dp7k2jzEObxeNV297Cmg2CNaVPmjqtN2Yn0XVY" } 
+        ]
     }
+
 ]
