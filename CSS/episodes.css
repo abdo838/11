@@ -1,5 +1,5 @@
  /* تعريف الألوان */
-:root {
+ :root {
     --primary-color: #ef4444;
     --bg-dark: #111827;
     --bg-darker: #1f2937;
@@ -171,7 +171,7 @@ body.light-mode .anime-info-header p {
 }
 
 /* التصميم للأجهزة الصغيرة */
-@media (max-width: 1150px) {
+@media (max-width: 768px) {
     .container {
         flex-direction: column;
     }
@@ -185,8 +185,8 @@ body.light-mode .anime-info-header p {
     }
 
     .main-content {
-        width: 100%;
-        margin-top: 0;
+        width: 95%;
+        margin-top: 10;
         padding: 10px;
     }
 
@@ -196,20 +196,15 @@ body.light-mode .anime-info-header p {
     margin-top: 160px;
 }
 
--bottom
-    .server-buttons {
-        margin: 70px 0;
-        position: relative; /* إزالة التثبيت */
-    }
-
     .server-buttons button {
-        width: 100%;
+        width: 105%;
         margin: 5px 0;
+        
     }
 
 
 .video-container iframe {
-    width: 100%;
+    width: 105%;
     height: 400px;
    margin-left: -7%;
 }
@@ -218,9 +213,9 @@ body.light-mode .anime-info-header p {
     .navigation-buttons {
         flex-direction: column;
         align-items: center;
-        width:100%;
+        width:105%;
         height: 95px;
-         margin-left: -1%;
+         margin-left: 0%;
            margin-top: 0px;
         
     }
