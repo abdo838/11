@@ -52,5 +52,33 @@
         "servers": [
             { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240262&hash=bc5e991bc5a4545e" }
         ]
+    },
+    {
+        "number": 7,
+        "title": "الحلقة 7",
+        "link": "../episodes/المشاهده.html?episode=7",
+        "image": "../../../images/Natsume-Yuujinchou-Shichi.jpg",
+        "servers": [ 
+            { "serverName": "سيرفرات متعددة", "url": "https://megamax.me/iframe/9PrGnDnVQPvgy" },
+            { "serverName": "vidmoly", "url": "https://vidmoly.to/embed-7ov03g6mem9g.html" },
+            { "serverName": "uqload", "url": "https://uqload.net/embed-c3j1te0inszi.html" },
+            { "serverName": "ok.ru", "url": "https://www.ok.ru/videoembed/8000178424538" },
+            { "serverName": "Mp4upload", "url": "https://www.mp4upload.com/embed-ym8r7mxvjx3g.html" }
+        
+    ]
+    },
+    {
+        "number": 8,
+        "title": "الحلقة 8",
+        "link": "../episodes/المشاهده.html?episode=8",
+        "image": "../../../images/Natsume-Yuujinchou-Shichi.jpg",
+        "servers": [ 
+            { "serverName": "سيرفرات متعددة", "url": "https://megamax.me/iframe/m8SKVUtWlRvNd" },
+            { "serverName": "vidmoly", "url": "https://vidmoly.to/embed-2wnvis041y04.html" },
+            { "serverName": "uqload", "url": "https://uqload.net/embed-qnvbn2kp4kzu.html" },
+            { "serverName": "ok.ru", "url": "https://www.ok.ru/videoembed/8162356562650" },
+            { "serverName": "Mp4upload", "url": "https://www.mp4upload.com/embed-ceubvymwihjt.html" }
+        
+    ]
     }
 ]
