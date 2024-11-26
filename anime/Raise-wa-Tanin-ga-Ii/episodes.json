@@ -92,5 +92,18 @@
             { "serverName": "4Shared", "url": "https://www.4shared.com/web/embed/file/3niTBhADjq" },
             { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5755214&share=1" }
         ]
+    },
+    {
+        "number": 8,
+        "title": "الحلقة 8",
+        "link": "../episodes/المشاهده.html?episode=8",
+        "image": "../../../images/Raise-wa-Tanin-ga-Ii.jpg",
+        "servers": [
+            { "serverName": "سيرفرات متعددة", "url": "https://megamax.me/iframe/m8SKVUtWlRvNd" },
+            { "serverName": "vidmoly", "url": "https://vidmoly.to/embed-2wnvis041y04.html" },
+            { "serverName": "uqload", "url": "https://uqload.net/embed-qnvbn2kp4kzu.html" },
+            { "serverName": "ok.ru", "url": "https://www.ok.ru/videoembed/8162356562650" },
+            { "serverName": "Mp4upload", "url": "https://www.mp4upload.com/embed-ceubvymwihjt.html" }
+        ]
     }
 ]
