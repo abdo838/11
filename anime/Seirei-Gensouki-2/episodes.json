@@ -87,31 +87,6 @@
             { "serverName": "Videa", "url": "https://videa.hu/player?v=JWaU2d9GESMFtdiT" },
             { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5748795&share=1" }
         ]
-    },
-    {
-        "number": 7,
-        "title": "الحلقة 7",
-        "link": "../episodes/المشاهده.html?episode=7",
-        "image": "../../../images/Seirei-Gensouki-2.jpg",
-        "servers": [
-            { "serverName": "سيرفرات متعددة", "url": "https://megamax.me/iframe/Vrfc2mlo2nbYd" },
-            { "serverName": "vidmoly", "url": "https://vidmoly.to/embed-g4dw7040jxw0.html" },
-            { "serverName": "uqload", "url": "https://uqload.net/embed-kkrsx9og37kd.html" },
-            { "serverName": "ok.ru", "url": "https://www.ok.ru/videoembed/7996822653658" },
-            { "serverName": "Mp4upload", "url": "https://www.mp4upload.com/embed-1qpmibjeg4z9.html" }
-        ]
-    },
-    {
-        "number": 8,
-        "title": "الحلقة 8",
-        "link": "../episodes/المشاهده.html?episode=8",
-        "image": "../../../images/Seirei-Gensouki-2.jpg",
-        "servers": [
-            { "serverName": "سيرفرات متعددة", "url": "https://megamax.me/iframe/s5eqHGwhdwNxv" },
-            { "serverName": "vidmoly", "url": "https://vidmoly.to/embed-uula7xcc8bns.html" },
-            { "serverName": "uqload", "url": "https://uqload.net/embed-08qq60s7pzjx.html" },
-            { "serverName": "ok.ru", "url": "https://www.ok.ru/videoembed/8161434012378" },
-            { "serverName": "Mp4upload", "url": "https://www.mp4upload.com/embed-3tbt2a29cm96.html" }
-        ]
     }
+
 ]
