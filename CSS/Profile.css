@@ -8,7 +8,7 @@
     --bg-light: #ffffff;
     --text-dark: #000000;
     --text-gray-dark: #4b5563;
-
+        --bg-background: #080b12;
     
 }
         body {
@@ -24,7 +24,7 @@
             max-width: 1200px;
             margin: auto;
             padding: 20px;
-            background-color: var( --bg-darker);
+            background-color: var(--bg-background);
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             border-radius: 10px;
         }
