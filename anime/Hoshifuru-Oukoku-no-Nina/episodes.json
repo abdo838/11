@@ -1,0 +1,94 @@
+[
+    {
+        "number": 1,
+        "title": "الحلقة 1",
+        "link": "../episodes/المشاهده.html?episode=1",
+        "image": "../../../images/Hoshifuru-Oukoku-no-Nina.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1a0U-wW5fo3Cv9o97rAin2Sz2oh5Owotb/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=863168775&id=456240028&hash=3bd85aac681f4da6" },
+            { "serverName": "OK.ru", "url": "https://ok.ru/videoembed/7742671948486" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/bnZXnbKJ#y6wHg0UhRmToZXrVCn1V1k3vj00Bvbwsqnf3wDW7vtg" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178614" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=KCyZFeUrVm3Vw1tb" },
+            { "serverName": "4Shared", "url": "https://www.4shared.com/web/embed/file/37oGEUerku" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5706290&share=1" }
+        ]
+    },
+    {
+        "number": 2,
+        "title": "الحلقة 2",
+        "link": "../episodes/المشاهده.html?episode=2",
+        "image": "../../../images/Hoshifuru-Oukoku-no-Nina.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/10sDqU-obfL1kmp7i7Dg3eQ5ebSOJKOE4/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240031&hash=c84b233d8f0fda88" },
+            { "serverName": "OK.ru", "url": "https://ok.ru/videoembed/7799933110982?nochat=1" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/zBBlWQQT#_b7zFN0l_ul7U9eWT-0nibzHDARle4PMB0RjTYvEmIk" },
+            { "serverName": "MegaMax", "url": "https://megamax.me/iframe/ftTRESr7VuAvK" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178676" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=TAUasBplgIjy1c6d" },
+            { "serverName": "4Shared", "url": "https://www.4shared.com/web/embed/file/Cgo6xljFge" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5715773&share=1" }
+        ]
+    },
+    {
+        "number": 3,
+        "title": "الحلقة 3",
+        "link": "../episodes/المشاهده.html?episode=3",
+        "image": "../../../images/Hoshifuru-Oukoku-no-Nina.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1QjXeynJiZuTfUemPuwntqtsS6w5RKIS3/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=863168775&id=456240082&hash=db197268bb6a7a86" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/mYBRzCxT#bCCrR-U8Lx7R0ft3LKFp4jmTqjCLCp0_haPzuv14EuI" },
+            { "serverName": "MegaMax", "url": "https://megamax.me/iframe/T15c3mEC0ahKe" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178737" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=xVpLGYt9V8fZXL13" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5724689&share=1" }
+        ]
+    },
+    {
+        "number": 4,
+        "title": "الحلقة 4",
+        "link": "../episodes/المشاهده.html?episode=4",
+        "image": "../../../images/Hoshifuru-Oukoku-no-Nina.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/127Rxa6RfykWjUWjMuzDmz6cGFmvyONx3/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240144&hash=246935c0e5fa0383" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/vZ4RXQaJ#NpkEwQ6UuCt5HLzpkCIQjLkpq1U14SHYpb6H53QNZ_M" },
+            { "serverName": "MegaMax", "url": "https://megamax.me/iframe/CKRmuFe3NP3gk" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178789" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=gtsIJAWyoUmHORJS" },
+            { "serverName": "4Shared", "url": "https://www.4shared.com/web/embed/file/8QRd3gkwku" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5733061&share=1" }
+        ]
+    },
+    {
+        "number": 5,
+        "title": "الحلقة 5",
+        "link": "../episodes/المشاهده.html?episode=5",
+        "image": "../../../images/Hoshifuru-Oukoku-no-Nina.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/13M09di-GcdeOJnuWBePONWL_vmGgPEJX/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240202&hash=bfa58cee7db258ed" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/WQYUUSjI#LQ5e6i_niF3ofuR1ogKflGXQfjJW6zt6Q55NltZ3lyw" },
+            { "serverName": "MegaMax", "url": "https://megamax.me/iframe/ucGKApgXhNq28" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178844" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=OHBNEZUTrdyru1wv" },
+            { "serverName": "4Shared", "url": "https://www.4shared.com/web/embed/file/mMlMrbc8ge" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5741295&share=1" }
+        ]
+    },
+    {
+        "number": 6,
+        "title": "الحلقة 6",
+        "link": "../episodes/المشاهده.html?episode=6",
+        "image": "../../../images/Hoshifuru-Oukoku-no-Nina.jpg",
+        "servers": [
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240257&hash=063d6e319eab1691" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/HcYnlbjI#XekQu5WFI5QxofTQe-3cGsk4cy9QoJ4FJusXnlvnbws" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178948" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5750966&share=1" }
+        ]
+    }
+]

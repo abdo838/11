@@ -1,0 +1,56 @@
+[
+    {
+        "number": 1,
+        "title": "الحلقة 1",
+        "link": "../episodes/المشاهده.html?episode=1",
+        "image": "../../../images/Natsume-Yuujinchou-Shichi.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/11Gf06TK0UfzMqX85bq5Tvgpu-IyBDtjl/preview" }
+        ]
+    },
+    {
+        "number": 2,
+        "title": "الحلقة 2",
+        "link": "../episodes/المشاهده.html?episode=2",
+        "image": "../../../images/Natsume-Yuujinchou-Shichi.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/12bSCF3HSgKHIo3kPoapvJnr1Q0DFkTTH/preview" }
+        ]
+    },
+    {
+        "number": 3,
+        "title": "الحلقة 3",
+        "link": "../episodes/المشاهده.html?episode=3",
+        "image": "../../../images/Natsume-Yuujinchou-Shichi.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/10ZL9dAvp7CB8Tfduqmv7WxUe2NmpNsqA/preview" }
+        ]
+    },
+    {
+        "number": 4,
+        "title": "الحلقة 4",
+        "link": "../episodes/المشاهده.html?episode=4",
+        "image": "../../../images/Natsume-Yuujinchou-Shichi.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/12lAtj4rlMoPgsbtQaNUopz72WUrZS-c8/preview" }
+        ]
+    },
+    {
+        "number": 5,
+        "title": "الحلقة 5",
+        "link": "../episodes/المشاهده.html?episode=5",
+        "image": "../../../images/Natsume-Yuujinchou-Shichi.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/14N2ZnYspK-z3_9J88msk6fpFzwnJPxqp/preview" }
+        ]
+    },
+    {
+        "number": 6,
+        "title": "الحلقة 6",
+        "link": "../episodes/المشاهده.html?episode=6",
+        "image": "../../../images/Natsume-Yuujinchou-Shichi.jpg",
+        "servers": [
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240262&hash=bc5e991bc5a4545e" }
+        ]
+    }
+]

@@ -1,0 +1,87 @@
+[
+    {
+        "number": 1,
+        "title": "الحلقة 1",
+        "link": "../episodes/المشاهده.html?episode=1",
+        "image": "../../../images/Arifureta-Shokugyou-de-Sekai-Saikyou-3.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1xctbTBOzhYSENztr29gNfxpQK60ZCBr-/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240036&hash=51b197d09e75ea06" },
+            { "serverName": "MegaMax", "url": "https://megamax.me/iframe/5eAf2eRbzIAke" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178681" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=pnf6LR9Y7EW1vM3y" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5716160&share=1" }
+        ]
+    },
+    {
+        "number": 2,
+        "title": "الحلقة 2",
+        "link": "../episodes/المشاهده.html?episode=2",
+        "image": "../../../images/Arifureta-Shokugyou-de-Sekai-Saikyou-3.jpg",
+        "servers": [
+            { "serverName": "Google Drive 1", "url": "https://drive.google.com/file/d/11FLli0ec78wToY2YitLMf-mO3ziQUZDR/preview" },
+            { "serverName": "Google Drive 2", "url": "https://drive.google.com/file/d/1pmvCxsJdVJjcu-wIiGxO4THZMm_QLDG0/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240095&hash=9ab45ea0b8b3ef50" },
+            { "serverName": "MegaMax", "url": "https://megamax.me/iframe/kzxdBTxU3R6lX" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178740" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=c6TDc63up2vPaIKP" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5724717&share=1" }
+        ]
+    },
+    {
+        "number": 3,
+        "title": "الحلقة 3",
+        "link": "../episodes/المشاهده.html?episode=3",
+        "image": "../../../images/Arifureta-Shokugyou-de-Sekai-Saikyou-3.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1ahLiG8Vti2sPeV8l94zWms7Q1gW9zy9z/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240147&hash=d78b27b239601806" },
+            { "serverName": "MegaMax", "url": "https://megamax.me/iframe/abmgVdDKqnDue" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178791" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5733128&share=1" }
+        ]
+    },
+    {
+        "number": 4,
+        "title": "الحلقة 4",
+        "link": "../episodes/المشاهده.html?episode=4",
+        "image": "../../../images/Arifureta-Shokugyou-de-Sekai-Saikyou-3.jpg",
+        "servers": [
+            { "serverName": "Google Drive 1", "url": "https://drive.google.com/file/d/14B86Z8IuVfIzoSPFh1840Svz5TKgjg8T/preview" },
+            { "serverName": "Google Drive 2", "url": "https://drive.google.com/file/d/1Lu_qk8M74ifnhAPFIwpDFbQJI-4Fv-Pq/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240205&hash=6171be5233355789" },
+            { "serverName": "MegaMax", "url": "https://megamax.me/iframe/dhOI4s8SubfJ7" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178847" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=7Gdw2vCJTbIAiYhw" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5741373&share=1" }
+        ]
+    },
+    {
+        "number": 5,
+        "title": "الحلقة 5",
+        "link": "../episodes/المشاهده.html?episode=5",
+        "image": "../../../images/Arifureta-Shokugyou-de-Sekai-Saikyou-3.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1oMeMBrGXwW_RTZRY2NKpybMlvO4-bPXR/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240260&hash=74ef7e4f55688c6f" },
+            { "serverName": "MegaMax", "url": "https://megamax.me/iframe/NSudeaDx87rje" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178905" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=msRxxQ1FHL5FHBKj" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5748568&share=1" }
+        ]
+    },
+    {
+        "number": 6,
+        "title": "الحلقة 6",
+        "link": "../episodes/المشاهده.html?episode=6",
+        "image": "../../../images/Arifureta-Shokugyou-de-Sekai-Saikyou-3.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1TXswyLG7JfT0TfSACzDHQTgvS5pfrk-k/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240312&hash=c99cc43f594203cb" },
+            { "serverName": "MegaMax", "url": "https://megamax.me/iframe/UmijzCr4XDOMU" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178957" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=aiVjZjJ6Id4Y6ghd" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5755220&share=1" }
+        ]
+    }
+]

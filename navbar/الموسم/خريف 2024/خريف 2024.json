@@ -1,17 +1,39 @@
 [
     {
+        "name": "Natsume-Yuujinchou-Shichi",
+        "link": "../../../anime/Natsume-Yuujinchou-Shichi/Profile/Natsume-Yuujinchou-Shichi.html",
+        "image": "../../../images/Natsume-Yuujinchou-Shichi.jpg",
+        "rating": "يعرض الان"
+    },
+    {
+        "name": "Houkago-Shounen-Hanako-kun-2",
+        "link": "../../../anime/Houkago-Shounen-Hanako-kun-2/Profile/Houkago-Shounen-Hanako-kun-2.html",
+        "image": "../../../images/Houkago-Shounen-Hanako-kun-2.jpg",
+        "rating": "يعرض الان"
+    },
+    {
+        "name": "Hoshifuru-Oukoku-no-Nina",
+        "link": "../../../anime/Hoshifuru-Oukoku-no-Nina/Profile/Hoshifuru-Oukoku-no-Nina.html",
+        "image": "../../../images/Hoshifuru-Oukoku-no-Nina.jpg",
+        "rating": "يعرض الان"
+    },
+    {
+        "name": "Arifureta-Shokugyou-de-Sekai-Saikyou-3",
+        "link": "../../../anime/Arifureta-Shokugyou-de-Sekai-Saikyou-3/Profile/Arifureta-Shokugyou-de-Sekai-Saikyou-3.html",
+        "image": "../../../images/Arifureta-Shokugyou-de-Sekai-Saikyou-3.jpg",
+        "rating": "يعرض الان"
+    },
+    {
         "name": "Ao-no-Exorcist-Yuki-no-Hate-hen",
         "link": "../../../anime/Ao-no-Exorcist-Yuki-no-Hate-hen/Profile/Ao-no-Exorcist-Yuki-no-Hate-hen.html",
         "image": "../../../images/Ao-no-Exorcist-Yuki-no-Hate-hen.jpg",
-        "rating": "يعرض الان",
-        "day": "الأربعاء"
+        "rating": "يعرض الان"
     },
     {
         "name": "Re-Zero-kara-Hajimeru-Isekai-Seikatsu-3rd-Season",
         "link": "../../../anime/Re-Zero-kara-Hajimeru-Isekai-Seikatsu-3rd-Season/Profile/Re-Zero-kara-Hajimeru-Isekai-Seikatsu-3rd-Season.html",
         "image": "../../../images/Re-Zero-kara-Hajimeru-Isekai-Seikatsu-3rd-Season.jpg",
-        "rating": "يعرض الان",
-        "day": "الأربعاء"
+        "rating": "يعرض الان"
     },
     {
         "name": "Chi-Chikyuu-no-Undou-ni-Tsuite",

@@ -1,0 +1,46 @@
+[
+    {
+        "number": 1,
+        "title": "الحلقة 1",
+        "link": "../episodes/المشاهده.html?episode=1",
+        "image": "../../../images/Houkago-Shounen-Hanako-kun-2.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/11ubIQFOB733GtZfDDb9FOMgP3wGOLZrv/preview" },
+            { "serverName": "OK.ru", "url": "https://ok.ru/videoembed/8290675657264" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456239977&hash=b78a5c31933dc9dd" },
+            { "serverName": "MegaMax", "url": "https://megamax.me/iframe/pcvfywUxHJX2I" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178621" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=z6aARkHSWiM673ly" },
+            { "serverName": "4Shared", "url": "https://www.4shared.com/web/embed/file/Jhw7uyQUfa" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5706457&share=1" }
+        ]
+    },
+    {
+        "number": 2,
+        "title": "الحلقة 2",
+        "link": "../episodes/المشاهده.html?episode=2",
+        "image": "../../../images/Houkago-Shounen-Hanako-kun-2.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/12essoI4i6da9f6Su0D_bk5LzsZT_sjS9/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240038&hash=8e85ff1c8be452d1" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/bQciAYJC#C6hfNZ-9hkl8DqkCDHakN8fRCXUvMVIjeftRRETMcWg" },
+            { "serverName": "MegaMax", "url": "https://megamax.me/iframe/wxN4AWcAOwlcJ" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178683" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=uw7qyF0mIUgJy6Op" },
+            { "serverName": "4Shared", "url": "https://www.4shared.com/web/embed/file/-KQ-w15-fa" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5716212&share=1" }
+        ]
+    },
+    {
+        "number": 3,
+        "title": "الحلقة 3",
+        "link": "../episodes/المشاهده.html?episode=3",
+        "image": "../../../images/Houkago-Shounen-Hanako-kun-2.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1uBF67oaTqEHZkuTZapn3daNhKFS7FIEA/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=863168775&id=456240083&hash=0affcd93e60b01a4" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/GRsVlQbD#LT6ePUSDYNAY-owTM5eLfi2emEktGA8noIpuqYDV64I" },
+            { "serverName": "4Shared", "url": "https://www.4shared.com/web/embed/file/YaAQ2Ct2fa" }
+        ]
+    }
+]
