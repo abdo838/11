@@ -16,7 +16,7 @@
     <div class="container">
         <main class="main-content">
             <div class="anime-info-header">
-                <h2 id="anime-title">Dandadan</h2>
+                <h2 id="anime-title">Seirei-Gensouki-2</h2>
                 <p id="episode-title">رقم الحلقة: 1</p>
             </div>
             <div class="server-buttons" id="server-buttons-container"></div>
@@ -124,7 +124,7 @@ function loadEpisodes() {
         // تحديث مشغل الفيديو
         function updatePlayer() {
             const currentEpisode = episodes[currentEpisodeIndex];
-            animeTitle.textContent = "Dandadan"; // يمكن تغييره ديناميكيًا
+            animeTitle.textContent = "Seirei-Gensouki-2"; // يمكن تغييره ديناميكيًا
             episodeTitle.textContent = `رقم الحلقة: ${currentEpisode.number}`;
 
             if (!currentServerName && currentEpisode.servers.length > 0) {

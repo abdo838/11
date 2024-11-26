@@ -1,0 +1,96 @@
+[
+    {
+        "number": 1,
+        "title": "الحلقة 1",
+        "link": "../episodes/المشاهده.html?episode=1",
+        "image": "../../../images/Raise-wa-Tanin-ga-Ii.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/1YWjXnDp5uH9to3lxUUFDB8FhNfMhSDKU/preview" },
+            { "serverName": "OK", "url": "https://ok.ru/videoembed/7742872160966" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=863168775&id=456240030&hash=d47353656f2e22fb" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/7MkEAYaZ#lIVfTHltyr-lFTCW8yuvfnhjdOo9So2yopPF_u-vscI" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/TasDtUgvfx3nZ" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178616" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=NKGVNxk44e7wKgEb" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5706313&share=1" }
+        ]
+    },
+    {
+        "number": 3,
+        "title": "الحلقة 3",
+        "link": "../episodes/المشاهده.html?episode=3",
+        "image": "../../../images/Raise-wa-Tanin-ga-Ii.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/11IDOBCqgY6wD0kUCOnQg8DF-yu5X72UU/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240094&hash=b0b015d98359603c" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/bARTXYAL#HQfOol8dBsUAGC8bLdDKUSHnVXAhVp28MrKss-gZKKE" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/1b9Y1gYnoXfSQ" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178739" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=uuQO3kZIfR5zeZze" },
+            { "serverName": "4Shared", "url": "https://www.4shared.com/web/embed/file/ka-gSU6tku" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5724710&share=1" }
+        ]
+    },
+    {
+        "number": 4,
+        "title": "الحلقة 4",
+        "link": "../episodes/المشاهده.html?episode=4",
+        "image": "../../../images/Raise-wa-Tanin-ga-Ii.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/12BpNxB9CJnMIa1Q3VBt43WTlt95veDCA/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240145&hash=15802a63df05b934" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/PdA0hDia#VpsT7U2GtVysZ_YIGX8OB_TDSlSoobIrpEriE0P7yxk" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/qh2lMeVCKdTP6" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178790" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=bvMF90v8PuyV4Tu1" },
+            { "serverName": "4Shared", "url": "https://www.4shared.com/web/embed/file/FBg3WCw0jq" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5733121&share=1" }
+        ]
+    },
+    {
+        "number": 5,
+        "title": "الحلقة 5",
+        "link": "../episodes/المشاهده.html?episode=5",
+        "image": "../../../images/Raise-wa-Tanin-ga-Ii.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/13oacDrDqoUW-Krp5lwnZe-O9O7-2Xmz2/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240204&hash=88a7312c4d50e08d" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/zVRhmYLb#_-bUiPk65SDoaErBj4ZdhtUcvIxtBy6ryz0Q8_-AlcQ" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/EDQ3AQRebIAF4" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178846" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=I6YQ6RC7wA9BoJY3" },
+            { "serverName": "4Shared", "url": "https://www.4shared.com/web/embed/file/7Jq6psMlge" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5741342&share=1" }
+        ]
+    },
+    {
+        "number": 6,
+        "title": "الحلقة 6",
+        "link": "../episodes/المشاهده.html?episode=6",
+        "image": "../../../images/Raise-wa-Tanin-ga-Ii.jpg",
+        "servers": [
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240259&hash=72b4365633bc4681" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/yBwxDKoT#cIp8kgzjEZjXeEj28aZPmntz1Djn8iY5gwdB-Dc2cYY" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/1DDpcxM8fzWie" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178904" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=HaVrbbOJ0ZSgTgyk" },
+            { "serverName": "4Shared", "url": "https://www.4shared.com/web/embed/file/uWKfuysSge" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5748556&share=1" }
+        ]
+    },
+    {
+        "number": 7,
+        "title": "الحلقة 7",
+        "link": "../episodes/المشاهده.html?episode=7",
+        "image": "../../../images/Raise-wa-Tanin-ga-Ii.jpg",
+        "servers": [
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240311&hash=e6b0379c0f62ec64" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/PFhSTLIZ#1oE3IYgOVstv8eSb026XPn-hCQcyVs-9BkRKLgoD5IE" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/EARRmx9Hx6QHG" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178956" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=yQnJO9o6gmyVYIPf" },
+            { "serverName": "4Shared", "url": "https://www.4shared.com/web/embed/file/3niTBhADjq" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5755214&share=1" }
+        ]
+    }
+]

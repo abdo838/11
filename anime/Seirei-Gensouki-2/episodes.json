@@ -1,0 +1,91 @@
+[
+    {
+        "number": 1,
+        "title": "الحلقة 1",
+        "link": "../episodes/المشاهده.html?episode=1",
+        "image": "../../../images/Seirei-Gensouki-2.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/10y4p8xB5Pc78l3zzHh8tUTy4Vud3-ckv/preview" },
+            { "serverName": "OK", "url": "https://ok.ru/videoembed/8290558478896" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456239976&hash=daeecfb16ac612de" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/yuJi1LDZ#-JpjjbjmVvZiJXjRFREBFmMs5SzgCLQBCic4MyLmoAw" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/80ieBo2TcwXk5" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178620" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=gaj0UbbIjX2WAMQC" },
+            { "serverName": "4Shared", "url": "https://www.4shared.com/web/embed/file/GjWGUqe1ge" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5706396&share=1" }
+        ]
+    },
+    {
+        "number": 2,
+        "title": "الحلقة 2",
+        "link": "../episodes/المشاهده.html?episode=2",
+        "image": "../../../images/Seirei-Gensouki-2.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/12dESyezsFwqSOIZ4RNmgX_Wp79KSKkzP/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240037&hash=a601c6716a120c0a" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/9LNgmKCC#iJcPDLCSkS4F9u8BI86xS4IOvGZaB6jOrXMLvxyO4jY" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/obQUcIzKSZwYp" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178682" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=ob7jEkSrCpaseLuj" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5716183&share=1" }
+        ]
+    },
+    {
+        "number": 3,
+        "title": "الحلقة 3",
+        "link": "../episodes/المشاهده.html?episode=3",
+        "image": "../../../images/Seirei-Gensouki-2.jpg",
+        "servers": [
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240098&hash=7cb1e73837640186" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/s4VImo6fnR3iV" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/FbNCxBjS#1m6s5_6p8OTZ_cYw5_sGFjOA5wBMKbSeNG81OpcleIA" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178743" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=0NOq1U2trO2L5TuP" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5724801&share=1" }
+        ]
+    },
+    {
+        "number": 4,
+        "title": "الحلقة 4",
+        "link": "../episodes/المشاهده.html?episode=4",
+        "image": "../../../images/Seirei-Gensouki-2.jpg",
+        "servers": [
+            { "serverName": "Google Drive", "url": "https://drive.google.com/file/d/12vdMVsV8oGZxk4WHb-G7FJLL4uW6VJTZ/preview" },
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240151&hash=5e7b97807d60c4bd" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/1KFWSYyQ#5kuzTpZcEECKCODf-eXLKa2cewFfoZprFskbLkoNjH4" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/WQ14A3hBiOTlG" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178795" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=0PhcmTRvawHWtnO9" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5733242&share=1" }
+        ]
+    },
+    {
+        "number": 5,
+        "title": "الحلقة 5",
+        "link": "../episodes/المشاهده.html?episode=5",
+        "image": "../../../images/Seirei-Gensouki-2.jpg",
+        "servers": [
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240208&hash=ea15ec33d9baa37c" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/sD00yZIY#1TeZjofe5ilpAR58Rv_0LRzFRT8zEO4HXVAGDzQDydE" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/fi3bBq2wJj60x" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178851" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=s8n3GnudOY5Za5cN" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5741447&share=1" }
+        ]
+    },
+    {
+        "number": 6,
+        "title": "الحلقة 6",
+        "link": "../episodes/المشاهده.html?episode=6",
+        "image": "../../../images/Seirei-Gensouki-2.jpg",
+        "servers": [
+            { "serverName": "VK", "url": "https://vk.com/video_ext.php?oid=721415423&id=456240263&hash=c3b768d6df6b48d8" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/JfszWLCJ#BKxYpixfrw9J8GGze0N4WdUYGNXBk8_KgNHraxCPkis" },
+            { "serverName": "Megamax", "url": "https://megamax.me/iframe/ep85EnbpdkTwA" },
+            { "serverName": "Mail.ru", "url": "https://my.mail.ru/video/embed/4752585637503178908" },
+            { "serverName": "Videa", "url": "https://videa.hu/player?v=JWaU2d9GESMFtdiT" },
+            { "serverName": "Sibnet", "url": "https://video.sibnet.ru/shell.php?videoid=5748795&share=1" }
+        ]
+    }
+]
