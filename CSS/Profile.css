@@ -33,6 +33,7 @@
             text-align: center;
             font-size: 2em;
             margin-bottom: 20px;
+            margin-top: 70px;
             color: var(--text-light);
         }
 
@@ -131,5 +132,9 @@
         }
         .anime-info {
            margin-top: 100px;
+        }
+            .anime-title {
+            margin-bottom: 0em;
+            margin-top: 200px;
         }
 }
