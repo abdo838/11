@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رياضي</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="icon" href="https://abdo838.github.io/11/navbar/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div id="navbar-container"></div>
+       
+
+   <main>
+    <div class="section-header">
+        <h1>رياضي</h1>
+    </div>
+    <div class="anime-grid" id="animeGrid"></div>
+   <script>
+       // تحميل قائمة الصفحات من JSON
+       fetch('رياضي.json')
+           .then(response => response.json())
+           .then(pages => {
+               const animeGrid = document.getElementById('animeGrid');
+               
+               // إنشاء بطاقة لكل صفحة
+               pages.forEach(page => {
+                   const card = document.createElement('div');
+                   card.className = 'anime-card';
+                   card.innerHTML = `
+                       <div class="anime-image">
+                           <img src="${page.image}" alt="${page.name}">
+                           <div class="rating">
+                               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                   <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                               </svg>
+                               ${page.rating}
+                           </div>
+                       </div>
+                       <div class="anime-info">
+                           <h3>${page.name}</h3>
+                           <div class="anime-meta">
+                               <span>${page.episodes}</span>
+                               <a href="${page.link}" class="watch-button">شاهد الآن</a>
+                           </div>
+                       </div>
+                   `;
+                   animeGrid.appendChild(card);
+               });
+           })
+           .catch(error => console.error('خطأ في تحميل الصفحات:', error));
+   </script>
+   </main>
+
+
+ 
+    
+     <!-- تحميل الشريط العلوي من ملف navbar.html-->
+    <script>
+        // تحميل الشريط العلوي من ملف navbar.html
+        fetch('../../navbar.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('navbar-container').innerHTML = data);
+    </script>
+
+</body>
+</html>
