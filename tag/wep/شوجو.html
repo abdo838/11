@@ -19,7 +19,7 @@
     <div class="anime-grid" id="animeGrid"></div>
    <script>
        // تحميل قائمة الصفحات من JSON
-       fetch('شوجو.json')
+       fetch('../شوجو.json')
            .then(response => response.json())
            .then(pages => {
                const animeGrid = document.getElementById('animeGrid');
