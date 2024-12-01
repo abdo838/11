@@ -129,5 +129,18 @@
             { "serverName": "Mp4upload", "url": "https://www.mp4upload.com/embed-ykwtv4du7pzd.html" },
             { "serverName": "Sendvid", "url": "https://sendvid.com/embed/h9vm0yvx" }
         ]
+    },
+    {
+        "number": 10,
+        "title": "الحلقة 10",
+        "link": "../episodes/المشاهده.html?episode=10",
+        "image": "../../../images/DanChi-Chikyuu-no-Undou-ni-Tsuitedadan.jpg",
+        "servers": [
+            { "serverName": "سيرفرات متعددة", "url": "https://megamax.me/iframe/4yialKUQMN2qk" },
+            { "serverName": "vidmoly", "url": "https://vidmoly.to/embed-t7j6z7uqf4pf.html" },
+            { "serverName": "uqload", "url": "https://uqload.net/embed-nrpip9aewkmb.html" },
+            { "serverName": "ok.ru", "url": "https://www.ok.ru/videoembed/8289613253338" },
+            { "serverName": "Mp4upload", "url": "https://www.mp4upload.com/embed-mna5xbcff1s4.html" }
+        ]
     }
 ]

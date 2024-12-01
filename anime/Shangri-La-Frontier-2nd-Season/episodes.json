@@ -95,5 +95,18 @@
             { "serverName": "ok.ru", "url": "https://www.ok.ru/videoembed/8126959651546" },
             { "serverName": "Mp4upload", "url": "https://www.mp4upload.com/embed-c046wsgpxvq7.html" }
         ]
+    },
+    {
+        "number": 8,
+        "title": "الحلقة 8",
+        "link": "../episodes/المشاهده.html?episode=8",
+        "image": "../../../images/Shangri-La-Frontier-2nd-Season.jpg",
+        "servers": [
+            { "serverName": "سيرفرات متعددة", "url": "https://megamax.me/iframe/MQluWoshsBJUC" },
+            { "serverName": "vidmoly", "url": "//vidmoly.to/embed-4ho4pgqfxk83.html" },
+            { "serverName": "uqload", "url": "https://uqload.net/embed-8pzidub5ol1z.html" },
+            { "serverName": "ok.ru", "url": "https://www.ok.ru/videoembed/8306861935322" },
+            { "serverName": "Mp4upload", "url": "https://www.mp4upload.com/embed-ucr6ajc0yxe2.html" }
+        ]
     }
 ]

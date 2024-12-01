@@ -105,5 +105,18 @@
             { "serverName": "Mp4upload", "url": "https://www.mp4upload.com/embed-y04nydjmrgsp.html" },
             { "serverName": "Mega", "url": "https://mega.nz/embed/WFcETQIB!OBKt21tAfv9OeY6nR679gIAMfwuNfnFswkqzVcfMQZA" }
         ]
+    },  
+    {
+        "number": 9,
+        "title": "الحلقة 9",
+        "link": "../episodes/الحلقة1.html?episode=9",
+        "image": "../../../images/Blue-Lock-vs.-U-20-Japan.jpg",
+        "servers": [
+            { "serverName": "سيرفرات متعددة", "url": "https://megamax.me/iframe/AsWsZ97E9AmDJ" },
+            { "serverName": "vidmoly", "url": "https://vidmoly.to/embed-ofiskp3fubn4.html" },
+            { "serverName": "uqload", "url": "https://uqload.net/embed-7v0tji8ydwlc.html" },
+            { "serverName": "ok.ru", "url": "https://www.ok.ru/videoembed/8290369014490" },
+            { "serverName": "Mp4upload", "url": "https://www.mp4upload.com/embed-arxx3sgs7v96.html" }
+        ]
     }
 ]

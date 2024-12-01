@@ -87,5 +87,17 @@
             { "serverName": "Mp4upload", "url": "https://www.mp4upload.com/embed-8corazc7v5gg.html" },
             { "serverName": "Mega", "url": "https://mega.nz/embed/Z0JUEY4C!ER9y2RWErII7CihP3JRHJJ_3CfBIrhacCHIC9nr49Ec" }
         ]
+    },
+    {
+        "number": 7,
+        "title": "الحلقة 7",
+        "link": "../episodes/المشاهده.html?episode=7",
+        "image": "../../../images/Dandadan.jpg",
+        "servers": [
+            { "serverName": "سيرفرات متعددة", "url": "https://megamax.me/iframe/gCAbXOz6lTuse" },
+            { "serverName": "vidmoly", "url": "//vidmoly.to/embed-ho925kpjedek.html" },
+            { "serverName": "ok.ru", "url": "https://www.ok.ru/videoembed/8239998503642" },
+            { "serverName": "Mp4upload", "url": "https://www.mp4upload.com/embed-gy3ndfidhltc.html" }
+        ]
     }
 ]

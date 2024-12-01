@@ -106,5 +106,18 @@
             { "serverName": "Mp4upload", "url": "https://www.mp4upload.com/embed-b21bi1nw25r0.html" },
             { "serverName": "Mega", "url": "https://mega.nz/embed/aiRilZyb!72-dGTWde9wgeij8a_SOKpLHMnlgJ0gS6iyUEFbzLco" }
         ]
+    },
+    {
+        "number": 9,
+        "title": "الحلقة 9",
+        "link": "../episodes/المشاهده.html?episode=9",
+        "image": "../../../images/Rurouni-Kenshin-Meiji-Kenkaku-Romantan-Kyoto-Douran.jpg",
+        "servers": [
+            { "serverName": "سيرفرات متعددة", "url": "https://megamax.me/iframe/m2fviP466zqjM" },
+            { "serverName": "vidmoly", "url": "//vidmoly.to/embed-2sfxiav8uhvg.html" },
+            { "serverName": "uqload", "url": "https://uqload.net/embed-hdgapnaxwewy.html" },
+            { "serverName": "ok.ru", "url": "https://www.ok.ru/videoembed/8246287993562" },
+            { "serverName": "Mp4upload", "url": "https://www.mp4upload.com/embed-7kpct8as8n6v.html" }
+        ]
     }
 ]
