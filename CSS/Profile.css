@@ -112,6 +112,7 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+                transition: transform 0.3s;
         }
         .episode-item:hover {
             transform: scale(1.06); /* تأثير تكبير عند التمرير */
