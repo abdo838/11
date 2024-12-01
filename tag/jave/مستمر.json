@@ -1,6 +1,114 @@
 [
     {
-        "image": "images/Bleach-Sennen-Kessen-hen-Soukoku-tan.jpg",
-        "link": "anime/Bleach-Sennen-Kessen-hen-Soukoku-tan/Profile/Bleach-Sennen-Kessen-hen-Soukoku-tan.html"
+        "name": "Seirei-Gensouki-2",
+        "link": "../../anime/Seirei-Gensouki-2/Profile/Seirei-Gensouki-2.html",
+        "image": "../../images/Seirei-Gensouki-2.jpg",
+        "rating": "يعرض الان"
+    },
+    {
+        "name": "Raise-wa-Tanin-ga-Ii",
+        "link": "../../anime/Raise-wa-Tanin-ga-Ii/Profile/Raise-wa-Tanin-ga-Ii.html",
+        "image": "../../images/Raise-wa-Tanin-ga-Ii.jpg",
+        "rating": "يعرض الان"
+    },
+    {
+        "name": "Natsume-Yuujinchou-Shichi",
+        "link": "../../anime/Natsume-Yuujinchou-Shichi/Profile/Natsume-Yuujinchou-Shichi.html",
+        "image": "../../images/Natsume-Yuujinchou-Shichi.jpg",
+        "rating": "يعرض الان"
+    },
+    {
+        "name": "Houkago-Shounen-Hanako-kun-2",
+        "link": "../../anime/Houkago-Shounen-Hanako-kun-2/Profile/Houkago-Shounen-Hanako-kun-2.html",
+        "image": "../../images/Houkago-Shounen-Hanako-kun-2.jpg",
+        "rating": "يعرض الان"
+    },
+    {
+        "name": "Hoshifuru-Oukoku-no-Nina",
+        "link": "../../anime/Hoshifuru-Oukoku-no-Nina/Profile/Hoshifuru-Oukoku-no-Nina.html",
+        "image": "../../images/Hoshifuru-Oukoku-no-Nina.jpg",
+        "rating": "يعرض الان"
+    },
+    {
+        "name": "Arifureta-Shokugyou-de-Sekai-Saikyou-3",
+        "link": "../../anime/Arifureta-Shokugyou-de-Sekai-Saikyou-3/Profile/Arifureta-Shokugyou-de-Sekai-Saikyou-3.html",
+        "image": "../../images/Arifureta-Shokugyou-de-Sekai-Saikyou-3.jpg",
+        "rating": "يعرض الان"
+    },
+    {
+        "name": "Ao-no-Exorcist-Yuki-no-Hate-hen",
+        "link": "../../anime/Ao-no-Exorcist-Yuki-no-Hate-hen/Profile/Ao-no-Exorcist-Yuki-no-Hate-hen.html",
+        "image": "../../images/Ao-no-Exorcist-Yuki-no-Hate-hen.jpg",
+        "rating": "يعرض الان"
+    },
+    {
+        "name": "Chi-Chikyuu-no-Undou-ni-Tsuite",
+        "link": "../../anime/Chi-Chikyuu-no-Undou-ni-Tsuite/Profile/Chi-Chikyuu-no-Undou-ni-Tsuite.html",
+        "image": "../../images/Chi-Chikyuu-no-Undou-ni-Tsuite.jpg",
+        "rating": "يعرض الان"
+    },
+    {
+        "name": "Shangri-La-Frontier-2nd-Season",
+        "link": "../../anime/Shangri-La-Frontier-2nd-Season/Profile/Shangri-La-Frontier-2nd-Season.html",
+        "image": "../../images/Shangri-La-Frontier-2nd-Season.jpg",
+        "rating": "يعرض الان"
+    },
+    {
+        "name": "Shangri-La-Frontier-2nd-Season",
+        "link": "../../anime/Shangri-La-Frontier-2nd-Season/Profile/Shangri-La-Frontier-2nd-Season.html",
+        "image": "../../images/Shangri-La-Frontier-2nd-Season.jpg",
+        "rating": "يعرض الان"
+    },
+    {
+        "name": "Re-Zero-kara-Hajimeru-Isekai-Seikatsu-3rd-Season",
+        "link": "../../anime/Re-Zero-kara-Hajimeru-Isekai-Seikatsu-3rd-Season/Profile/Re-Zero-kara-Hajimeru-Isekai-Seikatsu-3rd-Season.html",
+        "image": "../../images/Re-Zero-kara-Hajimeru-Isekai-Seikatsu-3rd-Season.jpg",
+        "rating": "يعرض الان"
+     
+    },
+    {
+        "name": "One Piece",
+        "link": "../../anime/One Piece/Profile/onepiece.html",
+        "image": "../../images/Profile_One_Piece.png",
+        "rating": "يعرض الان"
+    },
+    {
+        "name": "Blue Lock vs. U-20 Japan",
+        "link": "../../anime/Blue-Lock-vs.-U-20-Japan/Profile/Blue-Lock-vs.-U-20-Japan.html",
+        "image": "../../images/Blue-Lock-vs.-U-20-Japan.jpg",
+        "rating": "يعرض الان"
+    },
+    {
+        "name": "Bleach-Sennen-Kessen-hen-Soukoku-tan",
+       "link": "../../anime/Bleach-Sennen-Kessen-hen-Soukoku-tan/Profile/Bleach-Sennen-Kessen-hen-Soukoku-tan.html",
+        "image": "../../images/Bleach-Sennen-Kessen-hen-Soukoku-tan.jpg",
+        "rating": "يعرض الان"
+    },
+
+    {
+        "name": "Dandadan",
+        "link": "../../anime/Dandadan/Profile/Dandadan.html",
+        "image": "../../images/Dandadan.jpg",
+        "rating": "يعرض الان"
+     
+    },
+    {
+        "name": "Rurouni-Kenshin-Meiji-Kenkaku-Romantan-Kyoto-Douran",
+       "link": "../../anime/Rurouni-Kenshin-Meiji-Kenkaku-Romantan-Kyoto-Douran/Profile/Rurouni-Kenshin-Meiji-Kenkaku-Romantan-Kyoto-Douran.html",
+        "image": "../../images/Rurouni-Kenshin-Meiji-Kenkaku-Romantan-Kyoto-Douran.jpg",
+        "rating": "يعرض الان"
+    },
+    {
+        "name": "Love-Live-Superstar-3rd-Season",
+        "link": "../../anime/Love-Live-Superstar-3rd-Season/Profile/Love-Live-Superstar-3rd-Season.html",
+        "image": "../../images/Love-Live-Superstar-3rd-Season.jpg",
+        "rating": "يعرض الان"
+     
+    },
+    {
+        "name": "Nanatsu-no-Taizai-Mokushiroku-no-Yonkishi-2nd-Season",
+        "link": "../../anime/Nanatsu-no-Taizai-Mokushiroku-no-Yonkishi-2nd-Season/Profile/Nanatsu-no-Taizai-Mokushiroku-no-Yonkishi-2nd-Season.html",
+        "image": "../../images/Nanatsu-no-Taizai-Mokushiroku-no-Yonkishi-2nd-Season.jpg",
+        "rating": "يعرض الان"
     }
 ]
