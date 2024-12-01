@@ -114,6 +114,19 @@
             { "serverName": "Mp4upload", "url": "https://www.mp4upload.com/embed-8328vqc0pvpm.html" },
             { "serverName": "Mega", "url": "https://mega.nz/embed/SA1BDQqB!bMdT93r8Texee6XW2BvQH2dmyalxL6SnYN8PiCQFcMw" }
         ]
+    },
+    {
+        "number": 9,
+        "title": "الحلقة 9",
+        "link": "../episodes/المشاهده.html?episode=9",
+        "image": "../../../images/Ao-no-Exorcist-Yuki-no-Hate-hen.jpg",
+        "servers": [
+            { "serverName": "سيرفرات متعددة", "url": "https://megamax.me/iframe/K6spy6Upt8D7B" },
+            { "serverName": "vidmoly", "url": "https://vidmoly.to/embed-szspzznsqyi7.html" },
+            { "serverName": "ok.ru", "url": "https://www.ok.ru/videoembed/8291190639322" },
+            { "serverName": "Mp4upload", "url": "https://www.mp4upload.com/embed-8bygtx6ecjg7.html" },
+            { "serverName": "Mega", "url": "https://mega.nz/embed/LzAwADQJ!rBmmFOpRnYUDfXRZSDepQxdUGpYR-0Ov9fHpHTJcDoM" }
+        ]
     }
     
 ]
