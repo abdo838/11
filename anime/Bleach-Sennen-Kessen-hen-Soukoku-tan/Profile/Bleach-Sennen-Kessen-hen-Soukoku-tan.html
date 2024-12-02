@@ -20,7 +20,56 @@
             </div>
             <div class="anime-info">
                 <div class="info-item">
-                    <strong>التصنيف:</strong> أكشن، كوميدي، خارق للعادة، شونين
+                    <strong>التصنيف:</strong> 
+                    <a href="#" onclick="filterPages('أكشن')">أكشن</a>
+                    <a href="#" onclick="filterPages('شونين')">شونين</a>
+                    <a href="#" onclick="filterPages('مدرسي')">مدرسي</a>
+                    <a href="#" onclick="filterPages('فنتازيا')">فنتازيا</a>
+                    <a href="#" onclick="filterPages('خارق للعادة')">خارق للعادة</a>
+                </div>
+
+
+
+                <div id="pages">
+                    <!-- الصفحات ستظهر هنا بناءً على التصنيف المحدد -->
+                    <div class="page" data-category="أكشن">
+                        <h2>صفحة أكشن 1</h2>
+                        <p>محتوى صفحة أكشن 1</p>
+                    </div>
+                    <div class="page" data-category="شونين">
+                        <h2>صفحة شونين 1</h2>
+                        <p>محتوى صفحة شونين 1</p>
+                    </div>
+                    <div class="page" data-category="مدرسي">
+                        <h2>صفحة مدرسي 1</h2>
+                        <p>محتوى صفحة مدرسي 1</p>
+                    </div>
+                    <div class="page" data-category="فنتازيا">
+                        <h2>صفحة فنتازيا 1</h2>
+                        <p>محتوى صفحة فنتازيا 1</p>
+                    </div>
+                    <div class="page" data-category="خارق للعادة">
+                        <h2>صفحة خارق للعادة 1</h2>
+                        <p>محتوى صفحة خارق للعادة 1</p>
+                    </div>
+                </div>
+            
+                <script>
+                    function filterPages(category) {
+                        // إخفاء جميع الصفحات
+                        const pages = document.querySelectorAll('.page');
+                        pages.forEach(page => {
+                            page.style.display = 'none';
+                        });
+            
+                        // إظهار الصفحات التي تنتمي إلى التصنيف المحدد
+                        const filteredPages = document.querySelectorAll(`.page[data-category='${category}']`);
+                        filteredPages.forEach(page => {
+                            page.style.display = 'block';
+                        });
+                    }
+                </script>
+
                 </div>
                 <div class="info-item">
                     <strong>النوع:</strong> TV
