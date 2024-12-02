@@ -21,57 +21,49 @@
             <div class="anime-info">
                 <div class="info-item">
                     <strong>التصنيف:</strong> 
-                    <a href="#" onclick="filterPages('أكشن')">أكشن</a>
-                    <a href="#" onclick="filterPages('شونين')">شونين</a>
-                    <a href="#" onclick="filterPages('مدرسي')">مدرسي</a>
-                    <a href="#" onclick="filterPages('فنتازيا')">فنتازيا</a>
-                    <a href="#" onclick="filterPages('خارق للعادة')">خارق للعادة</a>
-                </div>
-
-
-
-                <div id="pages">
-                    <!-- الصفحات ستظهر هنا بناءً على التصنيف المحدد -->
-                    <div class="page" data-category="أكشن">
-                        <h2>صفحة أكشن 1</h2>
-                        <p>محتوى صفحة أكشن 1</p>
+                   
+                    <h1>التصنيفات</h1>
+                    <div class="categories">
+                        <a href="pages.html?category=أكشن">أكشن</a>
+                        <a href="pages.html?category=شونين">شونين</a>
+                        <a href="pages.html?category=مدرسي">مدرسي</a>
+                        <a href="pages.html?category=فنتازيا">فنتازيا</a>
+                        <a href="pages.html?category=خارق للعادة">خارق للعادة</a>
                     </div>
-                    <div class="page" data-category="شونين">
-                        <h2>صفحة شونين 1</h2>
-                        <p>محتوى صفحة شونين 1</p>
-                    </div>
-                    <div class="page" data-category="مدرسي">
-                        <h2>صفحة مدرسي 1</h2>
-                        <p>محتوى صفحة مدرسي 1</p>
-                    </div>
-                    <div class="page" data-category="فنتازيا">
-                        <h2>صفحة فنتازيا 1</h2>
-                        <p>محتوى صفحة فنتازيا 1</p>
-                    </div>
-                    <div class="page" data-category="خارق للعادة">
-                        <h2>صفحة خارق للعادة 1</h2>
-                        <p>محتوى صفحة خارق للعادة 1</p>
-                    </div>
-                </div>
-            
-                <script>
-                    function filterPages(category) {
-                        // إخفاء جميع الصفحات
-                        const pages = document.querySelectorAll('.page');
-                        pages.forEach(page => {
-                            page.style.display = 'none';
+                
+                    <h2>إضافة صفحة جديدة</h2>
+                    <form id="addPageForm">
+                        <input type="text" id="pageTitle" placeholder="عنوان الصفحة" required><br>
+                        <textarea id="pageContent" placeholder="محتوى الصفحة" required></textarea><br>
+                        <select id="categorySelect" required>
+                            <option value="أكشن">أكشن</option>
+                            <option value="شونين">شونين</option>
+                            <option value="مدرسي">مدرسي</option>
+                            <option value="فنتازيا">فنتازيا</option>
+                            <option value="خارق للعادة">خارق للعادة</option>
+                        </select><br>
+                        <button type="submit">إضافة الصفحة</button>
+                    </form>
+                
+                    <script>
+                        document.getElementById('addPageForm').addEventListener('submit', function (e) {
+                            e.preventDefault();
+                            const title = document.getElementById('pageTitle').value;
+                            const content = document.getElementById('pageContent').value;
+                            const category = document.getElementById('categorySelect').value;
+                
+                            // حفظ البيانات في localStorage
+                            const pages = JSON.parse(localStorage.getItem('pages')) || [];
+                            pages.push({ title, content, category });
+                            localStorage.setItem('pages', JSON.stringify(pages));
+                
+                            alert('تم إضافة الصفحة بنجاح!');
+                            document.getElementById('addPageForm').reset();
                         });
-            
-                        // إظهار الصفحات التي تنتمي إلى التصنيف المحدد
-                        const filteredPages = document.querySelectorAll(`.page[data-category='${category}']`);
-                        filteredPages.forEach(page => {
-                            page.style.display = 'block';
-                        });
-                    }
-                </script>
+                    </script>
 
 
-
+                </div>
                 <div class="info-item">
                     <strong>النوع:</strong> TV
                 </div>
