@@ -21,7 +21,6 @@
             <div class="anime-info">
                 <div class="info-item">
                     <strong>التصنيف:</strong> 
-                   
                     <h1>التصنيفات</h1>
                     <div class="categories">
                         <a href="pages.html?category=أكشن">أكشن</a>
@@ -31,35 +30,21 @@
                         <a href="pages.html?category=خارق للعادة">خارق للعادة</a>
                     </div>
                 
-                    <h2>إضافة صفحة جديدة</h2>
-                    <form id="addPageForm">
-                        <input type="text" id="pageTitle" placeholder="عنوان الصفحة" required><br>
-                        <textarea id="pageContent" placeholder="محتوى الصفحة" required></textarea><br>
-                        <select id="categorySelect" required>
-                            <option value="أكشن">أكشن</option>
-                            <option value="شونين">شونين</option>
-                            <option value="مدرسي">مدرسي</option>
-                            <option value="فنتازيا">فنتازيا</option>
-                            <option value="خارق للعادة">خارق للعادة</option>
-                        </select><br>
-                        <button type="submit">إضافة الصفحة</button>
-                    </form>
-                
                     <script>
-                        document.getElementById('addPageForm').addEventListener('submit', function (e) {
-                            e.preventDefault();
-                            const title = document.getElementById('pageTitle').value;
-                            const content = document.getElementById('pageContent').value;
-                            const category = document.getElementById('categorySelect').value;
+                        // إذا كانت الصفحات غير موجودة في localStorage، نضيف بعض الصفحات تلقائيًا
+                        if (!localStorage.getItem('pages')) {
+                            const initialPages = [
+                                { title: 'صفحة أكشن 1', content: 'محتوى صفحة أكشن 1', category: 'أكشن' },
+                                { title: 'صفحة أكشن 2', content: 'محتوى صفحة أكشن 2', category: 'أكشن' },
+                                { title: 'صفحة شونين 1', content: 'محتوى صفحة شونين 1', category: 'شونين' },
+                                { title: 'صفحة مدرسي 1', content: 'محتوى صفحة مدرسي 1', category: 'مدرسي' },
+                                { title: 'صفحة فنتازيا 1', content: 'محتوى صفحة فنتازيا 1', category: 'فنتازيا' },
+                                { title: 'صفحة خارق للعادة 1', content: 'محتوى صفحة خارق للعادة 1', category: 'خارق للعادة' },
+                            ];
                 
-                            // حفظ البيانات في localStorage
-                            const pages = JSON.parse(localStorage.getItem('pages')) || [];
-                            pages.push({ title, content, category });
-                            localStorage.setItem('pages', JSON.stringify(pages));
-                
-                            alert('تم إضافة الصفحة بنجاح!');
-                            document.getElementById('addPageForm').reset();
-                        });
+                            // تخزين الصفحات المبدئية في localStorage
+                            localStorage.setItem('pages', JSON.stringify(initialPages));
+                        }
                     </script>
 
 
