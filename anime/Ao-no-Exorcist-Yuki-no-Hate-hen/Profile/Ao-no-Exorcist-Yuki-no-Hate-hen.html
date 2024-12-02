@@ -21,12 +21,57 @@
             <div class="anime-info">
                 <div class="info-item">
                     <strong>التصنيف:</strong> 
-                    <a href="https://asime4up.fun/anime-genre/%d8%a3%d9%83%d8%b4%d9%86">أكشن</a>
-                    <a href="https://asime4up.fun/anime-genre/%d8%b4%d9%88%d9%86%d9%8a%d9%86">شونين</a>
-                    <a href="https://asime4up.fun/anime-genre/%d9%85%d8%af%d8%b1%d8%b3%d9%8a">مدرسي</a>
-                    <a href="https://asime4up.fun/anime-genre/%d9%81%d9%86%d8%aa%d8%a7%d8%b2%d9%8a%d8%a7">فنتازيا</a>
-                    <a href="https://asime4up.fun/anime-genre/%d8%ae%d8%a7%d8%b1%d9%82-%d9%84%d9%84%d8%b9%d8%a7%d8%af%d8%a9">خارق للعادة</a>
+                    <a href="#" onclick="filterPages('أكشن')">أكشن</a>
+                    <a href="#" onclick="filterPages('شونين')">شونين</a>
+                    <a href="#" onclick="filterPages('مدرسي')">مدرسي</a>
+                    <a href="#" onclick="filterPages('فنتازيا')">فنتازيا</a>
+                    <a href="#" onclick="filterPages('خارق للعادة')">خارق للعادة</a>
                 </div>
+
+
+
+                <div id="pages">
+                    <!-- الصفحات ستظهر هنا بناءً على التصنيف المحدد -->
+                    <div class="page" data-category="أكشن">
+                        <h2>صفحة أكشن 1</h2>
+                        <p>محتوى صفحة أكشن 1</p>
+                    </div>
+                    <div class="page" data-category="شونين">
+                        <h2>صفحة شونين 1</h2>
+                        <p>محتوى صفحة شونين 1</p>
+                    </div>
+                    <div class="page" data-category="مدرسي">
+                        <h2>صفحة مدرسي 1</h2>
+                        <p>محتوى صفحة مدرسي 1</p>
+                    </div>
+                    <div class="page" data-category="فنتازيا">
+                        <h2>صفحة فنتازيا 1</h2>
+                        <p>محتوى صفحة فنتازيا 1</p>
+                    </div>
+                    <div class="page" data-category="خارق للعادة">
+                        <h2>صفحة خارق للعادة 1</h2>
+                        <p>محتوى صفحة خارق للعادة 1</p>
+                    </div>
+                </div>
+            
+                <script>
+                    function filterPages(category) {
+                        // إخفاء جميع الصفحات
+                        const pages = document.querySelectorAll('.page');
+                        pages.forEach(page => {
+                            page.style.display = 'none';
+                        });
+            
+                        // إظهار الصفحات التي تنتمي إلى التصنيف المحدد
+                        const filteredPages = document.querySelectorAll(`.page[data-category='${category}']`);
+                        filteredPages.forEach(page => {
+                            page.style.display = 'block';
+                        });
+                    }
+                </script>
+
+
+
                 <div class="info-item">
                     <strong>النوع:</strong> TV
                 </div>
